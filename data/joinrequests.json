@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "senderJid": "56953508566@s.whatsapp.net",
+    "groupLink": "https://chat.whatsapp.com/I22gGL3TfbXETHG1B9oyRW?mode=ems_copy_c",
+    "status": "pending",
+    "timestamp": 1756300891187
+  },
+  {
+    "id": 2,
+    "senderJid": "56953508566@s.whatsapp.net",
+    "groupLink": "https://chat.whatsapp.com/IHRzBAwaXOwAtAPanlVegd?mode=ems_copy_c",
+    "status": "pending",
+    "timestamp": 1756300982542
+  },
+  {
+    "id": 3,
+    "senderJid": "56953508566@s.whatsapp.net",
+    "groupLink": "https://chat.whatsapp.com/IHRzBAwaXOwAtAPanlVegd?mode=ems_copy_c",
+    "status": "pending",
+    "timestamp": 1756301047970
+  },
+  {
+    "id": 4,
+    "senderJid": "230506968969231@lid",
+    "groupLink": "https://chat.whatsapp.com/BSqo9wS3Lnx3gMQMV9NdrE?mode=ems_copy_t",
+    "status": "pending",
+    "timestamp": 1756325181011
+  },
+  {
+    "id": 5,
+    "senderJid": "5491166482537@s.whatsapp.net",
+    "groupLink": "https://chat.whatsapp.com/DIOu9GhphMgC3auZ3urq0Z?mode=ems_copy_t",
+    "status": "pending",
+    "timestamp": 1756327292126
+  },
+  {
+    "id": 6,
+    "senderJid": "17514994090156@lid",
+    "groupLink": "https://chat.whatsapp.com/DIOu9GhphMgC3auZ3urq0Z?mode=ems_copy_t",
+    "status": "pending",
+    "timestamp": 1756327292635
+  },
+  {
+    "id": 7,
+    "senderJid": "56953508566@s.whatsapp.net",
+    "groupLink": "https://chat.whatsapp.com/IHRzBAwaXOwAtAPanlVegd?mode=ems_copy_c",
+    "status": "pending",
+    "timestamp": 1756331769878
+  },
+  {
+    "id": 8,
+    "senderJid": "51967640351@s.whatsapp.net",
+    "groupLink": "https://chat.whatsapp.com/LlceqIvXayOF1QNhbeWHeU?mode=ac_t",
+    "status": "rejected",
+    "timestamp": 1756587243529
+  },
+  {
+    "id": 9,
+    "senderJid": "51967640351@s.whatsapp.net",
+    "groupLink": "https://chat.whatsapp.com/LlceqIvXayOF1QNhbeWHeU?mode=ac_t",
+    "status": "rejected",
+    "timestamp": 1756587643087
+  },
+  {
+    "id": 10,
+    "senderJid": "5491164657551@s.whatsapp.net",
+    "groupLink": "https://chat.whatsapp.com/FmE9aslOEcUD4veG4cn7zM",
+    "status": "pending",
+    "timestamp": 1756594677566
+  },
+  {
+    "id": 11,
+    "senderJid": "50660083447@s.whatsapp.net",
+    "groupLink": "https://chat.whatsapp.com/JJDtCIj4OAV2PizGxGtxUw?mode=ac_t",
+    "status": "pending",
+    "timestamp": 1756689948726
+  },
+  {
+    "id": 12,
+    "senderJid": "50660083447@s.whatsapp.net",
+    "groupLink": "https://chat.whatsapp.com/EtDT8bBCvEmHCgtOCY51M4?mode=ems_copy_t",
+    "status": "rejected",
+    "timestamp": 1756773019830
+  },
+  {
+    "id": 13,
+    "senderJid": "50660083447@s.whatsapp.net",
+    "groupLink": "https://chat.whatsapp.com/EtDT8bBCvEmHCgtOCY51M4?mode=ems_copy_t",
+    "status": "rejected",
+    "timestamp": 1756773062910
+  },
+  {
+    "id": 14,
+    "senderJid": "50660083447@s.whatsapp.net",
+    "groupLink": "https://chat.whatsapp.com/EtDT8bBCvEmHCgtOCY51M4?mode=ems_copy_t",
+    "status": "pending",
+    "timestamp": 1756773141998
+  },
+  {
+    "id": 15,
+    "senderJid": "50660083447@s.whatsapp.net",
+    "groupLink": "https://chat.whatsapp.com/EtDT8bBCvEmHCgtOCY51M4?mode=ems_copy_t",
+    "status": "pending",
+    "timestamp": 1756781356436
+  },
+  {
+    "id": 16,
+    "senderJid": "55504416043195@lid",
+    "groupLink": "https://chat.whatsapp.com/Jvr5NhZdYzL46UIT2J7yQl?mode=ems_copy_c",
+    "status": "pending",
+    "timestamp": 1756866174690
+  },
+  {
+    "id": 17,
+    "senderJid": "55504416043195@lid",
+    "groupLink": "https://chat.whatsapp.com/JZ1jvCYitf65xhocXZ2ulE?mode=ems_copy_c",
+    "status": "pending",
+    "timestamp": 1756895827112
+  },
+  {
+    "id": 18,
+    "senderJid": "55504416043195@lid",
+    "groupLink": "https://chat.whatsapp.com/DFfwJEA3nPeJqmgd0ds0vk?mode=ems_copy_c",
+    "status": "pending",
+    "timestamp": 1756926058242
+  },
+  {
+    "id": 19,
+    "senderJid": "55504416043195@lid",
+    "groupLink": "https://chat.whatsapp.com/DFfwJEA3nPeJqmgd0ds0vk?mode=ems_copy_c",
+    "status": "pending",
+    "timestamp": 1756942175986
+  },
+  {
+    "id": 20,
+    "senderJid": "17523567267982@lid",
+    "groupLink": "https://chat.whatsapp.com/INPGaNJKUUCCCQtg8jHeqZ?mode=ems_copy_c",
+    "status": "pending",
+    "timestamp": 1757272956342
+  }
+]

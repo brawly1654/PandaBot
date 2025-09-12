@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "type": "reporte",
+    "senderJid": "5215538830665@s.whatsapp.net",
+    "content": "soy gay",
+    "timestamp": 1756336544113,
+    "status": "replied",
+    "reply": "ya sabía bro",
+    "replyTimestamp": 1756336766311
+  },
+  {
+    "id": 2,
+    "type": "reporte",
+    "senderJid": "267232999420158@lid",
+    "content": "hola",
+    "timestamp": 1756337221028,
+    "status": "replied",
+    "reply": "hola",
+    "replyTimestamp": 1756337376299
+  },
+  {
+    "id": 3,
+    "type": "reporte",
+    "senderJid": "5215538830665@s.whatsapp.net",
+    "content": "ping",
+    "timestamp": 1756337502498,
+    "status": "pending"
+  },
+  {
+    "id": 4,
+    "type": "reporte",
+    "senderJid": "5215538830665@s.whatsapp.net",
+    "content": "ping",
+    "timestamp": 1756339719931,
+    "status": "replied",
+    "reply": "pong",
+    "replyTimestamp": 1756339904268
+  },
+  {
+    "id": 5,
+    "type": "pregunta",
+    "senderJid": "56953508566@s.whatsapp.net",
+    "content": "qué hago si soy chileno?",
+    "timestamp": 1756345651747,
+    "status": "replied",
+    "reply": "lol",
+    "replyTimestamp": 1756345683877
+  },
+  {
+    "id": 6,
+    "type": "pregunta",
+    "senderJid": "157999565959392@lid",
+    "content": "cuanto hay que pagar?",
+    "timestamp": 1756517477148,
+    "status": "pending"
+  },
+  {
+    "id": 7,
+    "type": "reporte",
+    "senderJid": "17514994090156@lid",
+    "content": "el comando .ruletarusa les da admin a los que ya tienen y se los saca",
+    "timestamp": 1756564716552,
+    "status": "pending"
+  },
+  {
+    "id": 8,
+    "type": "reporte",
+    "senderJid": "56953508566@s.whatsapp.net",
+    "content": "me pica el culo",
+    "timestamp": 1756566254159,
+    "status": "replied",
+    "reply": "sis",
+    "replyTimestamp": 1756566413326
+  },
+  {
+    "id": 9,
+    "type": "pregunta",
+    "senderJid": "5217861247183@s.whatsapp.net",
+    "content": "han comprado que este bien la probabilidad de robar ps? Llevo como 3 días haciendo eso y namas no se completa ninguno y no soy solo yo son más",
+    "timestamp": 1756604511355,
+    "status": "replied",
+    "reply": "Hola, sí, está bien comprobado, la probabilidad de robar a un usuario, es del 30%, mientras que la probabilidad de robar un personaje de la lista, es de 50%",
+    "replyTimestamp": 1756604622514
+  },
+  {
+    "id": 10,
+    "type": "pregunta",
+    "senderJid": "89327350608034@lid",
+    "content": "algún día voy a conocer a Nahuel",
+    "timestamp": 1756689379595,
+    "status": "replied",
+    "reply": "Lees las reglas o te cuesta? Qué parte no entiendes de no preguntas cosas estúpidas?",
+    "replyTimestamp": 1756690008115
+  },
+  {
+    "id": 11,
+    "type": "sugerencia",
+    "senderJid": "593991944530@s.whatsapp.net",
+    "content": "Josexo y Josefino secret 30000",
+    "timestamp": 1756859109083,
+    "status": "replied",
+    "reply": "Personaje aceptado✅",
+    "replyTimestamp": 1756859133366
+  },
+  {
+    "id": 12,
+    "type": "sugerencia",
+    "senderJid": "50589329325@s.whatsapp.net",
+    "content": "Mini Kennedy's 🥺",
+    "timestamp": 1756864204254,
+    "status": "replied",
+    "reply": "Okey",
+    "replyTimestamp": 1756864344026
+  }
+]

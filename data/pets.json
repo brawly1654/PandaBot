@@ -1,0 +1,24 @@
+{
+  "166164298780822@lid": {
+    "id": "pet-1757226132891",
+    "nombre": "Destructor De Mundos",
+    "especie": "Hamster",
+    "vida": 100,
+    "hambre": 0,
+    "felicidad": 80,
+    "propietario1": "166164298780822@lid",
+    "propietario2": "5215538830665@s.whatsapp.net",
+    "fechaNacimiento": 1757226132891
+  },
+  "56953508566@s.whatsapp.net": {
+    "id": "pet-1757226317860",
+    "nombre": "Mr. Llamas",
+    "especie": "Dragón",
+    "vida": 100,
+    "hambre": 0,
+    "felicidad": 80,
+    "propietario1": "56953508566@s.whatsapp.net",
+    "propietario2": "5215538830665@s.whatsapp.net",
+    "fechaNacimiento": 1757226317860
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "nombre": "Guante de Gato",
+      "precio": 3000,
+      "descripcion": "Aumenta tu probabilidad de éxito en el robo en un 10%. (1 uso)",
+      "emoji": "🧤"
+    },
+    {
+      "nombre": "Máscara de Zorro",
+      "precio": 10000,
+      "descripcion": "Duplica las ganancias de tu próximo robo exitoso. (1 uso)",
+      "emoji": "🦊"
+    },
+    {
+      "nombre": "Escudo Antirrobo",
+      "precio": 4000,
+      "descripcion": "Te protege de un solo robo por 24 horas.",
+      "emoji": "🛡️"
+    },
+    {
+      "nombre": "Pase de Salida",
+      "precio": 5000,
+      "descripcion": "Te permite robar de nuevo, ignorando el cooldown de 1 horas. (1 uso)",
+      "emoji": "🎫"
+    }
+  ]
+}
+

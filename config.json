@@ -1,0 +1,57 @@
+{
+  "global": {
+    "modoowner": false,
+    "grupos": true,
+    "chatsprivados": true,
+    "ownerNumber": [
+      "+166164298780822",
+      "+56953508566",
+      "+267232999420158",
+      "+5215538830665"
+    ]
+  },
+  "groups": {
+    "120363421018643245@g.us": {
+      "antilink": false,
+      "modoadmin": true,
+      "modoowner": false,
+      "grupos": true,
+      "chatsprivados": true
+    },
+    "120363399481108013@g.us": {
+      "antilink": true,
+      "modoadmin": false,
+      "modoowner": false,
+      "grupos": true,
+      "chatsprivados": true
+    },
+    "120363400199276564@g.us": {
+      "antilink": true,
+      "modoadmin": false,
+      "modoowner": false,
+      "grupos": true,
+      "chatsprivados": true
+    },
+    "120363356976112305@g.us": {
+      "antilink": true,
+      "modoadmin": false,
+      "modoowner": false,
+      "grupos": true,
+      "chatsprivados": true
+    },
+    "120363402403091432@g.us": {
+      "antilink": false,
+      "modoadmin": false,
+      "modoowner": false,
+      "grupos": true,
+      "chatsprivados": true
+    },
+    "120363261918735693@g.us": {
+      "antilink": true,
+      "modoadmin": false,
+      "modoowner": false,
+      "grupos": true,
+      "chatsprivados": true
+    }
+  }
+}
