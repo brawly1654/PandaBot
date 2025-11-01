@@ -1,70 +1,87 @@
+import { getApiKey } from '../PandaLove/stellarwa.js';
 import fetch from 'node-fetch';
+import { isVip } from '../utils/vip.js';
 
 export const command = 'lyrics';
 
-const GENIUS_ACCESS_TOKEN = 'kl8onUnQWd7JQZdl';
-
-async function searchGenius(query) {
-  const response = await fetch(`https://api.genius.com/search?q=${encodeURIComponent(query)}`, {
-    headers: { 'Authorization': `Bearer ${GENIUS_ACCESS_TOKEN}` }
-  });
-  return await response.json();
-}
-
-async function getLyricsGenius(path) {
-  const response = await fetch(`https://api.genius.com${path}`, {
-    headers: { 'Authorization': `Bearer ${GENIUS_ACCESS_TOKEN}` }
-  });
-  return await response.json();
-}
-
 export async function run(sock, msg, args) {
-  const from = msg.key.remoteJid;
-  const query = args.join(' ');
-
-  if (!query) {
-    await sock.sendMessage(from, { text: '❌ Debes especificar el nombre de la canción. Ejemplo: *.lyrics Bohemian Rhapsody*' }, { quoted: msg });
+    const from = msg.key.remoteJid;
+    const sender = msg.key.participant || msg.key.remoteJid;
+  if (!isVip(sender)) {
+    await sock.sendMessage(from, { text: '❌ Este comando es solo para usuarios VIP.' });
     return;
   }
 
-  const loadingMsg = await sock.sendMessage(from, { text: `⏳ Buscando la letra de *${query}*...` }, { quoted: msg });
-
-  try {
-    const searchResponse = await searchGenius(query);
-    
-    // --- LÓGICA CORREGIDA ---
-    if (!searchResponse.response.hits || searchResponse.response.hits.length === 0) {
-      await sock.sendMessage(from, { text: `❌ No se encontraron resultados para *${query}*.` }, { quoted: loadingMsg });
-      return;
+    const songQuery = args.join(' ');
+    if (!songQuery) {
+        return sock.sendMessage(from, { text: '❌ Por favor, especifica el nombre de la canción. Ejemplo: `.lyrics Despacito Luis Fonsi`' });
     }
-    // --- FIN DE LA LÓGICA CORREGIDA ---
 
-    const hit = searchResponse.response.hits[0];
+    const encodedQuery = encodeURIComponent(songQuery);
+    const apiKey = await getApiKey();
+    const apiUrl = `https://api.stellarwa.xyz/tools/lyrics?query=${encodedQuery}&apikey=${apiKey}`;
 
-    const lyricsResponse = await getLyricsGenius(hit.result.path);
-    const lyricsUrl = lyricsResponse.response.song.url;
+    console.log('Llamando a URL:', apiUrl);
 
-    const lyricsPage = await fetch(lyricsUrl);
-    const lyricsHtml = await lyricsPage.text();
-    const lyricsText = lyricsHtml.match(/<div class="lyrics">([\s\S]+?)<\/div>/i);
+    await sock.sendMessage(from, { text: `🔍 Buscando letras para "*${songQuery}*"...` });
 
-    if (!lyricsText) {
-      throw new Error("No se pudo extraer la letra.");
+    try {
+        const response = await fetch(apiUrl, {
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json',
+                // en caso de que se requiera autenticación por header:
+                // 'Authorization': `Bearer ${apiKey}`
+            },
+        });
+
+        console.log('Status HTTP recibido:', response.status);
+
+        const text = await response.text();
+        console.log('Raw response body:', text);
+
+        if (!response.ok) {
+            // si te regresan 404, 401, etc., puedes mostrar lo que viene en el body
+            return sock.sendMessage(from, { text: `🚨 Error de la API (HTTP ${response.status}). Respuesta: ${text}` });
+        }
+
+        let data;
+        try {
+            data = JSON.parse(text);
+        } catch (e) {
+            console.error('Error al parsear JSON:', e);
+            return sock.sendMessage(from, { text: `❌ La respuesta no es un JSON válido. Contenido crudo: ${text}` });
+        }
+
+        // Aquí ajusta según cómo sea la estructura real de la respuesta de la API
+        // Supongamos que la API devuelve algo como { status: true/false, data: { title, artist, lyrics, album }, message: '...' }
+        const { status, data: result, message } = data;
+
+        if (!status || !result || !result.lyrics) {
+            const errMsg = message || 'No se encontraron letras para esa consulta.';
+            return sock.sendMessage(from, { text: `⚠️ No se pudo obtener letras. ${errMsg}` });
+        }
+
+        const title = result.title || 'N/A';
+        const artist = result.artist || 'N/A';
+        const album = result.album?.title || result.album || 'N/A';
+
+        let lyricsMessage = `
+🎤 *LETRAS ENCONTRADAS* 🎶
+------------------------------------------
+*Título:* ${title}
+*Artista:* ${artist}
+*Álbum:* ${album}
+------------------------------------------
+
+${result.lyrics}
+        `;
+        lyricsMessage = lyricsMessage.replace(/\r\n/g, '\n');
+
+        return sock.sendMessage(from, { text: lyricsMessage });
+
+    } catch (error) {
+        console.error('Error inesperado al llamar API:', error);
+        return sock.sendMessage(from, { text: '🚨 Ocurrió un error interno al procesar la solicitud.' });
     }
-    
-    const cleanedLyrics = lyricsText[1].replace(/<[^>]*>/g, '').trim();
-
-    const message = `
-🎶 *Letra de ${hit.result.title} - ${hit.result.artist_names}* 🎶
---------------------------------
-${cleanedLyrics}
-`;
-
-    await sock.sendMessage(from, { text: message }, { quoted: loadingMsg });
-
-  } catch (e) {
-    console.error('❌ Error al buscar la letra de la canción:', e);
-    await sock.sendMessage(from, { text: '❌ Ocurrió un error al procesar tu solicitud. Inténtalo de nuevo más tarde.' }, { quoted: msg });
-  }
 }
-

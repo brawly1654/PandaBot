@@ -46,7 +46,7 @@ const cdPath = path.resolve('./data/cooldowns.json');
   global.cmDB[userId] = global.cmDB[userId] || { spins: 0, coins: 0 };
 
   const resultados = [
-    'perder_personajes', // Nuevo resultado
+    'perder_personajes',
     'ganar_pandacoins',
     'perder_pandacoins',
     'ganar_pizzacoins',
@@ -126,30 +126,6 @@ const cdPath = path.resolve('./data/cooldowns.json');
         texto += `❌ Hubo un error al conectar con la API de la pizzería.`;
         console.error('❌ Error en ruletarusa (perder pizzacoins):', e);
       }
-      await sock.sendMessage(from, { text: texto });
-      break;
-
-    case 'admin_temporal':
-      texto += '👑 ¡Te has convertido en *admin temporal* durante 3 segundos!';
-      await sock.sendMessage(from, { text: texto });
-      await sock.groupParticipantsUpdate(from, [sender], 'promote');
-      setTimeout(async () => {
-        await sock.groupParticipantsUpdate(from, [sender], 'demote');
-        await sock.sendMessage(from, { text: `⌛ Se acabó tu reinado, @${userId}`, mentions: [sender] });
-      }, 3000);
-      break;
-
-    case 'ganar_tiros':
-      global.cmDB[userId].spins += 200;
-      texto += '🎰 ¡Ganaste *200 tiros* en Coin Master!';
-      global.guardarCM();
-      await sock.sendMessage(from, { text: texto });
-      break;
-
-    case 'perder_tiros':
-      global.cmDB[userId].spins = Math.max(0, global.cmDB[userId].spins - 200);
-      texto += '💥 ¡Perdiste *200 tiros* en Coin Master!';
-      global.guardarCM();
       await sock.sendMessage(from, { text: texto });
       break;
 

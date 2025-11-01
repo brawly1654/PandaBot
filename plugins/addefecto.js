@@ -9,11 +9,17 @@ const personajes = data.characters;
 
 const multiplicadores = {
   'Rainbow': 10,
-  'Glitch': 8,
-  'Lava': 6,
-  'Chicle': 5,
+  'Panda': 8,
+  'Chile': 6,
+  'Empanadas': 5,
   'Tacos': 4,
-  'Araña': 3
+  'Araña': 3,
+  'Agua': 2,
+  'Completo': 7,
+  'Fuego': 5.5,
+  'Mierda': 1,
+  'Semen': 0,
+  'Sopaipillas': 3.5
 };
 
 export const command = 'addefecto';
@@ -30,7 +36,25 @@ export async function run(sock, msg, args) {
   }
   
   if (!args.length || !args.join(' ').includes('|')) {
-    await sock.sendMessage(from, { text: '❌ Uso: *.addefecto <nombre_personaje> | <efecto1> | <efecto2> ...*' });
+    await sock.sendMessage(from, { text: `
+    ❌ Uso: *.addefecto <nombre_personaje> | <efecto1> | <efecto2> ...*
+    
+Efectos Disponibles:
+
+Rainbow: x10,
+Panda: x8,
+Chile: x6,
+Empanadas: x5,
+Tacos: x4
+Araña: x3
+Agua: x2
+Completo: x7
+Fuego: x5.5
+Mierda: x1
+Semen: x0
+Sopaipillas: x3.5
+
+` });
     return;
   }
 

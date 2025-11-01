@@ -25,6 +25,9 @@ export async function run(sock, msg) {
   • *.rename <personaje> | <nuevo_nombre>*
     > Renombra uno de tus personajes por un costo.
 
+  • *.autoreclamarpzz*
+    > Comando para automatizar tus ganancias en la pizzería, ya no necesitas usar .reclamarpzz.
+
 💎 *Recompensas VIP*
   • *.dropvip*
     > Obtén un personaje épico o superior.

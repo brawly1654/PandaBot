@@ -7,7 +7,8 @@
       "+166164298780822",
       "+56953508566",
       "+267232999420158",
-      "+5215538830665"
+      "+5215538830665",
+      "+56930617575"
     ]
   },
   "groups": {
@@ -48,6 +49,34 @@
     },
     "120363261918735693@g.us": {
       "antilink": true,
+      "modoadmin": false,
+      "modoowner": false,
+      "grupos": true,
+      "chatsprivados": true
+    },
+    "120363420007284505@g.us": {
+      "antilink": true,
+      "modoadmin": false,
+      "modoowner": false,
+      "grupos": true,
+      "chatsprivados": true
+    },
+    "120363400912496116@g.us": {
+      "antilink": false,
+      "modoadmin": true,
+      "modoowner": false,
+      "grupos": true,
+      "chatsprivados": true
+    },
+    "120363405273664074@g.us": {
+      "antilink": false,
+      "modoadmin": true,
+      "modoowner": false,
+      "grupos": true,
+      "chatsprivados": true
+    },
+    "120363421472047540@g.us": {
+      "antilink": false,
       "modoadmin": false,
       "modoowner": false,
       "grupos": true,

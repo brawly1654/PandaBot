@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const owners = ['56953508566', '573023181375', '166164298780822', '5215538830665'];
+const owners = ['56953508566', '573023181375', '166164298780822', '5215538830665', '111064062640327'];
 const feedbackFile = path.resolve('./data/feedback.json');
 
 function loadFeedback() {

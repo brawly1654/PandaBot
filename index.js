@@ -1,4 +1,5 @@
-import fs from 'fs';
+import { limpiarPersonajes } from "./limpiarPersonajes.js";
+import baileys from "@whiskeysockets/baileys";
 import { Boom } from "@hapi/boom";
 import qrcode from "qrcode-terminal";
 import { handleMessage } from './handler.js';
@@ -6,25 +7,42 @@ import readline from 'readline';
 import chalk from 'chalk';
 import NodeCache from 'node-cache';
 import pino from 'pino';
-
-// --- CÓDIGO CORREGIDO ---
+import { cargarDatabase, guardarDatabase } from './data/database.js';
 import {
   makeWASocket,
   useMultiFileAuthState,
   fetchLatestBaileysVersion,
   DisconnectReason,
   jidNormalizedUser,
-  makeCacheableSignalKeyStore,
+  makeCacheableSignalKeyStore
 } from "@whiskeysockets/baileys";
-// --- FIN DEL CÓDIGO CORREGIDO ---
 
 global.cmDB = JSON.parse(fs.readFileSync('./coinmaster.json'));
 global.guardarCM = () => fs.writeFileSync('./coinmaster.json', JSON.stringify(global.cmDB, null, 2));
 global.recolectarCooldown = {};
 
+//logs pandabot
+global.terminalLogs = [];
+const logLimit = 20;
+
+const originalConsoleLog = console.log;
+console.log = (...args) => {
+    const message = args.join(' ');
+    originalConsoleLog.apply(console, args);
+    if (message.includes('.buy')) {
+        global.terminalLogs.push(message);
+        if (global.terminalLogs.length > logLimit) {
+            global.terminalLogs.shift();
+        }
+    }
+};
+
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 const question = (texto) => new Promise((resolver) => rl.question(texto, resolver));
-
+//limpieza
+const resultado = limpiarPersonajes("./data/personajes.json");
+console.log("Personajes únicos:", resultado.length);import fs from 'fs';
+//fin limpieza
 const msgRetryCounterCache = new NodeCache();
 const sessions = 'auth_info';
 const nameqr = 'PandaBot';
@@ -58,7 +76,7 @@ async function startBot() {
     msgRetryCounterCache,
     getMessage: async (clave) => {
         let jid = jidNormalizedUser(clave.remoteJid);
-        let msg = await store.loadMessage(jid, clave.id); // Asume que store está definido si lo necesitas
+        let msg = await store.loadMessage(jid, clave.id);
         return msg?.message || "";
     },
   });
@@ -84,7 +102,7 @@ async function startBot() {
     if (action === 'add') {
       texto = `👋 Bienvenido @${participants[0].split('@')[0]} al grupo!`;
     } else if (action === 'remove') {
-      texto = `👋 Adiós @${participants[0].split('@')[0]}, te vamos a extrañar.`;
+      texto = `@${participants[0].split('@')[0]} Salió del grupo.👎`;
     } else if (action === 'promote') {
       texto = `🎉 @${participants[0].split('@')[0]} ahora es *admin* del grupo.`;
     } else if (action === 'demote') {
@@ -96,16 +114,29 @@ async function startBot() {
     }
   });
 
-  sock.ev.on('messages.upsert', async ({ messages }) => {
-    for (const msg of messages) {
-      if (!msg.message) continue;
-      try {
-        await handleMessage(sock, msg);
-      } catch (e) {
-        console.error('❌ Error en handleMessage:', e);
-      }
+sock.ev.on('messages.upsert', async ({ messages, type }) => {
+  if (type !== 'notify') return;
+
+  for (const msg of messages) {
+    if (!msg.message) continue;
+
+    const sender = msg.key.participant || msg.key.remoteJid;
+    const nombre = msg.pushName;
+    if (nombre) {
+      const db = cargarDatabase();
+      db.users = db.users || {};
+      db.users[sender] = db.users[sender] || {};
+      db.users[sender].alias = nombre;
+      guardarDatabase(db);
     }
-  });
+
+    try {
+      await handleMessage(sock, msg);
+    } catch (e) {
+      console.error('❌ Error en handleMessage:', e);
+    }
+  }
+});
 
   sock.ev.on('connection.update', (update) => {
     const { connection, lastDisconnect, qr } = update;

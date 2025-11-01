@@ -13,14 +13,14 @@ export async function run(sock, msg, args) {
     return;
   }
 
-  if (args.length < 3) {
-    await sock.sendMessage(from, { text: 'Uso: .addps <nombre> <calidad> <precio>' });
+  const input = args.join(' ');
+  if (!input || !input.includes('|') || input.split('|').length < 3) {
+    await sock.sendMessage(from, { text: '❌ Uso: .addps <nombre> | <calidad> | <precio>' });
     return;
   }
 
-  const nombre = args[0];
-  const calidad = args[1];
-  const precio = Number(args[2]);
+  const [nombre, calidad, precioStr] = input.split('|').map(s => s.trim());
+  const precio = Number(precioStr);
 
   if (isNaN(precio)) {
     await sock.sendMessage(from, { text: 'El precio debe ser un número.' });
@@ -40,7 +40,7 @@ export async function run(sock, msg, args) {
     personajes.push({ nombre, calidad, precio });
     await fs.writeFile('./data/personajes.json', JSON.stringify(data, null, 2));
 
-    await sock.sendMessage(from, { text: `✅ Personaje *${nombre}* agregado con calidad *${calidad}* y precio *${precio}*. Reinicia el Bot para aplicar cambios.` });
+    await sock.sendMessage(from, { text: `✅ Personaje *${nombre}* agregado con calidad *${calidad}* y precio *${precio}*.` });
   } catch (error) {
     console.error('Error al agregar personaje:', error);
     await sock.sendMessage(from, { text: '❌ Error al agregar personaje.' });

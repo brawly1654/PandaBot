@@ -4,13 +4,6 @@ export const aliases = ['milo'];
 export async function run(sock, msg, args) {
   const from = msg.key.remoteJid;
 
-  // Verificar si el comando se ejecuta en el grupo permitido
-  if (from !== '120363356976112305@g.us') {
-    return await sock.sendMessage(from, {
-      text: '❌ Este comando solo se puede usar en el grupo autorizado.'
-    }, { quoted: msg });
-  }
-
   // Lista de imágenes de Milo J
   const imagenesMiloJ = [
     'https://files.catbox.moe/uirjt1.png',

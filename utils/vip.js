@@ -1,5 +1,3 @@
-// Archivo: utils/vip.js
-
 import { cargarDatabase, guardarDatabase } from '../data/database.js';
 
 export function isVip(userJid) {
@@ -12,7 +10,6 @@ export function isVip(userJid) {
   
   const now = Date.now();
   if (now > user.vipExpiration) {
-    // El VIP ha expirado, lo removemos
     user.vip = false;
     delete user.vipExpiration;
     guardarDatabase(db);

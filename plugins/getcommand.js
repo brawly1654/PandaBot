@@ -11,7 +11,7 @@ export async function run(sock, msg, args) {
   const from = msg.key.remoteJid;
   const sender = msg.key.participant || msg.key.remoteJid;
 
-  const owners = ['56953508566', '573023181375', '166164298780822', '5215538830665'];
+  const owners = ['56953508566', '573023181375', '166164298780822', '5215538830665', '267232999420158'];
   
   const isOwner = owners.includes(sender.split('@')[0]);
   if (!isOwner) {
@@ -32,11 +32,7 @@ export async function run(sock, msg, args) {
     const fileContent = fs.readFileSync(filePath, 'utf8');
 
     const message = `
-📜 *CÓDIGO DEL COMANDO: ${commandName}* 📜
-
-\`\`\`javascript
 ${fileContent}
-\`\`\`
 `;
     await sock.sendMessage(from, { text: message }, { quoted: msg });
 

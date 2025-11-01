@@ -1,4 +1,4 @@
-// utils/database.js
+// data/database.js
 import fs from 'fs';
 
 const dbFile = './database.json';

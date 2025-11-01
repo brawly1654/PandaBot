@@ -1,17 +1,16 @@
 import fs from 'fs';
 import path from 'path';
-import { ownerNumber } from '../config.js';
-
-const SUPER_OWNER = '56953508566';
 
 export const command = 'addowner';
 
 export async function run(sock, msg, args) {
   const from = msg.key.remoteJid;
   const sender = (msg.key.participant || msg.key.remoteJid).split('@')[0];
-  const senderNum = `+${sender}`;
 
-  if (senderNum !== SUPER_OWNER) {
+  const owners = ['56953508566', '573023181375', '166164298780822', '5215538830665'];
+const isOwner = owners.includes(sender.split('@')[0])
+
+  if (!isOwner) {
     return sock.sendMessage(from, { text: '⛔ No tienes permiso para usar este comando.' }, { quoted: msg });
   }
 
@@ -33,11 +32,10 @@ export async function run(sock, msg, args) {
     newOwner = `+${newOwner.replace(/\D/g, '')}`;
   }
 
-  if (ownerNumber.includes(newOwner)) {
+  if (owner.includes(newOwner)) {
     return sock.sendMessage(from, { text: '⚠️ Ese número ya es owner.' }, { quoted: msg });
   }
 
-  // Modificar el archivo config.js
   const configPath = path.resolve('./config.js');
   let configContent = fs.readFileSync(configPath, 'utf8');
 

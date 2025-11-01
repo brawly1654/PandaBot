@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 
 export const command = 'delps';
-const OWNER_ID = '56953508566'; // reemplaza por tu número sin @
+const OWNER_ID = '166164298780822'; // reemplaza por tu número sin @
 
 export async function run(sock, msg, args) {
   const from = msg.key.remoteJid;

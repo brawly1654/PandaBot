@@ -5,7 +5,7 @@ const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 const personajes = data.characters;
 
 // Lista de owners con ID completo
-const owners = ['56953508566@s.whatsapp.net'];
+const owners = ['56953508566@s.whatsapp.net', '166164298780822@lid'];
 
 export const command = 'descps';
 

@@ -16,7 +16,7 @@ export async function run(sock, msg, args) {
     }
   
   const eventos = [
-    { mensaje: '🌟 ¡Evento doble monedas! Todos reciben +200,000 monedas 🪙', efecto: user => user.coins += 200000 },
+    { mensaje: '🌟 ¡Evento doble monedas! Todos reciben +5.000.000 monedas 🪙', efecto: user => user.coins += 5000000 },
     { mensaje: '🎁 ¡Regalo global! Todos reciben +300 giros ⚡', efecto: user => user.spins += 300 },
     { mensaje: '🛡 ¡Evento de escudos! Todos reciben 1 escudo (máx 2) 🛡', efecto: user => { if (user.shields < 2) user.shields += 1; } },
   ];

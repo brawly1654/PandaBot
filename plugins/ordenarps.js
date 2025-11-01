@@ -1,24 +1,15 @@
+import { ownerNumber } from '../config.js';
 import fs from 'fs';
 import path from 'path';
 
 export const command = 'ordenarps';
-
-// Lista de personas autorizadas a usar el comando (sin el @s.whatsapp.net)
-const allowedUsers = [
-  '56953508566', // Reemplaza con tus números permitidos
-  '+5492996271200',
-  '+573023181375',
-  '+97027992080542',
-  '+166164298780822',
-  '+30868416512052'
-];
-
 export async function run(sock, msg, args) {
   const from = msg.key.remoteJid;
   const sender = msg.key.participant || msg.key.remoteJid;
   const userId = sender.split('@')[0];
+  const senderId = sender.split('@')[0];
 
-  if (!allowedUsers.includes(userId)) {
+  if (!ownerNumber.includes(`+${senderId}`)) {
     await sock.sendMessage(from, {
       text: '🚫 No estás autorizado para usar este comando.'
     }, { quoted: msg });

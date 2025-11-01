@@ -12,7 +12,7 @@ export async function run(sock, msg, args) {
   const senderRaw = msg.key.participant || msg.key.remoteJid;
   const senderNumber = normalizeId(senderRaw);
   const mentions = msg.message.extendedTextMessage?.contextInfo?.mentionedJid || [];
-
+  const alertGroup = '120363421450862624@g.us';
 
   const metadata = await sock.groupMetadata(from);
   const isAdmin = metadata.participants.some(
@@ -25,7 +25,7 @@ export async function run(sock, msg, args) {
     return;
   }
 
-   if (mentions.length === 0) {
+  if (mentions.length === 0) {
     await sock.sendMessage(from, { text: '⚠️ Usa .warn @usuario para advertir a alguien.' });
     return;
   }
@@ -43,19 +43,36 @@ export async function run(sock, msg, args) {
 
   fs.writeFileSync(warnsFile, JSON.stringify(warns, null, 2));
 
+  const cantidad = warns[from][target];
+  const targetTag = `@${target.split('@')[0]}`;
+
   await sock.sendMessage(from, {
-    text: `⚠️ @${target.split('@')[0]} ahora tiene ${warns[from][target]} advertencia(s).`,
+    text: `
+⚠️ ${targetTag} ahora tiene ${cantidad} advertencia(s).
+Revisa tus advertencias o las de otros usuarios en el grupo correspondiente de la comunidad
+https://chat.whatsapp.com/FDnThaEo9876v1Q1Jn5f9P?mode=wwt
+          `,
     mentions: [target]
   });
 
-  // Expulsar si llega a 3
-  if (warns[from][target] >= 3) {
+  await sock.sendMessage(alertGroup, {
+    text: `⚠️ ${targetTag} ha recibido una advertencia.\n📍 Grupo: ${metadata.subject}\n📊 Total: ${cantidad}`,
+    mentions: [target]
+  });
+
+  if (cantidad >= 3) {
     await sock.sendMessage(from, {
-      text: `🚫 @${target.split('@')[0]} ha sido expulsado por acumular 3 advertencias.`,
+      text: `🚫 ${targetTag} ha sido expulsado por acumular 3 advertencias.`,
       mentions: [target]
     });
+
+    await sock.sendMessage(alertGroup, {
+      text: `🚫 ${targetTag} ha sido *expulsado* por acumular 3 advertencias.\n📍 Grupo: ${metadata.subject}`,
+      mentions: [target]
+    });
+
     await sock.groupParticipantsUpdate(from, [target], 'remove');
-    warns[from][target] = 0; // Reiniciar advertencias
+    warns[from][target] = 0;
     fs.writeFileSync(warnsFile, JSON.stringify(warns, null, 2));
   }
 }

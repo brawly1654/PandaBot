@@ -16,17 +16,15 @@ export async function run(sock, msg, args) {
   db.users = db.users || {};
   const user = db.users[sender] || { pandacoins: 0 };
   
-  const ticketCost = 30000;
+  const ticketCost = 300000;
   const subCommand = args[0]?.toLowerCase();
 
-  // Lógica para comprar un ticket de 24 horas con Pandacoins
   if (subCommand === 'ticket') {
     if (user.pandacoins < ticketCost) {
       await sock.sendMessage(from, { text: `❌ No tienes suficientes pandacoins para comprar un ticket VIP. Cuesta *${ticketCost}* pandacoins.` });
       return;
     }
     
-    // Descontar pandacoins y asignar VIP por 24 horas
     user.pandacoins -= ticketCost;
     user.vip = true;
     user.vipExpiration = Date.now() + 24 * 60 * 60 * 1000;
@@ -36,7 +34,6 @@ export async function run(sock, msg, args) {
     return;
   }
 
-  // Lógica para mostrar las opciones de compra
   const creatorContact = '+56 9 5350 8566';
   const message = `
 👑 *COMPRAR MEMBRESÍA VIP* 👑
@@ -57,7 +54,14 @@ Tu saldo: *${user.pandacoins || 0}* Pandacoins
 
 Para comprar:
 *.buyvip ticket*
-`;
+
+---------------------------
+*Otros métodos*💎(Requiere contactar al creador):
+
+- 👾 *Brawl Pass de Brawl Stars*
+- 👾 *Robux en Roblox*
+- 👾 *Brainrots de Steal a Brainrot*
+- 👾 *Pass Royale de Clash Royale* (Más beneficios)`;
 
   await sock.sendMessage(from, { text: message });
 }

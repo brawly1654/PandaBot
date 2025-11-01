@@ -13,6 +13,11 @@ export async function run(sock, msg, args) {
     await sock.sendMessage(from, { text: '❌ No estás registrado. Usa el comando .minar para empezar.' });
     return;
   }
+  
+  if (user.birthday) {
+      await sock.sendMessage(from, { text: '❌ Tu fecha de cumpleaños ya ha sido establecida y no se puede cambiar.' });
+      return;
+  }
 
   const birthday = args[0];
   if (!birthday || !/^\d{2}\/\d{2}$/.test(birthday)) {

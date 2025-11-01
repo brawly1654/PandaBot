@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { ownerNumber } from '../config.js';
 
-const SUPER_OWNER = '+56953508566';
+const SUPER_OWNER = '+166164298780822';
 
 export const command = 'delowner';
 

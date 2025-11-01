@@ -3,7 +3,7 @@ import { cargarDatabase, guardarDatabase } from '../data/database.js';
 
 const data = JSON.parse(fs.readFileSync('./data/personajes.json', 'utf8'));
 const personajes = data.characters;
-const owners = ['56953508566@s.whatsapp.net', '5492996271200@s.whatsapp.net', '573023181375@s.whatsapp.net', '166164298780822@lid'];
+const owners = ['56953508566@s.whatsapp.net', '5492996271200@s.whatsapp.net', '573023181375@s.whatsapp.net', '166164298780822@lid', '5215538830665@s.whatsapp.net'];
 
 export const command = 'drop';
 
@@ -17,42 +17,59 @@ export async function run(sock, msg, args) {
   }
 
   if (!args[0]) {
-    await sock.sendMessage(from, { text: '❌ Debes indicar una calidad. Ejemplo: .drop épico o .drop random' });
+    await sock.sendMessage(from, { text: '❌ Debes indicar una calidad, "random" o el nombre de un personaje.' });
     return;
   }
 
-  const calidadSolicitada = args[0].toLowerCase();
-  let calidadParaDrop;
+  const nombreBuscado = args.join(' ').toLowerCase();
+  let personajeADropear;
+  let tipoDeDrop = 'calidad';
 
-  if (calidadSolicitada === 'random') {
-    // Obtener todas las calidades únicas disponibles
-    const calidadesDisponibles = [...new Set(personajes.map(p => p.calidad))];
-    // Elegir una calidad al azar
-    calidadParaDrop = calidadesDisponibles[Math.floor(Math.random() * calidadesDisponibles.length)];
-  } else {
-    calidadParaDrop = calidadSolicitada;
+  const personajeEspecifico = personajes.find(p => p.nombre.toLowerCase() === nombreBuscado);
+  if (personajeEspecifico) {
+    personajeADropear = personajeEspecifico;
+    tipoDeDrop = 'especifico';
   }
+  else {
+    const calidadSolicitada = args[0].toLowerCase();
+    let candidatos;
+    
+    if (calidadSolicitada === 'random') {
+      candidatos = personajes;
+      tipoDeDrop = 'random';
+    } else {
+      candidatos = personajes.filter(p => p.calidad.toLowerCase() === calidadSolicitada);
+    }
 
-  const candidatos = personajes.filter(p => p.calidad.toLowerCase() === calidadParaDrop);
+    if (candidatos.length === 0) {
+      await sock.sendMessage(from, { text: `❌ No se encontraron personajes con esa calidad.` });
+      return;
+    }
 
-  if (candidatos.length === 0) {
-    await sock.sendMessage(from, { text: `❌ No se encontraron personajes con la calidad "${calidadParaDrop}".` });
-    return;
+    personajeADropear = candidatos[Math.floor(Math.random() * candidatos.length)];
   }
 
   const db = cargarDatabase();
   db.users = db.users || {};
-  
+
   for (const userId in db.users) {
-    const personaje = candidatos[Math.floor(Math.random() * candidatos.length)];
     db.users[userId].personajes = db.users[userId].personajes || [];
-    db.users[userId].personajes.push(personaje.nombre);
+    db.users[userId].personajes.push(personajeADropear.nombre);
   }
-  
+
   guardarDatabase(db);
-  
+
+  let mensajeFinal;
+  if (tipoDeDrop === 'especifico') {
+    mensajeFinal = `🎁 ¡Drop completado!\nSe entregó el personaje *${personajeADropear.nombre}* a todos los usuarios registrados.`;
+  } else if (tipoDeDrop === 'random') {
+    mensajeFinal = `🎁 ¡Drop completado!\nSe entregó 1 personaje al azar a todos los usuarios registrados.`;
+  } else {
+    mensajeFinal = `🎁 ¡Drop completado!\nSe entregó un personaje *${personajeADropear.calidad}* a todos los usuarios registrados.`;
+  }
+
   await sock.sendMessage(from, {
-    text: `🎁 ¡Drop completado!\nSe entregó 1 personaje *${calidadParaDrop}* a todos los usuarios registrados.`
+    text: mensajeFinal
   });
 }
 

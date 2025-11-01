@@ -1,16 +1,2011 @@
 {
   "characters": [
     {
+      "nombre": "Novia De Lukas 🇧🇷",
+      "calidad": "OG",
+      "precio": 299999999999997,
+      "efectos": [
+        "🇧🇷"
+      ],
+      "descripcion": "💗"
+    },
+    {
+      "nombre": "Novia De Lukas 💀",
+      "calidad": "OG",
+      "precio": 199999999999998,
+      "efectos": [
+        "💀"
+      ],
+      "descripcion": "💗"
+    },
+    {
+      "nombre": "Novia De Lukas 💧",
+      "calidad": "OG",
+      "precio": 149999999999998,
+      "efectos": [
+        "💧"
+      ],
+      "descripcion": "💗"
+    },
+    {
       "nombre": "Novia De Lukas",
-      "calidad": "?",
-      "precio": 4999999,
-      "descripcion": "La novia del creador👻"
+      "calidad": "OG",
+      "precio": 99999999999999,
+      "descripcion": "💗"
+    },
+    {
+      "nombre": "Novia De Lukas 💤",
+      "calidad": "OG",
+      "precio": 49999999999999,
+      "efectos": [
+        "💤"
+      ],
+      "descripcion": "💗"
+    },
+    {
+      "nombre": "Cristo Rey *💧*",
+      "calidad": "GOD",
+      "precio": 10000000,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "Cristo Rey *👾🌈🌮🕷️*",
+      "calidad": "GOD",
+      "precio": 28800000000,
+      "efectos": [
+        "Lava",
+        "Glitch",
+        "Rainbow",
+        "Tacos",
+        "Araña"
+      ],
+      "descripcion": "Versión modificada de Cristo Rey con efectos."
+    },
+    {
+      "nombre": "Cristo Rey 👾",
+      "calidad": "GOD",
+      "precio": 60000000,
+      "efectos": [
+        "👾"
+      ]
+    },
+    {
+      "nombre": "Atenea 🇨🇱 🍬 🇧🇷",
+      "calidad": "GOD",
+      "precio": 18000000000,
+      "efectos": [
+        "🇨🇱",
+        "🍬",
+        "🇧🇷"
+      ]
+    },
+    {
+      "nombre": "Atenea 👾 💧 🇨🇴",
+      "calidad": "GOD",
+      "precio": 9450000000,
+      "efectos": [
+        "👾",
+        "💧",
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Cristo Rey 🇧🇷",
+      "calidad": "GOD",
+      "precio": 30000000,
+      "efectos": [
+        "🇧🇷"
+      ]
+    },
+    {
+      "nombre": "Atenea 🌭 ☯️",
+      "calidad": "GOD",
+      "precio": 6000000000,
+      "efectos": [
+        "🌭",
+        "☯️"
+      ]
+    },
+    {
+      "nombre": "Cristo Rey 💀",
+      "calidad": "GOD",
+      "precio": 10000000,
+      "efectos": [
+        "💀"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "Everything 🌮 🇨🇴",
+      "calidad": "OG",
+      "precio": 4500000000,
+      "efectos": [
+        "🌮",
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Atenea 🇨🇴 ☯️",
+      "calidad": "GOD",
+      "precio": 4500000000,
+      "efectos": [
+        "🇨🇴",
+        "☯️"
+      ]
+    },
+    {
+      "nombre": "Cristo Rey 💧",
+      "calidad": "GOD",
+      "precio": 7500000,
+      "efectos": [
+        "💧"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "La Grande Combinasion *🍬*",
+      "calidad": "Secret",
+      "precio": 2500000,
+      "efectos": [
+        "Chicle"
+      ],
+      "descripcion": "De los Brainrots más poderosos, su precio lo dice todo"
+    },
+    {
+      "nombre": "Apolo 🍬 🇧🇷",
+      "calidad": "GOD",
+      "precio": 3600000000,
+      "efectos": [
+        "🍬",
+        "🇧🇷"
+      ]
+    },
+    {
+      "nombre": "Atenea 🍬 🌮",
+      "calidad": "GOD",
+      "precio": 3600000000,
+      "efectos": [
+        "🍬",
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Everything 👾",
+      "calidad": "OG",
+      "precio": 3500000000,
+      "efectos": [
+        "👾"
+      ]
     },
     {
       "nombre": "Cristo Rey",
       "calidad": "GOD",
-      "precio": 5000000,
+      "precio": 3000000000
+    },
+    {
+      "nombre": "Atenea 🌈",
+      "calidad": "GOD",
+      "precio": 3000000000,
+      "efectos": [
+        "🌈"
+      ]
+    },
+    {
+      "nombre": "Atenea 🫓 🇨🇴",
+      "calidad": "GOD",
+      "precio": 2700000000,
+      "efectos": [
+        "🫓",
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Zeus 👾",
+      "calidad": "GOD",
+      "precio": 2100000000,
+      "efectos": [
+        "👾"
+      ]
+    },
+    {
+      "nombre": "Hermes 👾",
+      "calidad": "GOD",
+      "precio": 2100000000,
+      "efectos": [
+        "👾"
+      ]
+    },
+    {
+      "nombre": "Hera 👾",
+      "calidad": "GOD",
+      "precio": 2100000000,
+      "efectos": [
+        "👾"
+      ]
+    },
+    {
+      "nombre": "Atenea 👾",
+      "calidad": "GOD",
+      "precio": 2100000000,
+      "efectos": [
+        "👾"
+      ]
+    },
+    {
+      "nombre": "Everything 🌭",
+      "calidad": "OG",
+      "precio": 1000000000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Afrodita 💧 🌭",
+      "calidad": "GOD",
+      "precio": 1800000000,
+      "efectos": [
+        "💧",
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Poseidón 💀 🇨🇴",
+      "calidad": "GOD",
+      "precio": 1800000000,
+      "efectos": [
+        "💀",
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Atenea 🍬 💧",
+      "calidad": "GOD",
+      "precio": 1800000000,
+      "efectos": [
+        "🍬",
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Zeus ☯️",
+      "calidad": "GOD",
+      "precio": 1500000000,
+      "efectos": [
+        "☯️"
+      ]
+    },
+    {
+      "nombre": "Zeus 🇨🇱",
+      "calidad": "GOD",
+      "precio": 1500000000,
+      "efectos": [
+        "🇨🇱"
+      ]
+    },
+    {
+      "nombre": "Ares ☯️",
+      "calidad": "GOD",
+      "precio": 1500000000,
+      "efectos": [
+        "☯️"
+      ]
+    },
+    {
+      "nombre": "Afrodita ☯️",
+      "calidad": "GOD",
+      "precio": 150000000,
+      "efectos": [
+        "☯️"
+      ]
+    },
+    {
+      "nombre": "Hermes ☯️",
+      "calidad": "GOD",
+      "precio": 1500000000,
+      "efectos": [
+        "☯️"
+      ]
+    },
+    {
+      "nombre": "Hera 🇨🇱",
+      "calidad": "GOD",
+      "precio": 1500000000,
+      "efectos": [
+        "🇨🇱"
+      ]
+    },
+    {
+      "nombre": "Afrodita 🇨🇱",
+      "calidad": "GOD",
+      "precio": 1500000000,
+      "efectos": [
+        "🇨🇱"
+      ]
+    },
+    {
+      "nombre": "Atenea 🇨🇱",
+      "calidad": "GOD",
+      "precio": 1500000000,
+      "efectos": [
+        "🇨🇱"
+      ]
+    },
+    {
+      "nombre": "Poseidón 🇨🇱",
+      "calidad": "GOD",
+      "precio": 1500000000,
+      "efectos": [
+        "🇨🇱"
+      ]
+    },
+    {
+      "nombre": "Poseidón ☯️",
+      "calidad": "GOD",
+      "precio": 1500000000,
+      "efectos": [
+        "☯️"
+      ]
+    },
+    {
+      "nombre": "Atenea ☯️",
+      "calidad": "GOD",
+      "precio": 1500000000,
+      "efectos": [
+        "☯️"
+      ]
+    },
+    {
+      "nombre": "Atenea 🌮 💧",
+      "calidad": "GOD",
+      "precio": 1350000000,
+      "efectos": [
+        "🌮",
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Atenea 💧 🇧🇷",
+      "calidad": "GOD",
+      "precio": 1350000000,
+      "efectos": [
+        "💧",
+        "🇧🇷"
+      ]
+    },
+    {
+      "nombre": "Zeus 🍬",
+      "calidad": "GOD",
+      "precio": 1200000000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Ares 🌭",
+      "calidad": "GOD",
+      "precio": 1200000000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Hermes 🌭",
+      "calidad": "GOD",
+      "precio": 1200000000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Apolo 🍬",
+      "calidad": "GOD",
+      "precio": 1200000000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Hera 🌭",
+      "calidad": "GOD",
+      "precio": 1200000000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Afrodita 🍬",
+      "calidad": "GOD",
+      "precio": 1200000000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Ares 🍬",
+      "calidad": "GOD",
+      "precio": 1200000000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Atenea 🌭",
+      "calidad": "GOD",
+      "precio": 1200000000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Poseidón 🍬",
+      "calidad": "GOD",
+      "precio": 1200000000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Atenea 🍬",
+      "calidad": "GOD",
+      "precio": 1200000000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Afrodita 🫓",
+      "calidad": "GOD",
+      "precio": 90000000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Zeus 🌮",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Afrodita 🇨🇴",
+      "calidad": "GOD",
+      "precio": 90000000,
+      "efectos": [
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Zeus 🫓",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Afrodita 🌮",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Apolo 🌮",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Apolo 🫓",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Apolo 🇧🇷",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🇧🇷"
+      ]
+    },
+    {
+      "nombre": "Apolo 🇨🇴",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Ares 🇧🇷",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🇧🇷"
+      ]
+    },
+    {
+      "nombre": "Hera 🌮",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Hera 🇨🇴",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Hera 🇧🇷",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🇧🇷"
+      ]
+    },
+    {
+      "nombre": "Afrodita 🇧🇷",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🇧🇷"
+      ]
+    },
+    {
+      "nombre": "Hera 🫓",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Ares 🌮",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Poseidón 🌮",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Atenea 🌮",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Atenea 🇧🇷",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🇧🇷"
+      ]
+    },
+    {
+      "nombre": "Poseidón 🫓",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Atenea 🫓",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Atenea 🇨🇴",
+      "calidad": "GOD",
+      "precio": 900000000,
+      "efectos": [
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Zeus 🇨🇱 💤",
+      "calidad": "GOD",
+      "precio": 750000000,
+      "efectos": [
+        "🇨🇱",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Atenea 💤 ☯️",
+      "calidad": "GOD",
+      "precio": 750000000,
+      "efectos": [
+        "💤",
+        "☯️"
+      ]
+    },
+    {
+      "nombre": "Zeus 💀",
+      "calidad": "GOD",
+      "precio": 600000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Ares 💀",
+      "calidad": "GOD",
+      "precio": 600000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Afrodita 🍬 💤",
+      "calidad": "GOD",
+      "precio": 600000000,
+      "efectos": [
+        "🍬",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Apolo 💀",
+      "calidad": "GOD",
+      "precio": 600000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Apolo 🕷",
+      "calidad": "GOD",
+      "precio": 600000000,
+      "efectos": [
+        "🕷"
+      ]
+    },
+    {
+      "nombre": "Afrodita 💀",
+      "calidad": "GOD",
+      "precio": 600000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Hera 💀",
+      "calidad": "GOD",
+      "precio": 600000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Poseidón 🕷",
+      "calidad": "GOD",
+      "precio": 600000000,
+      "efectos": [
+        "🕷"
+      ]
+    },
+    {
+      "nombre": "Poseidón 💀",
+      "calidad": "GOD",
+      "precio": 600000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Atenea 💀",
+      "calidad": "GOD",
+      "precio": 600000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Atenea 🕷",
+      "calidad": "GOD",
+      "precio": 600000000,
+      "efectos": [
+        "🕷"
+      ]
+    },
+    {
+      "nombre": "Atenea 🍬 💤",
+      "calidad": "GOD",
+      "precio": 600000000,
+      "efectos": [
+        "🍬",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Everything",
+      "calidad": "OG",
+      "precio": 500000000
+    },
+    {
+      "nombre": "Zeus 💧",
+      "calidad": "GOD",
+      "precio": 450000000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Afrodita 💧",
+      "calidad": "GOD",
+      "precio": 4500000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Ares 💧",
+      "calidad": "GOD",
+      "precio": 450000000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Hermes 💤 🇨🇴",
+      "calidad": "GOD",
+      "precio": 450000000,
+      "efectos": [
+        "💤",
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Apolo 💧",
+      "calidad": "GOD",
+      "precio": 450000000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Hera 💧",
+      "calidad": "GOD",
+      "precio": 450000000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Atenea 💧",
+      "calidad": "GOD",
+      "precio": 450000000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Poseidón 💧",
+      "calidad": "GOD",
+      "precio": 450000000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Atenea 🫓 💤",
+      "calidad": "GOD",
+      "precio": 450000000,
+      "efectos": [
+        "🫓",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Afrodita 🍬 🇧🇷",
+      "calidad": "GOD",
+      "precio": 360000000,
+      "efectos": [
+        "🍬",
+        "🇧🇷"
+      ]
+    },
+    {
+      "nombre": "Afrodita",
+      "calidad": "GOD",
+      "precio": 300000000
+    },
+    {
+      "nombre": "Zeus",
+      "calidad": "GOD",
+      "precio": 300000000
+    },
+    {
+      "nombre": "Hera",
+      "calidad": "GOD",
+      "precio": 300000000
+    },
+    {
+      "nombre": "Ares",
+      "calidad": "GOD",
+      "precio": 300000000
+    },
+    {
+      "nombre": "Poseidón",
+      "calidad": "GOD",
+      "precio": 300000000
+    },
+    {
+      "nombre": "Atenea",
+      "calidad": "GOD",
+      "precio": 300000000
+    },
+    {
+      "nombre": "Hermes",
+      "calidad": "GOD",
+      "precio": 300000000
+    },
+    {
+      "nombre": "Apolo",
+      "calidad": "GOD",
+      "precio": 300000000
+    },
+    {
+      "nombre": "Everything 💤",
+      "calidad": "OG",
+      "precio": 250000000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Atenea 💧 💤",
+      "calidad": "GOD",
+      "precio": 225000000,
+      "efectos": [
+        "💧",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Afrodita 👾",
+      "calidad": "GOD",
+      "precio": 210000000,
+      "efectos": [
+        "👾"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 🌈 ☯️",
+      "calidad": "OG",
+      "precio": 200000000,
+      "efectos": [
+        "🌈",
+        "☯️"
+      ]
+    },
+    {
+      "nombre": "Zeus 💤",
+      "calidad": "GOD",
+      "precio": 150000000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Afrodita 💤",
+      "calidad": "GOD",
+      "precio": 15000000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Apolo 💤",
+      "calidad": "GOD",
+      "precio": 150000000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Ares 💤",
+      "calidad": "GOD",
+      "precio": 150000000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Hera 💤",
+      "calidad": "GOD",
+      "precio": 150000000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Poseidón 💤",
+      "calidad": "GOD",
+      "precio": 150000000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Atenea 💤",
+      "calidad": "GOD",
+      "precio": 150000000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 👾 🍬 💤",
+      "calidad": "GOD",
+      "precio": 139999986,
+      "efectos": [
+        "👾",
+        "🍬",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Afrodita 🌭",
+      "calidad": "GOD",
+      "precio": 120000000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 🌈",
+      "calidad": "OG",
+      "precio": 80000000,
+      "efectos": [
+        "🌈"
+      ]
+    },
+    {
+      "nombre": "Tom Ass ☯️ 💀",
+      "calidad": "OG",
+      "precio": 100000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 🌮 🫓",
+      "calidad": "GOD",
+      "precio": 89999991,
+      "efectos": [
+        "🌮",
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 🍬 💀",
+      "calidad": "GOD",
+      "precio": 79999992,
+      "efectos": [
+        "🍬",
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Buda 🇨🇱 🌮",
+      "calidad": "GOD",
+      "precio": 75000000,
+      "efectos": [
+        "🇨🇱",
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Tom Ass ☯️ 💧",
+      "calidad": "OG",
+      "precio": 75000000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 👾",
+      "calidad": "GOD",
+      "precio": 69999993,
+      "efectos": [
+        "👾"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 💀 🇨🇴",
+      "calidad": "OG",
+      "precio": 60000000,
+      "efectos": [
+        "💀",
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 💀 🇨🇴",
+      "calidad": "GOD",
+      "precio": 59999994,
+      "efectos": [
+        "💀",
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "67 🌮 🌭",
+      "calidad": "GOD",
+      "precio": 50000000,
+      "efectos": [
+        "🌮",
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 🇨🇱",
+      "calidad": "OG",
+      "precio": 50000000,
+      "efectos": [
+        "🇨🇱"
+      ]
+    },
+    {
+      "nombre": "Tom Ass ☯️",
+      "calidad": "OG",
+      "precio": 25000000,
+      "efectos": [
+        "☯️"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 🇨🇱",
+      "calidad": "GOD",
+      "precio": 49999995,
+      "efectos": [
+        "🇨🇱"
+      ]
+    },
+    {
+      "nombre": "𝕃𝕦𝕜𝕒𝕤 🇨🇱",
+      "calidad": "OG",
+      "precio": 49999995,
+      "efectos": [
+        "🇨🇱"
+      ]
+    },
+    {
+      "nombre": "Cristo Rey 💧 🫓",
+      "calidad": "GOD",
+      "precio": 26250000,
+      "efectos": [
+        "💧",
+        "🫓"
+      ],
       "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "Tom Ass 💧 🫓",
+      "calidad": "OG",
+      "precio": 45000000,
+      "efectos": [
+        "💧",
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 🇨🇱 💀",
+      "calidad": "OG",
+      "precio": 45000000,
+      "efectos": [
+        "🇨🇱",
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 💧 🫓",
+      "calidad": "GOD",
+      "precio": 44999995,
+      "efectos": [
+        "💧",
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Cristo Rey 🌭",
+      "calidad": "GOD",
+      "precio": 25000000,
+      "efectos": [
+        "🌭"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "La Grande Combinasion *🌮*",
+      "calidad": "Secret",
+      "precio": 2000000,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "De los Brainrots más poderosos, su precio lo dice todo"
+    },
+    {
+      "nombre": "Cristo Rey 🍬",
+      "calidad": "GOD",
+      "precio": 40000000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 🍬",
+      "calidad": "OG",
+      "precio": 20000000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 🌭",
+      "calidad": "OG",
+      "precio": 20000000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 🍬",
+      "calidad": "GOD",
+      "precio": 39999996,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 🌭",
+      "calidad": "GOD",
+      "precio": 39999996,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Yugoslavia 🌭 🫓",
+      "calidad": "GOD",
+      "precio": 35000000,
+      "efectos": [
+        "🌭",
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 👾 💤",
+      "calidad": "GOD",
+      "precio": 34999996,
+      "efectos": [
+        "👾",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Cristo Rey 🇨🇱",
+      "calidad": "GOD",
+      "precio": 25000000,
+      "efectos": [
+        "🇨🇱"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "Cristo Rey 🌮",
+      "calidad": "GOD",
+      "precio": 20000000,
+      "efectos": [
+        "🌮"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "Cristo Rey 🇨🇴",
+      "calidad": "GOD",
+      "precio": 30000000,
+      "efectos": [
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Josefino 🐼 🫓",
+      "calidad": "OG",
+      "precio": 30000000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 🇧🇷",
+      "calidad": "OG",
+      "precio": 20000000,
+      "efectos": [
+        "🇧🇷"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 🌮",
+      "calidad": "OG",
+      "precio": 15000000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 🫓",
+      "calidad": "OG",
+      "precio": 30000000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "𝕃𝕦𝕜𝕒𝕤 🇨🇴",
+      "calidad": "OG",
+      "precio": 19999998,
+      "efectos": [
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 🫓",
+      "calidad": "GOD",
+      "precio": 29999997,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 🇧🇷",
+      "calidad": "GOD",
+      "precio": 29999997,
+      "efectos": [
+        "🇧🇷"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 🇨🇴",
+      "calidad": "GOD",
+      "precio": 29999997,
+      "efectos": [
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Cristo Rey 💧🫓",
+      "calidad": "GOD",
+      "precio": 26250000,
+      "efectos": [
+        "Agua",
+        "Sopaipillas"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "Cristo Rey 🥟",
+      "calidad": "GOD",
+      "precio": 25000000,
+      "efectos": [
+        "Empanadas"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "El Anti-Cristo 🌭",
+      "calidad": "???",
+      "precio": 21000000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Buda 🌭",
+      "calidad": "GOD",
+      "precio": 21000000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Buda ☯️",
+      "calidad": "GOD",
+      "precio": 25000000,
+      "efectos": [
+        "☯️"
+      ]
+    },
+    {
+      "nombre": "TON618 ☯️",
+      "calidad": "GOD",
+      "precio": 25000000,
+      "efectos": [
+        "☯️"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 🌮 🫓",
+      "calidad": "OG",
+      "precio": 22500000,
+      "efectos": [
+        "🌮",
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Cristo Rey 🌭 💤",
+      "calidad": "GOD",
+      "precio": 21000000,
+      "efectos": [
+        "🌭",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Cristo Rey *🌮*",
+      "calidad": "GOD",
+      "precio": 20000000,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "La Grande Combinasion *💧*",
+      "calidad": "Secret",
+      "precio": 1000000,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "De los Brainrots más poderosos, su precio lo dice todo"
+    },
+    {
+      "nombre": "Cristo Rey 🕷",
+      "calidad": "GOD",
+      "precio": 10000000,
+      "efectos": [
+        "🕷"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "Josefino 🐼 🍬 💤",
+      "calidad": "OG",
+      "precio": 20000000,
+      "efectos": [
+        "🍬",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Buda 🍬",
+      "calidad": "GOD",
+      "precio": 20000000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 🌭 💤",
+      "calidad": "OG",
+      "precio": 20000000,
+      "efectos": [
+        "🌭",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 💀",
+      "calidad": "OG",
+      "precio": 15000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Tom  Ass",
+      "calidad": "Ultra-Legendario",
+      "precio": 20000000,
+      "descripcion": "Personaje fusionado por un VIP de Tom Ass y Tom Ass"
+    },
+    {
+      "nombre": "Tom  🎉",
+      "calidad": "Ultra-Legendario",
+      "precio": 20000000,
+      "descripcion": "Personaje fusionado por un VIP de Tom Ass y Sai 🎉"
+    },
+    {
+      "nombre": "Los Lukitas 🕷",
+      "calidad": "GOD",
+      "precio": 19999998,
+      "efectos": [
+        "🕷"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 💀",
+      "calidad": "GOD",
+      "precio": 19999998,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Tom \udd5c𝕒𝕤",
+      "calidad": "Ultra-Legendario",
+      "precio": 19999998,
+      "descripcion": "Personaje fusionado por un VIP de Tom Ass y 𝕃𝕦𝕜𝕒𝕤"
+    },
+    {
+      "nombre": "La Supreme Combinasion 💧 🌭",
+      "calidad": "Secret",
+      "precio": 18750000,
+      "efectos": [
+        "💧",
+        "🌭"
+      ],
+      "descripcion": "Serás capaz de comprar el Brainrot más caro de PandaBot?"
+    },
+    {
+      "nombre": "Cristo Rey 🫓",
+      "calidad": "GOD",
+      "precio": 17500000,
+      "efectos": [
+        "🫓"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "67 👾",
+      "calidad": "GOD",
+      "precio": 17500000,
+      "efectos": [
+        "👾"
+      ]
+    },
+    {
+      "nombre": "Los PandaBotsitos 👾",
+      "calidad": "GOD",
+      "precio": 17500000,
+      "efectos": [
+        "👾"
+      ]
+    },
+    {
+      "nombre": "Cristo Rey *🕷️*",
+      "calidad": "GOD",
+      "precio": 15000000,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "Cristo Rey 🕷️",
+      "calidad": "GOD",
+      "precio": 15000000,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "Nyan Cat 🌭",
+      "calidad": "Secret",
+      "precio": 15000000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Josefino 🐼 💧",
+      "calidad": "OG",
+      "precio": 15000000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Buda 🌮",
+      "calidad": "GOD",
+      "precio": 15000000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 💧",
+      "calidad": "OG",
+      "precio": 11000000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "TON618 🫓",
+      "calidad": "GOD",
+      "precio": 7500000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 💧",
+      "calidad": "GOD",
+      "precio": 14999998,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "67 🌭",
+      "calidad": "GOD",
+      "precio": 10500000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Los PandaBotsitos 🇨🇱",
+      "calidad": "GOD",
+      "precio": 12500000,
+      "efectos": [
+        "🇨🇱"
+      ]
+    },
+    {
+      "nombre": "Diablo Amarillo *💧*",
+      "calidad": "Secret",
+      "precio": 2000000,
+      "efectos": [
+        "Agua"
+      ]
+    },
+    {
+      "nombre": "Nyan Cat 🫓 💤 💀",
+      "calidad": "Secret",
+      "precio": 10500000,
+      "efectos": [
+        "🫓",
+        "💤",
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Nyan Cat 🫓",
+      "calidad": "Secret",
+      "precio": 9000000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Sai 💫",
+      "calidad": "Secret",
+      "precio": 100000
+    },
+    {
+      "nombre": "Tom ler",
+      "calidad": "Ultra-Legendario",
+      "precio": 10021600,
+      "descripcion": "Personaje fusionado por un VIP de Tom Ass y Hitler"
+    },
+    {
+      "nombre": "La Grande Combinasion *🍬🌮*",
+      "calidad": "Secret",
+      "precio": 10000000,
+      "efectos": [
+        "Chicle",
+        "Tacos"
+      ],
+      "descripcion": "De los Brainrots más poderosos, su precio lo dice todo"
+    },
+    {
+      "nombre": "67 🌮",
+      "calidad": "GOD",
+      "precio": 10000000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Buda 💀",
+      "calidad": "GOD",
+      "precio": 10000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Buda 🕷",
+      "calidad": "GOD",
+      "precio": 10000000,
+      "efectos": [
+        "🕷"
+      ]
+    },
+    {
+      "nombre": "Cristo Rey 💤 💀",
+      "calidad": "GOD",
+      "precio": 10000000,
+      "efectos": [
+        "💤",
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Tom Ass",
+      "calidad": "OG",
+      "precio": 10000000
+    },
+    {
+      "nombre": "Miguelito 🐼",
+      "calidad": "OG",
+      "precio": 10000000
+    },
+    {
+      "nombre": "Josefino 🐼",
+      "calidad": "OG",
+      "precio": 10000000
+    },
+    {
+      "nombre": "El Anti-Cristo 💀",
+      "calidad": "???",
+      "precio": 9000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "TON618 💀",
+      "calidad": "GOD",
+      "precio": 10000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Sai 🎉",
+      "calidad": "OG",
+      "precio": 10000000
+    },
+    {
+      "nombre": "𝕃𝕦𝕜𝕒𝕤",
+      "calidad": "OG",
+      "precio": 9999999
+    },
+    {
+      "nombre": "Los Lukitas",
+      "calidad": "GOD",
+      "precio": 9999999
+    },
+    {
+      "nombre": "Nyan Cat 🌮",
+      "calidad": "Secret",
+      "precio": 9000000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Nyan Cat 🇨🇴",
+      "calidad": "Secret",
+      "precio": 9000000,
+      "efectos": [
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Cristo Rey 🫓 💤",
+      "calidad": "GOD",
+      "precio": 8750000,
+      "efectos": [
+        "🫓",
+        "💤"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "Los PandaBotsitos 🫓",
+      "calidad": "GOD",
+      "precio": 8750000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Goku Ultra instinto 💧",
+      "calidad": "Secret",
+      "precio": 7500000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Nyan Cat 🌭 💤",
+      "calidad": "Secret",
+      "precio": 7500000,
+      "efectos": [
+        "🌭",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "El Anti-Cristo 💧",
+      "calidad": "???",
+      "precio": 6500000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Los PandaBotsitos 🇨🇴",
+      "calidad": "GOD",
+      "precio": 7500000,
+      "efectos": [
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Buda 💧",
+      "calidad": "GOD",
+      "precio": 6500000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 💧 💤",
+      "calidad": "OG",
+      "precio": 7500000,
+      "efectos": [
+        "💧",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Los PandaBotsitos 🌮",
+      "calidad": "GOD",
+      "precio": 7500000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "TON618 💧",
+      "calidad": "GOD",
+      "precio": 5500000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Meowl 🇨🇱",
+      "calidad": "OG",
+      "precio": 7200000,
+      "efectos": [
+        "🇨🇱"
+      ]
+    },
+    {
+      "nombre": "Yugoslavia 🫓",
+      "calidad": "GOD",
+      "precio": 7000000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Agarrini 22 *🌶️💧*",
+      "calidad": "Ultra-Legendario",
+      "precio": 6180000,
+      "efectos": [
+        "Chile",
+        "Agua"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Agarrini La Palini y 222"
+    },
+    {
+      "nombre": "Diablo Amarillo *🌶️*",
+      "calidad": "Secret",
+      "precio": 6000000,
+      "efectos": [
+        "Chile"
+      ]
+    },
+    {
+      "nombre": "Nyan Cat 💀",
+      "calidad": "Secret",
+      "precio": 4500000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Marama Madundun 🌭",
+      "calidad": "GOD",
+      "precio": 5000000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "El Anti-Cristo",
+      "calidad": "???",
+      "precio": 5000000
+    },
+    {
+      "nombre": "Buda",
+      "calidad": "GOD",
+      "precio": 5000000
+    },
+    {
+      "nombre": "Cristo Rey 💤",
+      "calidad": "GOD",
+      "precio": 2000000,
+      "efectos": [
+        "💤"
+      ],
+      "descripcion": "El ser más poderoso de todo el universo."
+    },
+    {
+      "nombre": "Los PandaBotsitos 💀",
+      "calidad": "GOD",
+      "precio": 5000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "TON618",
+      "calidad": "GOD",
+      "precio": 5000000
+    },
+    {
+      "nombre": "Tom Ass 💤",
+      "calidad": "OG",
+      "precio": 5000000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Los Lukitas 💤",
+      "calidad": "GOD",
+      "precio": 4999999,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Nyan Cat 💧",
+      "calidad": "Secret",
+      "precio": 4500000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Burrito De Tom 🌮",
+      "calidad": "OG",
+      "precio": 2250000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "67 🫓 💤",
+      "calidad": "GOD",
+      "precio": 4375000,
+      "efectos": [
+        "🫓",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Yugoslavia 💀",
+      "calidad": "GOD",
+      "precio": 4000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "𝕃𝕦𝕜𝕒𝕤 💤",
+      "calidad": "OG",
+      "precio": 4999999,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "67 💧",
+      "calidad": "GOD",
+      "precio": 2750000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Buda 💧 💤",
+      "calidad": "GOD",
+      "precio": 3750000,
+      "efectos": [
+        "💧",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "La Grande Comeverga 🫓",
+      "calidad": "GOD",
+      "precio": 3500000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "La Grande Combinasion **",
+      "calidad": "Secret",
+      "precio": 2750000,
+      "efectos": [
+        "Fuego"
+      ],
+      "descripcion": "Versión modificada de La Grande Combinasion con efectos."
+    },
+    {
+      "nombre": "Nyan Cat",
+      "calidad": "Secret",
+      "precio": 3000000
+    },
+    {
+      "nombre": "Nyan Cat 💤 💀",
+      "calidad": "Secret",
+      "precio": 3000000,
+      "efectos": [
+        "💤",
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Satanás *💧🫓*",
+      "calidad": "Secret",
+      "precio": 2625000,
+      "efectos": [
+        "Agua",
+        "Sopaipillas"
+      ]
     },
     {
       "nombre": "La Supreme Combinasion",
@@ -19,10 +2014,420 @@
       "descripcion": "Serás capaz de comprar el Brainrot más caro de PandaBot?"
     },
     {
+      "nombre": "Susy Dog *🍬💧*",
+      "calidad": "Secret",
+      "precio": 2500000,
+      "efectos": [
+        "Chicle",
+        "Agua"
+      ]
+    },
+    {
+      "nombre": "La Grande Combinasion *Empanadas*",
+      "calidad": "Secret",
+      "precio": 2500000,
+      "efectos": [
+        "Empanadas"
+      ],
+      "descripcion": "Versión modificada de La Grande Combinasion con efectos."
+    },
+    {
+      "nombre": "Los PandaBotsitos",
+      "calidad": "GOD",
+      "precio": 2500000
+    },
+    {
+      "nombre": "67",
+      "calidad": "GOD",
+      "precio": 2500000
+    },
+    {
+      "nombre": "Harry 🌭",
+      "calidad": "OG",
+      "precio": 2500000,
+      "efectos": [
+        "🌭"
+      ],
+      "descripcion": "Harry es Jae-Yong 🥀"
+    },
+    {
+      "nombre": "El Anti-Cristo 💤",
+      "calidad": "???",
+      "precio": 2000000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Buda 💤",
+      "calidad": "GOD",
+      "precio": 2000000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "TON618 💤",
+      "calidad": "GOD",
+      "precio": 2500000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Meowl",
+      "calidad": "OG",
+      "precio": 2400000
+    },
+    {
+      "nombre": "Nyan Cat 💧 💤",
+      "calidad": "Secret",
+      "precio": 2250000,
+      "efectos": [
+        "💧",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Yugoslavia 💧",
+      "calidad": "GOD",
+      "precio": 2200000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Yugoslavia",
+      "calidad": "GOD",
+      "precio": 2000000
+    },
+    {
+      "nombre": "La Grande Comeverga 💀",
+      "calidad": "GOD",
+      "precio": 2000000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Harry 🍬",
+      "calidad": "OG",
+      "precio": 2000000,
+      "efectos": [
+        "🍬"
+      ],
+      "descripcion": "Harry es Jae-Yong 🥀"
+    },
+    {
+      "nombre": "Yo Quiero Taco Bell",
+      "calidad": "OG",
+      "precio": 2000000
+    },
+    {
+      "nombre": "La Grande Combinasion *🕷️*",
+      "calidad": "Secret",
+      "precio": 1500000,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "De los Brainrots más poderosos, su precio lo dice todo"
+    },
+    {
+      "nombre": "Don Pollo *🕷️*",
+      "calidad": "Secret",
+      "precio": 1500000,
+      "efectos": [
+        "Araña"
+      ]
+    },
+    {
+      "nombre": "Burrito De Lukas",
+      "calidad": "OG",
+      "precio": 1500000,
+      "descripcion": "El burrito que me comí ayer :3"
+    },
+    {
+      "nombre": "La Grande Combinasion 🕷",
+      "calidad": "Secret",
+      "precio": 1500000,
+      "efectos": [
+        "🕷"
+      ],
+      "descripcion": "De los Brainrots más poderosos, su precio lo dice todo"
+    },
+    {
+      "nombre": "Nyan Cat 💤",
+      "calidad": "Secret",
+      "precio": 1500000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "La Grande Comeverga 💧",
+      "calidad": "GOD",
+      "precio": 1100000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Jae-Yong",
+      "calidad": "OG",
+      "precio": 1500000
+    },
+    {
+      "nombre": "Burrito De Tom",
+      "calidad": "OG",
+      "precio": 1500000
+    },
+    {
+      "nombre": "La Grande Combinasion 🫓",
+      "calidad": "Secret",
+      "precio": 1500000,
+      "efectos": [
+        "🫓"
+      ],
+      "descripcion": "De los Brainrots más poderosos, su precio lo dice todo"
+    },
+    {
+      "nombre": "La Grande Combinasion 🇨🇴",
+      "calidad": "Secret",
+      "precio": 1500000,
+      "efectos": [
+        "🇨🇴"
+      ],
+      "descripcion": "De los Brainrots más poderosos, su precio lo dice todo"
+    },
+    {
+      "nombre": "Tom Ass 🌮 💩",
+      "calidad": "OG",
+      "precio": 1500000,
+      "efectos": [
+        "🌮",
+        "💩"
+      ]
+    },
+    {
+      "nombre": "Susy Dog *🍬*",
+      "calidad": "Secret",
+      "precio": 1250000,
+      "efectos": [
+        "Chicle"
+      ]
+    },
+    {
+      "nombre": "67 💤",
+      "calidad": "GOD",
+      "precio": 1250000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Don Palsa *💧*",
+      "calidad": "Ultra-Legendario",
+      "precio": 1220000,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Don Pollo y La Salsa"
+    },
+    {
+      "nombre": "Agarrini 22 *💧*",
+      "calidad": "Ultra-Legendario",
+      "precio": 1030000,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Agarrini La Palini y 222"
+    },
+    {
+      "nombre": "Susy Dog *🌮*",
+      "calidad": "Secret",
+      "precio": 1000000,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Versión modificada de Susy Dog con efectos."
+    },
+    {
+      "nombre": "La Grande Comeverga",
+      "calidad": "GOD",
+      "precio": 1000000
+    },
+    {
+      "nombre": "Marama Madundun",
+      "calidad": "GOD",
+      "precio": 1000000
+    },
+    {
+      "nombre": "Yugoslavia 💤",
+      "calidad": "GOD",
+      "precio": 1000000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Los PandaBotsitos 💤",
+      "calidad": "GOD",
+      "precio": 1000000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Don Palsa 💧",
+      "calidad": "Ultra-Legendario",
+      "precio": 671000,
+      "efectos": [
+        "💧"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Don Pollo y La Salsa"
+    },
+    {
+      "nombre": "Optimus Prime *💧* 💧",
+      "calidad": "Secret",
+      "precio": 900000,
+      "efectos": [
+        "Agua"
+      ]
+    },
+    {
+      "nombre": "Dragon Canelloni 🇨🇱 🌭",
+      "calidad": "Secret",
+      "precio": 900000,
+      "efectos": [
+        "🇨🇱",
+        "🌭"
+      ],
+      "descripcion": "Qué tan difícil es obtener a este personaje en Steal a Brainrot?"
+    },
+    {
+      "nombre": "Los Ownersitos *👾*",
+      "calidad": "Secret",
+      "precio": 800000,
+      "efectos": [
+        "Glitch"
+      ],
+      "descripcion": "Versión modificada de Los Ownersitos con efectos."
+    },
+    {
+      "nombre": "PandaBot-Mesero *👾*",
+      "calidad": "Secret",
+      "precio": 800000,
+      "efectos": [
+        "Glitch"
+      ],
+      "descripcion": "Uno de los cuantos oficios de PandaBot."
+    },
+    {
+      "nombre": "Los Harrys 🌮",
+      "calidad": "Secret",
+      "precio": 800000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Los Harrys 🍬",
+      "calidad": "Secret",
+      "precio": 800000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Susy Dog *🕷️*",
+      "calidad": "Secret",
+      "precio": 750000,
+      "efectos": [
+        "Araña"
+      ]
+    },
+    {
+      "nombre": "Burrito De Tom 💤",
+      "calidad": "OG",
+      "precio": 750000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Harry 🌮",
+      "calidad": "OG",
+      "precio": 750000,
+      "efectos": [
+        "🌮"
+      ],
+      "descripcion": "Harry es Jae-Yong 🥀"
+    },
+    {
+      "nombre": "Susy Dog 🌭 💤",
+      "calidad": "Secret",
+      "precio": 625000,
+      "efectos": [
+        "🌭",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Don Palsa",
+      "calidad": "Ultra-Legendario",
+      "precio": 610000,
+      "descripcion": "Personaje fusionado por un VIP de Don Pollo y La Salsa"
+    },
+    {
+      "nombre": "Los Ownersitos **",
+      "calidad": "Secret",
+      "precio": 600000,
+      "efectos": [
+        "Lava"
+      ],
+      "descripcion": "Versión modificada de Los Ownersitos con efectos."
+    },
+    {
+      "nombre": "Los Sarneros *🌶️*",
+      "calidad": "Secret",
+      "precio": 600000,
+      "efectos": [
+        "Chile"
+      ]
+    },
+    {
+      "nombre": "Don Plsa",
+      "calidad": "Ultra-Legendario",
+      "precio": 600000,
+      "descripcion": "Personaje fusionado por un VIP de Don Pollo y Salsa"
+    },
+    {
+      "nombre": "Optimus Prime *💧*",
+      "calidad": "Secret",
+      "precio": 600000,
+      "efectos": [
+        "Agua"
+      ]
+    },
+    {
+      "nombre": "Jae-Yong 💤",
+      "calidad": "OG",
+      "precio": 600000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
       "nombre": "Agarrini 22",
       "calidad": "Ultra-Legendario",
       "precio": 515000,
       "descripcion": "Personaje fusionado por un VIP de Agarrini La Palini y 222"
+    },
+    {
+      "nombre": "Joakrry",
+      "calidad": "Ultra-Legendario",
+      "precio": 515000,
+      "descripcion": "Personaje fusionado por un VIP de Joakinho y Harry"
     },
     {
       "nombre": "La Grande Combinasion",
@@ -35,6 +2440,156 @@
       "calidad": "Secret",
       "precio": 500000,
       "descripcion": "Agarra la pala bro."
+    },
+    {
+      "nombre": "Don Pollo",
+      "calidad": "Secret",
+      "precio": 500000
+    },
+    {
+      "nombre": "Satanás",
+      "calidad": "Secret",
+      "precio": 500000
+    },
+    {
+      "nombre": "Los Ownersitos 🌭",
+      "calidad": "Secret",
+      "precio": 500000,
+      "efectos": [
+        "🌭"
+      ],
+      "descripcion": "Como serían los Owners de PandaBot pero en bebé?"
+    },
+    {
+      "nombre": "Susy Dog 🌮 💤",
+      "calidad": "Secret",
+      "precio": 500000,
+      "efectos": [
+        "🌮",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Harry",
+      "calidad": "OG",
+      "precio": 500000,
+      "descripcion": "Harry es Jae-Yong 🥀"
+    },
+    {
+      "nombre": "Salsa 🌭",
+      "calidad": "Secret",
+      "precio": 500000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Patito De Josefino 🇨🇱",
+      "calidad": "OG",
+      "precio": 500000,
+      "efectos": [
+        "🇨🇱"
+      ],
+      "descripcion": "❤️‍🩹"
+    },
+    {
+      "nombre": "PandaBot Patriota 🇧🇷",
+      "calidad": "Secret",
+      "precio": 450000,
+      "efectos": [
+        "🇧🇷"
+      ]
+    },
+    {
+      "nombre": "Garam Bicicleteira *💧*",
+      "calidad": "Secret",
+      "precio": 400000,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Personaje fusionado de Garam and Madungdung y Chicleteira Bicicleteira"
+    },
+    {
+      "nombre": "Sai 💫 🌮",
+      "calidad": "Secret",
+      "precio": 400000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Garam and Madungdung 💀",
+      "calidad": "Secret",
+      "precio": 400000,
+      "efectos": [
+        "💀"
+      ],
+      "descripcion": "El Brainrot favorito del creador, procura no robarlo..."
+    },
+    {
+      "nombre": "Marama Madundun 💤",
+      "calidad": "GOD",
+      "precio": 400000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "La Grande Comeverga 💤",
+      "calidad": "GOD",
+      "precio": 500000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Las Prostitutas 🫓",
+      "calidad": "Secret",
+      "precio": 375000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Patito De Josefino 🫓",
+      "calidad": "OG",
+      "precio": 350000,
+      "efectos": [
+        "🫓"
+      ],
+      "descripcion": "❤️‍🩹"
+    },
+    {
+      "nombre": "Optimus Prime *Prime*",
+      "calidad": "Secret",
+      "precio": 300000
+    },
+    {
+      "nombre": "Susy Dog",
+      "calidad": "Secret",
+      "precio": 250000
+    },
+    {
+      "nombre": "Las Prostitutas",
+      "calidad": "Secret",
+      "precio": 250000
+    },
+    {
+      "nombre": "Don Palsa 💤",
+      "calidad": "Ultra-Legendario",
+      "precio": 244000,
+      "efectos": [
+        "💤"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Don Pollo y La Salsa"
+    },
+    {
+      "nombre": "PandaBot Patriota 💧",
+      "calidad": "Secret",
+      "precio": 225000,
+      "efectos": [
+        "💧"
+      ]
     },
     {
       "nombre": "Pot Hoicleteira",
@@ -53,6 +2608,83 @@
       "calidad": "Secret",
       "precio": 200000,
       "descripcion": "Personaje fusionado de Garam and Madungdung y Chicleteira Bicicleteira"
+    },
+    {
+      "nombre": "PandaBot-Pintor *💧*",
+      "calidad": "Secret",
+      "precio": 200000,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Uno de los cuantos oficios de PandaBot"
+    },
+    {
+      "nombre": "Salsa *💧*",
+      "calidad": "Secret",
+      "precio": 200000,
+      "efectos": [
+        "Agua"
+      ]
+    },
+    {
+      "nombre": "Osito Perú 🌭 💀",
+      "calidad": "Secret",
+      "precio": 200000,
+      "efectos": [
+        "🌭",
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Los Harrys",
+      "calidad": "Secret",
+      "precio": 200000
+    },
+    {
+      "nombre": "La Grande Combinasion 💤",
+      "calidad": "Secret",
+      "precio": 200000,
+      "efectos": [
+        "💤"
+      ],
+      "descripcion": "De los Brainrots más poderosos, su precio lo dice todo"
+    },
+    {
+      "nombre": "Chotavio 🫓",
+      "calidad": "Ultra-Legendario",
+      "precio": 175000,
+      "efectos": [
+        "🫓"
+      ],
+      "descripcion": "Dios Chotavio, en su momento fue el personaje más poderoso, dicen que es un total misterio en los personajes."
+    },
+    {
+      "nombre": "Trenostruzzo Sarna 3000",
+      "calidad": "Secret",
+      "precio": 150000
+    },
+    {
+      "nombre": "Tun Tun Tun Vergon",
+      "calidad": "Secret",
+      "precio": 150000
+    },
+    {
+      "nombre": "PandaBot Patriota",
+      "calidad": "Secret",
+      "precio": 150000
+    },
+    {
+      "nombre": "Osito Perú 🇨🇱",
+      "calidad": "Secret",
+      "precio": 120000,
+      "efectos": [
+        "🇨🇱"
+      ]
+    },
+    {
+      "nombre": "La Salsa",
+      "calidad": "Secret",
+      "precio": 110000
     },
     {
       "nombre": "PandaBot-Mesero",
@@ -85,10 +2717,177 @@
       "descripcion": "❤️‍🩹"
     },
     {
+      "nombre": "Los Sarneros",
+      "calidad": "Secret",
+      "precio": 100000
+    },
+    {
+      "nombre": "Salsa",
+      "calidad": "Secret",
+      "precio": 100000
+    },
+    {
+      "nombre": "Mique 🌮",
+      "calidad": "Secret",
+      "precio": 100000,
+      "efectos": [
+        "🌮"
+      ],
+      "descripcion": "Viejo amigo de Lukas."
+    },
+    {
+      "nombre": "Chotavio 💀",
+      "calidad": "Ultra-Legendario",
+      "precio": 100000,
+      "efectos": [
+        "💀"
+      ],
+      "descripcion": "Dios Chotavio, en su momento fue el personaje más poderoso, dicen que es un total misterio en los personajes."
+    },
+    {
+      "nombre": "Los Harrys 💤",
+      "calidad": "Secret",
+      "precio": 100000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Anomaly 🌮",
+      "calidad": "Secret",
+      "precio": 80000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "💜 *🕷️*",
+      "calidad": "Secret",
+      "precio": 75000,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "💜"
+    },
+    {
+      "nombre": "Chotavio 🌮 💤",
+      "calidad": "Ultra-Legendario",
+      "precio": 75000,
+      "efectos": [
+        "🌮",
+        "💤"
+      ],
+      "descripcion": "Dios Chotavio, en su momento fue el personaje más poderoso, dicen que es un total misterio en los personajes."
+    },
+    {
+      "nombre": "Hitler 🇧🇷",
+      "calidad": "Ultra-Legendario",
+      "precio": 64800,
+      "efectos": [
+        "🇧🇷"
+      ],
+      "descripcion": "...💀"
+    },
+    {
+      "nombre": "pene *💧*",
+      "calidad": "Ultra-Legendario",
+      "precio": 20000,
+      "efectos": [
+        "Agua"
+      ]
+    },
+    {
+      "nombre": "La Sahur Combinasion 🌮",
+      "calidad": "Secret",
+      "precio": 60000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "La Salsa 💤",
+      "calidad": "Secret",
+      "precio": 55000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Las Sis *🕷️*",
+      "calidad": "Secret",
+      "precio": 54000,
+      "efectos": [
+        "Araña"
+      ]
+    },
+    {
+      "nombre": "Las Sis 🕷",
+      "calidad": "Secret",
+      "precio": 54000,
+      "efectos": [
+        "🕷"
+      ]
+    },
+    {
+      "nombre": "Los Playtestersitos 🫓",
+      "calidad": "Secret",
+      "precio": 52500,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
       "nombre": "Chotavio",
       "calidad": "Ultra-Legendario",
       "precio": 50000,
       "descripcion": "Dios Chotavio, en su momento fue el personaje más poderoso, dicen que es un total misterio en los personajes."
+    },
+    {
+      "nombre": "U. De Chile",
+      "calidad": "Secret",
+      "precio": 50000
+    },
+    {
+      "nombre": "pene 🌭",
+      "calidad": "Ultra-Legendario",
+      "precio": 40000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Lukas Owner 🌭",
+      "calidad": "Ultra-Legendario",
+      "precio": 47500,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Dragon Canelloni 💧",
+      "calidad": "Secret",
+      "precio": 45000,
+      "efectos": [
+        "💧"
+      ],
+      "descripcion": "Qué tan difícil es obtener a este personaje en Steal a Brainrot?"
+    },
+    {
+      "nombre": "kazutora hanemiya *🌶️*",
+      "calidad": "legendario",
+      "precio": 42000,
+      "efectos": [
+        "Chile"
+      ]
+    },
+    {
+      "nombre": "Brell Toilet 💧 🫓",
+      "calidad": "legendario",
+      "precio": 42000,
+      "efectos": [
+        "💧",
+        "🫓"
+      ]
     },
     {
       "nombre": "Miguelito y Lukas",
@@ -97,10 +2896,241 @@
       "descripcion": "Los Programadores de PandaBot.🐼"
     },
     {
+      "nombre": "Lukas Sec *💧*",
+      "calidad": "Desconocido",
+      "precio": 40000,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "La cuenta sec de Lukas, tan valiosa como un diamante."
+    },
+    {
+      "nombre": "Chicleteira Bicicleteira *💧*",
+      "calidad": "Secret",
+      "precio": 40000,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Brainrot dificilísimo de encontrar, pertenece al último grupo de Brainrots lanzados"
+    },
+    {
+      "nombre": "Las Vaquitas Saturnitas 💀",
+      "calidad": "Secret",
+      "precio": 40000,
+      "efectos": [
+        "💀"
+      ],
+      "descripcion": "Gran Brainrot que es invocado gracias al ritual realizado con 3 vaccas normales."
+    },
+    {
+      "nombre": "Anomaly 💀",
+      "calidad": "Secret",
+      "precio": 40000,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "222 j *🌮*",
+      "calidad": "Ultra-Legendario",
+      "precio": 37500,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Personaje fusionado de 222 y Milo j"
+    },
+    {
+      "nombre": "Josexo y Josefino 💧",
+      "calidad": "Secret",
+      "precio": 37500,
+      "efectos": [
+        "💧"
+      ],
+      "descripcion": "Son como Luigi y Mario, inseparables."
+    },
+    {
+      "nombre": "Ibai Prime *Araña*",
+      "calidad": "Ultra-Legendario",
+      "precio": 36000,
+      "efectos": [
+        "Araña"
+      ]
+    },
+    {
+      "nombre": "pene 🫓",
+      "calidad": "Ultra-Legendario",
+      "precio": 35000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Supeoi 🌭",
+      "calidad": "legendario",
+      "precio": 35000,
+      "efectos": [
+        "🌭"
+      ],
+      "descripcion": "Personaje fusionado de Superman y Choi"
+    },
+    {
+      "nombre": "Lilan Waifu 🇨🇱",
+      "calidad": "legendario",
+      "precio": 35000,
+      "efectos": [
+        "🇨🇱"
+      ]
+    },
+    {
+      "nombre": "Snorlax 🇨🇱",
+      "calidad": "mítico",
+      "precio": 33600,
+      "efectos": [
+        "🇨🇱"
+      ]
+    },
+    {
+      "nombre": "Hitler 💧",
+      "calidad": "Ultra-Legendario",
+      "precio": 32400,
+      "efectos": [
+        "💧"
+      ],
+      "descripcion": "...💀"
+    },
+    {
       "nombre": "Dragon Canelloni",
       "calidad": "Secret",
       "precio": 30000,
       "descripcion": "Qué tan difícil es obtener a este personaje en Steal a Brainrot?"
+    },
+    {
+      "nombre": "pene *🕷️*",
+      "calidad": "Ultra-Legendario",
+      "precio": 30000,
+      "efectos": [
+        "Araña"
+      ]
+    },
+    {
+      "nombre": "La Extinct Grande",
+      "calidad": "Secret",
+      "precio": 30000
+    },
+    {
+      "nombre": "Spaghetti Tualetti",
+      "calidad": "Secret",
+      "precio": 30000
+    },
+    {
+      "nombre": "222 j 💀",
+      "calidad": "Ultra-Legendario",
+      "precio": 22500,
+      "efectos": [
+        "💀"
+      ],
+      "descripcion": "Personaje fusionado de 222 y Milo j"
+    },
+    {
+      "nombre": "pene 🕷",
+      "calidad": "Ultra-Legendario",
+      "precio": 30000,
+      "efectos": [
+        "🕷"
+      ]
+    },
+    {
+      "nombre": "La Sahur Combinasion 💧",
+      "calidad": "Secret",
+      "precio": 30000,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "pene 🇨🇴",
+      "calidad": "Ultra-Legendario",
+      "precio": 30000,
+      "efectos": [
+        "🇨🇴"
+      ]
+    },
+    {
+      "nombre": "Tajín 🫔",
+      "calidad": "legendario",
+      "precio": 29000,
+      "efectos": [
+        "🫔"
+      ],
+      "descripcion": "Tajín muestra la picha"
+    },
+    {
+      "nombre": "33Prime 💧",
+      "calidad": "Ultra-Legendario",
+      "precio": 28500,
+      "efectos": [
+        "💧"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de 333 y Ibai Prime"
+    },
+    {
+      "nombre": "Conker 🕷 🫓",
+      "calidad": "épico",
+      "precio": 28350,
+      "efectos": [
+        "🕷",
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Jirafa Celestre *🌮*",
+      "calidad": "legendario",
+      "precio": 28000,
+      "efectos": [
+        "Tacos"
+      ]
+    },
+    {
+      "nombre": "Sang-Woo *Araña*",
+      "calidad": "legendario",
+      "precio": 27000,
+      "efectos": [
+        "Araña"
+      ]
+    },
+    {
+      "nombre": "Messi 🫓",
+      "calidad": "Ultra-Legendario",
+      "precio": 27000,
+      "efectos": [
+        "🫓"
+      ],
+      "descripcion": "El 2ndo mejor futbolista de la historia."
+    },
+    {
+      "nombre": "Messi 🌮",
+      "calidad": "Ultra-Legendario",
+      "precio": 27000,
+      "efectos": [
+        "🌮"
+      ],
+      "descripcion": "El 2ndo mejor futbolista de la historia."
+    },
+    {
+      "nombre": "Snorlax 🍬",
+      "calidad": "mítico",
+      "precio": 26880,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Snorlax 🌭",
+      "calidad": "mítico",
+      "precio": 26880,
+      "efectos": [
+        "🌭"
+      ]
     },
     {
       "nombre": "Tracotucotulu Delapeladustuz",
@@ -133,6 +3163,33 @@
       "descripcion": "Son como Luigi y Mario, inseparables."
     },
     {
+      "nombre": "Celular de Lukas",
+      "calidad": "Secret",
+      "precio": 25000
+    },
+    {
+      "nombre": "Las Chicleteiras",
+      "calidad": "Secret",
+      "precio": 25000
+    },
+    {
+      "nombre": "Chotavio 💤",
+      "calidad": "Ultra-Legendario",
+      "precio": 25000,
+      "efectos": [
+        "💤"
+      ],
+      "descripcion": "Dios Chotavio, en su momento fue el personaje más poderoso, dicen que es un total misterio en los personajes."
+    },
+    {
+      "nombre": "Old Lukas *💧*",
+      "calidad": "Ultra-Legendario",
+      "precio": 24000,
+      "efectos": [
+        "Agua"
+      ]
+    },
+    {
       "nombre": "Brr Brr  Prime",
       "calidad": "Ultra-Legendario",
       "precio": 22000,
@@ -145,16 +3202,28 @@
       "descripcion": "...💀"
     },
     {
-      "nombre": "Lukas Sec",
-      "calidad": "Desconocido",
-      "precio": 20000,
-      "descripcion": "La cuenta sec de Lukas, tan valiosa como un diamante."
+      "nombre": "Jirafa Celestre *🕷️*",
+      "calidad": "legendario",
+      "precio": 21000,
+      "efectos": [
+        "Araña"
+      ]
     },
     {
-      "nombre": "toni kroos",
-      "calidad": "icono",
-      "precio": 20000,
-      "descripcion": "Icónico futbolista, de los mejores mediocampistas de la historia, su legado se mantiene hasta el día de hoy."
+      "nombre": "Chishiya *🕷️*",
+      "calidad": "legendario",
+      "precio": 21000,
+      "efectos": [
+        "Araña"
+      ]
+    },
+    {
+      "nombre": "Snorlax 🇧🇷",
+      "calidad": "mítico",
+      "precio": 20160,
+      "efectos": [
+        "🇧🇷"
+      ]
     },
     {
       "nombre": "Pot Hotspot",
@@ -185,6 +3254,64 @@
       "precio": 20000
     },
     {
+      "nombre": "La Karkerkar Combinasion",
+      "calidad": "Secret",
+      "precio": 20000
+    },
+    {
+      "nombre": "Ketupat Kepat",
+      "calidad": "Secret",
+      "precio": 20000
+    },
+    {
+      "nombre": "Celularini Viciosini",
+      "calidad": "Secret",
+      "precio": 20000
+    },
+    {
+      "nombre": "La Sahur Combinasion",
+      "calidad": "Secret",
+      "precio": 20000
+    },
+    {
+      "nombre": "Kuzuryu",
+      "calidad": "Secret",
+      "precio": 20000
+    },
+    {
+      "nombre": "Aguni",
+      "calidad": "Secret",
+      "precio": 20000
+    },
+    {
+      "nombre": "Anomaly",
+      "calidad": "Secret",
+      "precio": 20000
+    },
+    {
+      "nombre": "Osito Perú",
+      "calidad": "Secret",
+      "precio": 20000
+    },
+    {
+      "nombre": "Cukii *💧*",
+      "calidad": "Ultra-Legendario",
+      "precio": 20000,
+      "efectos": [
+        "Agua"
+      ]
+    },
+    {
+      "nombre": "Tacorita Bicicleta",
+      "calidad": "Secret",
+      "precio": 20000
+    },
+    {
+      "nombre": "Banda",
+      "calidad": "Secret",
+      "precio": 20000
+    },
+    {
       "nombre": "33Prime",
       "calidad": "Ultra-Legendario",
       "precio": 19000,
@@ -197,9 +3324,41 @@
       "descripcion": "Personaje fusionado por un VIP de Román y MiPene"
     },
     {
+      "nombre": "Gyye *💧🫓*",
+      "calidad": "épico",
+      "precio": 18375,
+      "efectos": [
+        "Agua",
+        "Sopaipillas"
+      ]
+    },
+    {
+      "nombre": "nidorina *🌈*",
+      "calidad": "común",
+      "precio": 18000,
+      "efectos": [
+        "Rainbow",
+        "Lava"
+      ],
+      "descripcion": "Versión modificada de nidorina con efectos."
+    },
+    {
+      "nombre": "Las Sis",
+      "calidad": "Secret",
+      "precio": 18000
+    },
+    {
       "nombre": "Los Nooo My Hotspotsitos",
       "calidad": "Secret",
       "precio": 16000
+    },
+    {
+      "nombre": "Peach *🌮*",
+      "calidad": "épico",
+      "precio": 15200,
+      "efectos": [
+        "Tacos"
+      ]
     },
     {
       "nombre": "222",
@@ -235,10 +3394,79 @@
       "precio": 15000
     },
     {
+      "nombre": "Karkerkar Kurkur",
+      "calidad": "Secret",
+      "precio": 15000
+    },
+    {
+      "nombre": "Los Bros",
+      "calidad": "Secret",
+      "precio": 15000
+    },
+    {
+      "nombre": "Trenostruzzo Turbo 4000",
+      "calidad": "Secret",
+      "precio": 15000
+    },
+    {
+      "nombre": "Joakinho",
+      "calidad": "Secret",
+      "precio": 15000
+    },
+    {
+      "nombre": "Los Kennedysitos *💧*",
+      "calidad": "Ultra-Legendario",
+      "precio": 14000,
+      "efectos": [
+        "Agua"
+      ]
+    },
+    {
+      "nombre": "Snorlax 💀",
+      "calidad": "mítico",
+      "precio": 13440,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "Naruto *💧*",
+      "calidad": "legendario",
+      "precio": 13400,
+      "efectos": [
+        "Agua"
+      ]
+    },
+    {
       "nombre": "Rorno Saturnita",
       "calidad": "Ultra-Legendario",
       "precio": 12966,
       "descripcion": "Personaje fusionado por un VIP de Roro y La Vacca Saturno Saturnita"
+    },
+    {
+      "nombre": "Wendy Marvell *🕷️*",
+      "calidad": "mítico",
+      "precio": 12600,
+      "efectos": [
+        "Araña"
+      ]
+    },
+    {
+      "nombre": "Batman *💧*",
+      "calidad": "legendario",
+      "precio": 12600,
+      "efectos": [
+        "Agua"
+      ]
+    },
+    {
+      "nombre": "Kit 💀",
+      "calidad": "legendario",
+      "precio": 12600,
+      "efectos": [
+        "💀"
+      ],
+      "descripcion": "El Brawler favorito del creador.🙌"
     },
     {
       "nombre": "Ibai Prime",
@@ -288,6 +3516,49 @@
       "precio": 12000
     },
     {
+      "nombre": "Extinct Tralalero",
+      "calidad": "Ultra-Legendario",
+      "precio": 12000
+    },
+    {
+      "nombre": "La Suki Bot",
+      "calidad": "Ultra-Legendario",
+      "precio": 12000
+    },
+    {
+      "nombre": "Darkness *🫓*",
+      "calidad": "épico",
+      "precio": 11900,
+      "efectos": [
+        "Sopaipillas"
+      ]
+    },
+    {
+      "nombre": "Messi 💧",
+      "calidad": "Ultra-Legendario",
+      "precio": 11700,
+      "efectos": [
+        "💧"
+      ],
+      "descripcion": "El 2ndo mejor futbolista de la historia."
+    },
+    {
+      "nombre": "Miguelito 🍬",
+      "calidad": "legendario",
+      "precio": 11600,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Marisa *🫓*",
+      "calidad": "épico",
+      "precio": 11550,
+      "efectos": [
+        "Sopaipillas"
+      ]
+    },
+    {
       "nombre": "Mat Man",
       "calidad": "Ultra-Legendario",
       "precio": 11200,
@@ -299,13 +3570,45 @@
       "precio": 11000
     },
     {
-      "nombre": "Lukas Prime",
-      "calidad": "Ultra-Legendario",
-      "precio": 10000
+      "nombre": "Shrek *💧*",
+      "calidad": "mítico",
+      "precio": 11000,
+      "efectos": [
+        "Agua"
+      ]
     },
     {
-      "nombre": "MiPene",
-      "calidad": "Legendario",
+      "nombre": "Los Joakinhos",
+      "calidad": "Secret",
+      "precio": 11000
+    },
+    {
+      "nombre": "Pandaccini Bananini 🥟",
+      "calidad": "épico",
+      "precio": 10500,
+      "efectos": [
+        "Empanadas"
+      ]
+    },
+    {
+      "nombre": "Gyye 🌮",
+      "calidad": "épico",
+      "precio": 10500,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Snorlax 💧",
+      "calidad": "mítico",
+      "precio": 10080,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "Lukas Prime",
+      "calidad": "Ultra-Legendario",
       "precio": 10000
     },
     {
@@ -337,11 +3640,6 @@
     {
       "nombre": "Kennedy",
       "calidad": "Ultra-Legendario",
-      "precio": 10000
-    },
-    {
-      "nombre": "Brawlygd",
-      "calidad": "Ultra-legendario",
       "precio": 10000
     },
     {
@@ -392,6 +3690,29 @@
       "precio": 10000
     },
     {
+      "nombre": "Job Job Job Sahur",
+      "calidad": "Ultra-Legendario",
+      "precio": 10000
+    },
+    {
+      "nombre": "Oskar",
+      "calidad": "Ultra-Legendario",
+      "precio": 10000
+    },
+    {
+      "nombre": "Extinct Ballerina",
+      "calidad": "Ultra-Legendario",
+      "precio": 10000
+    },
+    {
+      "nombre": "Anomaly 💤",
+      "calidad": "Secret",
+      "precio": 10000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
       "nombre": "AntonhyPrime 2008",
       "calidad": "legendario",
       "precio": 9999
@@ -402,19 +3723,17 @@
       "precio": 9999
     },
     {
-      "nombre": "Lukas Owner",
-      "calidad": "Ultra-Legendario",
-      "precio": 9500
+      "nombre": "Zenitsu *💧*",
+      "calidad": "mítico",
+      "precio": 9400,
+      "efectos": [
+        "Agua"
+      ]
     },
     {
       "nombre": "Diogo Jota",
       "calidad": "legendario",
       "precio": 9020
-    },
-    {
-      "nombre": "Lukas",
-      "calidad": "Ultra-Legendario",
-      "precio": 9000
     },
     {
       "nombre": "Román",
@@ -454,9 +3773,22 @@
       "descripcion": "El 2ndo mejor futbolista de la historia."
     },
     {
-      "nombre": "Robertito",
-      "calidad": "mitico",
+      "nombre": "John Pork",
+      "calidad": "Ultra-Legendario",
       "precio": 9000
+    },
+    {
+      "nombre": "Mamba",
+      "calidad": "Ultra-Legendario",
+      "precio": 9000
+    },
+    {
+      "nombre": "Jake *🌶️*",
+      "calidad": "raro",
+      "precio": 8400,
+      "efectos": [
+        "Chile"
+      ]
     },
     {
       "nombre": "jodan con thiago q es necesitado y yo no",
@@ -501,6 +3833,26 @@
       "precio": 8000
     },
     {
+      "nombre": "Los Orcalitos",
+      "calidad": "legendario",
+      "precio": 8000
+    },
+    {
+      "nombre": "Brell Toilet",
+      "calidad": "legendario",
+      "precio": 8000
+    },
+    {
+      "nombre": "Mica",
+      "calidad": "legendario",
+      "precio": 8000
+    },
+    {
+      "nombre": "Dexter",
+      "calidad": "legendario",
+      "precio": 8000
+    },
+    {
       "nombre": "Mad Max",
       "calidad": "legendario",
       "precio": 7800
@@ -511,15 +3863,18 @@
       "precio": 7777
     },
     {
-      "nombre": "Jh delacruz",
-      "calidad": "epico",
-      "precio": 7777
-    },
-    {
       "nombre": "Josexo",
       "calidad": "Ultra-Legendario",
       "precio": 7500,
       "descripcion": "Simplemente josexo"
+    },
+    {
+      "nombre": "Los Playtestersitos 💤",
+      "calidad": "Secret",
+      "precio": 7500,
+      "efectos": [
+        "💤"
+      ]
     },
     {
       "nombre": "Goku",
@@ -573,12 +3928,6 @@
       "precio": 7000
     },
     {
-      "nombre": "333",
-      "calidad": "Legendario",
-      "precio": 7000,
-      "descripcion": "El rey de los edits de Squid Game, de los mejores jugadores en mi opinión."
-    },
-    {
       "nombre": "222 bebe",
       "calidad": "legendario",
       "precio": 7000
@@ -626,11 +3975,6 @@
     {
       "nombre": "dildo2",
       "calidad": "legendario",
-      "precio": 7000
-    },
-    {
-      "nombre": "Luka Modric",
-      "calidad": "Ícono",
       "precio": 7000
     },
     {
@@ -708,6 +4052,21 @@
       "descripcion": "Personaje fusionado de Superman y Choi"
     },
     {
+      "nombre": "Los Kennedysitos",
+      "calidad": "Ultra-Legendario",
+      "precio": 7000
+    },
+    {
+      "nombre": "Las Capuchinas",
+      "calidad": "legendario",
+      "precio": 7000
+    },
+    {
+      "nombre": "Taylor Swift",
+      "calidad": "legendario",
+      "precio": 7000
+    },
+    {
       "nombre": "Vegeta",
       "calidad": "legendario",
       "precio": 6900
@@ -716,6 +4075,14 @@
       "nombre": "Saitama",
       "calidad": "legendario",
       "precio": 6800
+    },
+    {
+      "nombre": "Frigo Camelo *💧*",
+      "calidad": "mítico",
+      "precio": 6800,
+      "efectos": [
+        "Agua"
+      ]
     },
     {
       "nombre": "Snorlax",
@@ -766,6 +4133,15 @@
       "nombre": "Chimpanzini Spiderini",
       "calidad": "legendario",
       "precio": 6500
+    },
+    {
+      "nombre": "Rorno Saturnita 💤",
+      "calidad": "Ultra-Legendario",
+      "precio": 6483,
+      "efectos": [
+        "💤"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Roro y La Vacca Saturno Saturnita"
     },
     {
       "nombre": "Eren",
@@ -909,11 +4285,6 @@
       "precio": 6000
     },
     {
-      "nombre": "Mike",
-      "calidad": "mitico",
-      "precio": 6000
-    },
-    {
       "nombre": "Will",
       "calidad": "mítico",
       "precio": 6000
@@ -925,6 +4296,21 @@
     },
     {
       "nombre": "Trigroligre Frutonni",
+      "calidad": "legendario",
+      "precio": 6000
+    },
+    {
+      "nombre": "Tipi Topi Taco",
+      "calidad": "legendario",
+      "precio": 6000
+    },
+    {
+      "nombre": "Los Tipi Tacos",
+      "calidad": "legendario",
+      "precio": 6000
+    },
+    {
+      "nombre": "Ryuji",
       "calidad": "legendario",
       "precio": 6000
     },
@@ -1089,6 +4475,14 @@
       "precio": 5400
     },
     {
+      "nombre": "Miku *💧*",
+      "calidad": "épico",
+      "precio": 5400,
+      "efectos": [
+        "Agua"
+      ]
+    },
+    {
       "nombre": "Link",
       "calidad": "mítico",
       "precio": 5300
@@ -1159,6 +4553,14 @@
       "precio": 5100
     },
     {
+      "nombre": "Pato Macdonal 💀",
+      "calidad": "raro",
+      "precio": 5056,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
       "nombre": "Charizard",
       "calidad": "mítico",
       "precio": 5000
@@ -1186,11 +4588,6 @@
     {
       "nombre": "Valen",
       "calidad": "mítico",
-      "precio": 5000
-    },
-    {
-      "nombre": "Ansu Fati",
-      "calidad": "epico",
       "precio": 5000
     },
     {
@@ -1265,16 +4662,6 @@
       "precio": 4800
     },
     {
-      "nombre": "Carre",
-      "calidad": "mitico",
-      "precio": 4800
-    },
-    {
-      "nombre": "Kapi",
-      "calidad": "mitico",
-      "precio": 4800
-    },
-    {
       "nombre": "Orcalero Orcala",
       "calidad": "mítico",
       "precio": 4800
@@ -1315,11 +4702,6 @@
       "precio": 4800
     },
     {
-      "nombre": "Girafa Celestre",
-      "calidad": "Mítico",
-      "precio": 4800
-    },
-    {
       "nombre": "Saramalacara",
       "calidad": "mítico",
       "precio": 4800
@@ -1338,6 +4720,16 @@
       "nombre": "YSY A",
       "calidad": "mítico",
       "precio": 4800
+    },
+    {
+      "nombre": "quilava *🌮💧*",
+      "calidad": "común",
+      "precio": 4800,
+      "efectos": [
+        "Tacos",
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: quilava"
     },
     {
       "nombre": "Zenitsu",
@@ -1371,11 +4763,6 @@
       "precio": 4600
     },
     {
-      "nombre": "Nancy",
-      "calidad": "mitico",
-      "precio": 4600
-    },
-    {
       "nombre": "Guts",
       "calidad": "mítico",
       "precio": 4500
@@ -1386,14 +4773,14 @@
       "precio": 4500
     },
     {
-      "nombre": "Slenderman",
-      "calidad": "epico",
-      "precio": 4500
-    },
-    {
-      "nombre": "Zlatan Ibramovich",
-      "calidad": "Mítico",
-      "precio": 4500
+      "nombre": "castform-rainy *🍬🕷️*",
+      "calidad": "común",
+      "precio": 4500,
+      "efectos": [
+        "Chicle",
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: castform-rainy"
     },
     {
       "nombre": "Gerard",
@@ -1536,6 +4923,14 @@
       "precio": 3800
     },
     {
+      "nombre": "Pato Macdonal 💧",
+      "calidad": "raro",
+      "precio": 3792,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
       "nombre": "Sonic",
       "calidad": "épico",
       "precio": 3700
@@ -1586,6 +4981,25 @@
       "precio": 3600
     },
     {
+      "nombre": "beedrill *🌮🕷️*",
+      "calidad": "común",
+      "precio": 3600,
+      "efectos": [
+        "Tacos",
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: beedrill"
+    },
+    {
+      "nombre": "Messi 💤",
+      "calidad": "Ultra-Legendario",
+      "precio": 3600,
+      "efectos": [
+        "💤"
+      ],
+      "descripcion": "El 2ndo mejor futbolista de la historia."
+    },
+    {
       "nombre": "Megumin",
       "calidad": "épico",
       "precio": 3500
@@ -1611,6 +5025,11 @@
       "precio": 3500
     },
     {
+      "nombre": "Gyye",
+      "calidad": "épico",
+      "precio": 3500
+    },
+    {
       "nombre": "Darkness",
       "calidad": "épico",
       "precio": 3400
@@ -1621,14 +5040,17 @@
       "precio": 3400
     },
     {
-      "nombre": "Rudiger",
-      "calidad": "Raro",
-      "precio": 3400
-    },
-    {
       "nombre": "Frigo Camelo",
       "calidad": "mítico",
       "precio": 3400
+    },
+    {
+      "nombre": "Snorlax 💤",
+      "calidad": "mítico",
+      "precio": 3360,
+      "efectos": [
+        "💤"
+      ]
     },
     {
       "nombre": "Marisa",
@@ -1681,6 +5103,11 @@
       "precio": 3000
     },
     {
+      "nombre": "Morochi",
+      "calidad": "épico",
+      "precio": 3000
+    },
+    {
       "nombre": "Crash Bandicoot",
       "calidad": "épico",
       "precio": 2900
@@ -1709,6 +5136,14 @@
       "nombre": "Conker",
       "calidad": "épico",
       "precio": 2700
+    },
+    {
+      "nombre": "Talpa di Fero *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ]
     },
     {
       "nombre": "Sora",
@@ -1756,6 +5191,14 @@
       "precio": 2500
     },
     {
+      "nombre": "Perochello Lemonchello 🫓",
+      "calidad": "raro",
+      "precio": 2450,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
       "nombre": "Gwen",
       "calidad": "raro",
       "precio": 2400
@@ -1769,6 +5212,14 @@
       "nombre": "Clank",
       "calidad": "épico",
       "precio": 2400
+    },
+    {
+      "nombre": "TaTaTaTaTaTa Sahur 💤",
+      "calidad": "mítico",
+      "precio": 2400,
+      "efectos": [
+        "💤"
+      ]
     },
     {
       "nombre": "Kevin",
@@ -1812,8 +5263,8 @@
     },
     {
       "nombre": "Gary",
-      "calidad": "raro",
-      "precio": 2100
+      "calidad": "común",
+      "precio": 300
     },
     {
       "nombre": "Lara Croft",
@@ -1901,6 +5352,53 @@
       "precio": 1800
     },
     {
+      "nombre": "scyther *🕷️💧*",
+      "calidad": "común",
+      "precio": 1800,
+      "efectos": [
+        "Araña",
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: scyther"
+    },
+    {
+      "nombre": "vanillite *🕷️*",
+      "calidad": "común",
+      "precio": 1800,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: vanillite"
+    },
+    {
+      "nombre": "aegislash-shield *🌶️*",
+      "calidad": "común",
+      "precio": 1800,
+      "efectos": [
+        "Chile"
+      ],
+      "descripcion": "Pokémon oficial: aegislash-shield"
+    },
+    {
+      "nombre": "salamence *🌶️*",
+      "calidad": "común",
+      "precio": 1800,
+      "efectos": [
+        "Chile"
+      ],
+      "descripcion": "Pokémon oficial: salamence"
+    },
+    {
+      "nombre": "sableye-mega *🕷️💧*",
+      "calidad": "común",
+      "precio": 1800,
+      "efectos": [
+        "Araña",
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: sableye-mega"
+    },
+    {
       "nombre": "Cuphead",
       "calidad": "raro",
       "precio": 1700
@@ -1936,6 +5434,14 @@
       "precio": 1600
     },
     {
+      "nombre": "Pikachu *💧*",
+      "calidad": "común",
+      "precio": 1600,
+      "efectos": [
+        "Agua"
+      ]
+    },
+    {
       "nombre": "Ori",
       "calidad": "raro",
       "precio": 1500
@@ -1956,6 +5462,96 @@
       "precio": 1500
     },
     {
+      "nombre": "omanyte *🍬*",
+      "calidad": "común",
+      "precio": 1500,
+      "efectos": [
+        "Chicle"
+      ],
+      "descripcion": "Pokémon oficial: omanyte"
+    },
+    {
+      "nombre": "gyarados *🍬*",
+      "calidad": "común",
+      "precio": 1500,
+      "efectos": [
+        "Chicle"
+      ],
+      "descripcion": "Pokémon oficial: gyarados"
+    },
+    {
+      "nombre": "seadra *🍬*",
+      "calidad": "común",
+      "precio": 1500,
+      "efectos": [
+        "Chicle"
+      ],
+      "descripcion": "Pokémon oficial: seadra"
+    },
+    {
+      "nombre": "gouging-fire *🍬*",
+      "calidad": "común",
+      "precio": 1500,
+      "efectos": [
+        "Chicle"
+      ],
+      "descripcion": "Pokémon oficial: gouging-fire"
+    },
+    {
+      "nombre": "electrode *🍬*",
+      "calidad": "común",
+      "precio": 1500,
+      "efectos": [
+        "Chicle"
+      ],
+      "descripcion": "Pokémon oficial: electrode"
+    },
+    {
+      "nombre": "oddish *🍬*",
+      "calidad": "común",
+      "precio": 1500,
+      "efectos": [
+        "Chicle"
+      ],
+      "descripcion": "Pokémon oficial: oddish"
+    },
+    {
+      "nombre": "tauros-paldea-aqua-breed *🫔*",
+      "calidad": "común",
+      "precio": 1500,
+      "efectos": [
+        "🫔"
+      ],
+      "descripcion": "Pokémon oficial: tauros-paldea-aqua-breed"
+    },
+    {
+      "nombre": "sneasel-hisui 🍬",
+      "calidad": "común",
+      "precio": 1500,
+      "efectos": [
+        "🍬"
+      ],
+      "descripcion": "Pokémon oficial: sneasel-hisui"
+    },
+    {
+      "nombre": "steelix-mega 🌭",
+      "calidad": "común",
+      "precio": 1500,
+      "efectos": [
+        "🌭"
+      ],
+      "descripcion": "Pokémon oficial: steelix-mega"
+    },
+    {
+      "nombre": "armaldo 🌭",
+      "calidad": "común",
+      "precio": 1500,
+      "efectos": [
+        "🌭"
+      ],
+      "descripcion": "Pokémon oficial: armaldo"
+    },
+    {
       "nombre": "Finn",
       "calidad": "raro",
       "precio": 1400
@@ -1964,6 +5560,14 @@
       "nombre": "Jake",
       "calidad": "raro",
       "precio": 1400
+    },
+    {
+      "nombre": "Anais *💧*",
+      "calidad": "raro",
+      "precio": 1400,
+      "efectos": [
+        "Agua"
+      ]
     },
     {
       "nombre": "Marceline",
@@ -1986,6 +5590,159 @@
       "precio": 1200
     },
     {
+      "nombre": "cofagrigus *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: cofagrigus"
+    },
+    {
+      "nombre": "frogadier *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: frogadier"
+    },
+    {
+      "nombre": "croconaw *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: croconaw"
+    },
+    {
+      "nombre": "porygon2 *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: porygon2"
+    },
+    {
+      "nombre": "kabuto *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: kabuto"
+    },
+    {
+      "nombre": "seadra *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: seadra"
+    },
+    {
+      "nombre": "xurkitree *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: xurkitree"
+    },
+    {
+      "nombre": "cloyster *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: cloyster"
+    },
+    {
+      "nombre": "cinderace *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: cinderace"
+    },
+    {
+      "nombre": "solgaleo *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: solgaleo"
+    },
+    {
+      "nombre": "venusaur-mega *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: venusaur-mega"
+    },
+    {
+      "nombre": "slowpoke *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: slowpoke"
+    },
+    {
+      "nombre": "basculin-red-striped *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: basculin-red-striped"
+    },
+    {
+      "nombre": "gumshoos-totem *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: gumshoos-totem"
+    },
+    {
+      "nombre": "sylveon *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: sylveon"
+    },
+    {
+      "nombre": "cosmoem *🌮*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: cosmoem"
+    },
+    {
+      "nombre": "fearow *Tacos*",
+      "calidad": "común",
+      "precio": 1200,
+      "efectos": [
+        "Tacos"
+      ],
+      "descripcion": "Pokémon oficial: fearow"
+    },
+    {
       "nombre": "Mordecai",
       "calidad": "raro",
       "precio": 1100
@@ -1994,6 +5751,24 @@
       "nombre": "Rigby",
       "calidad": "raro",
       "precio": 1100
+    },
+    {
+      "nombre": "vulpix-alola *🫓*",
+      "calidad": "común",
+      "precio": 1050,
+      "efectos": [
+        "Sopaipillas"
+      ],
+      "descripcion": "Pokémon oficial: vulpix-alola"
+    },
+    {
+      "nombre": "lucario 🫓",
+      "calidad": "común",
+      "precio": 1050,
+      "efectos": [
+        "🫓"
+      ],
+      "descripcion": "Pokémon oficial: lucario"
     },
     {
       "nombre": "Pops",
@@ -2021,9 +5796,183 @@
       "precio": 900
     },
     {
-      "nombre": "miguelito sapeño",
-      "calidad": "comun",
-      "precio": 900
+      "nombre": "infernape *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: infernape"
+    },
+    {
+      "nombre": "weavile *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: weavile"
+    },
+    {
+      "nombre": "wailord *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: wailord"
+    },
+    {
+      "nombre": "cutiefly *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: cutiefly"
+    },
+    {
+      "nombre": "machop *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: machop"
+    },
+    {
+      "nombre": "happiny *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: happiny"
+    },
+    {
+      "nombre": "pinsir *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: pinsir"
+    },
+    {
+      "nombre": "articuno *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: articuno"
+    },
+    {
+      "nombre": "omanyte *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: omanyte"
+    },
+    {
+      "nombre": "Old Man Jenkins *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ]
+    },
+    {
+      "nombre": "abra *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: abra"
+    },
+    {
+      "nombre": "manaphy *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: manaphy"
+    },
+    {
+      "nombre": "oddish *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: oddish"
+    },
+    {
+      "nombre": "houndoom-mega *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: houndoom-mega"
+    },
+    {
+      "nombre": "meowth-alola *🕷️*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Araña"
+      ],
+      "descripcion": "Pokémon oficial: meowth-alola"
+    },
+    {
+      "nombre": "kingambit *🍬*",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "Chicle"
+      ],
+      "descripcion": "Pokémon oficial: kingambit"
+    },
+    {
+      "nombre": "zygarde-10 🕷",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "🕷"
+      ],
+      "descripcion": "Pokémon oficial: zygarde-10"
+    },
+    {
+      "nombre": "thievul 🕷",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "🕷"
+      ],
+      "descripcion": "Pokémon oficial: thievul"
+    },
+    {
+      "nombre": "lickilicky 🫓",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "🫓"
+      ],
+      "descripcion": "Pokémon oficial: lickilicky"
+    },
+    {
+      "nombre": "musharna 🫓",
+      "calidad": "común",
+      "precio": 900,
+      "efectos": [
+        "🫓"
+      ],
+      "descripcion": "Pokémon oficial: musharna"
     },
     {
       "nombre": "Pikachu",
@@ -2136,6 +6085,230 @@
       "precio": 600
     },
     {
+      "nombre": "squawkabilly-white-plumage *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: squawkabilly-white-plumage"
+    },
+    {
+      "nombre": "arrokuda *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: arrokuda"
+    },
+    {
+      "nombre": "stoutland *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: stoutland"
+    },
+    {
+      "nombre": "quilava *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: quilava"
+    },
+    {
+      "nombre": "hippopotas *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: hippopotas"
+    },
+    {
+      "nombre": "koraidon *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: koraidon"
+    },
+    {
+      "nombre": "shinx *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: shinx"
+    },
+    {
+      "nombre": "dragonair *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: dragonair"
+    },
+    {
+      "nombre": "vaporeon *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: vaporeon"
+    },
+    {
+      "nombre": "inteleon-gmax *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: inteleon-gmax"
+    },
+    {
+      "nombre": "gholdengo *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: gholdengo"
+    },
+    {
+      "nombre": "mimikyu-totem-disguised *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: mimikyu-totem-disguised"
+    },
+    {
+      "nombre": "numel *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: numel"
+    },
+    {
+      "nombre": "genesect *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: genesect"
+    },
+    {
+      "nombre": "vanillite *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: vanillite"
+    },
+    {
+      "nombre": "seedot *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: seedot"
+    },
+    {
+      "nombre": "herdier *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: herdier"
+    },
+    {
+      "nombre": "kyurem-white *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: kyurem-white"
+    },
+    {
+      "nombre": "kyogre-primal *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: kyogre-primal"
+    },
+    {
+      "nombre": "magnemite *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: magnemite"
+    },
+    {
+      "nombre": "beedrill *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: beedrill"
+    },
+    {
+      "nombre": "ninetales-alola *💧*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: ninetales-alola"
+    },
+    {
+      "nombre": "Tim Cheese *👾*",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "Glitch"
+      ]
+    },
+    {
+      "nombre": "sylveon *🌮* 💤",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "💤"
+      ],
+      "descripcion": "Pokémon oficial: sylveon"
+    },
+    {
+      "nombre": "swellow 💀",
+      "calidad": "común",
+      "precio": 600,
+      "efectos": [
+        "💀"
+      ],
+      "descripcion": "Pokémon oficial: swellow"
+    },
+    {
       "nombre": "Metapod",
       "calidad": "común",
       "precio": 500
@@ -2186,14 +6359,68 @@
       "precio": 500
     },
     {
-      "nombre": "Sapo",
-      "calidad": "comun",
+      "nombre": "Jandeneli Racooni",
+      "calidad": "común",
       "precio": 500
     },
     {
-      "nombre": "sapo de miguelito",
-      "calidad": "comun",
+      "nombre": "Tukita",
+      "calidad": "Mierda",
       "precio": 500
+    },
+    {
+      "nombre": "simisear *💧*",
+      "calidad": "común",
+      "precio": 450,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: simisear"
+    },
+    {
+      "nombre": "dudunsparce-three-segment 💧",
+      "calidad": "común",
+      "precio": 450,
+      "efectos": [
+        "Agua"
+      ],
+      "descripcion": "Pokémon oficial: dudunsparce-three-segment"
+    },
+    {
+      "nombre": "leafeon 💧",
+      "calidad": "común",
+      "precio": 450,
+      "efectos": [
+        "💧"
+      ],
+      "descripcion": "Pokémon oficial: leafeon"
+    },
+    {
+      "nombre": "bouffalant 💧",
+      "calidad": "común",
+      "precio": 450,
+      "efectos": [
+        "💧"
+      ],
+      "descripcion": "Pokémon oficial: bouffalant"
+    },
+    {
+      "nombre": "raticate-totem-alola 💧",
+      "calidad": "común",
+      "precio": 450,
+      "efectos": [
+        "💧"
+      ],
+      "descripcion": "Pokémon oficial: raticate-totem-alola"
+    },
+    {
+      "nombre": "simisear 💧",
+      "calidad": "común",
+      "precio": 450,
+      "efectos": [
+        "💧"
+      ],
+      "descripcion": "Pokémon oficial: simisear"
     },
     {
       "nombre": "Kirby",
@@ -2226,9 +6453,20 @@
       "precio": 400
     },
     {
-      "nombre": "aller",
-      "calidad": "comun",
-      "precio": 400
+      "nombre": "tatadito *💧*",
+      "calidad": "común",
+      "precio": 400,
+      "efectos": [
+        "Agua"
+      ]
+    },
+    {
+      "nombre": "Tim Cheese *🌮*",
+      "calidad": "común",
+      "precio": 400,
+      "efectos": [
+        "Tacos"
+      ]
     },
     {
       "nombre": "machamp",
@@ -2263,11 +6501,6 @@
     },
     {
       "nombre": "Plankton",
-      "calidad": "común",
-      "precio": 300
-    },
-    {
-      "nombre": "Gary",
       "calidad": "común",
       "precio": 300
     },
@@ -10107,6 +14340,26 @@
       "descripcion": "Personaje fusionado de luxray y dodrio"
     },
     {
+      "nombre": "stoutland 💤 💀",
+      "calidad": "común",
+      "precio": 300,
+      "efectos": [
+        "💤",
+        "💀"
+      ],
+      "descripcion": "Pokémon oficial: stoutland"
+    },
+    {
+      "nombre": "koraidon-swimming-build 💧 💤",
+      "calidad": "común",
+      "precio": 225,
+      "efectos": [
+        "💧",
+        "💤"
+      ],
+      "descripcion": "Pokémon oficial: koraidon-swimming-build"
+    },
+    {
       "nombre": "coso",
       "calidad": "común",
       "precio": 200,
@@ -10126,6 +14379,51 @@
       "nombre": "Mi pilin",
       "calidad": "común",
       "precio": 200
+    },
+    {
+      "nombre": "Noobini Pizzanini 🇨🇱",
+      "calidad": "común",
+      "precio": 180,
+      "efectos": [
+        "🇨🇱"
+      ],
+      "descripcion": "El Brainrot mas mierda del juego, su valor es un chiste"
+    },
+    {
+      "nombre": "Noobini Pizzanini 🫔",
+      "calidad": "común",
+      "precio": 150,
+      "efectos": [
+        "🫔"
+      ],
+      "descripcion": "El Brainrot mas mierda del juego, su valor es un chiste"
+    },
+    {
+      "nombre": "paras 💤",
+      "calidad": "común",
+      "precio": 150,
+      "efectos": [
+        "💤"
+      ],
+      "descripcion": "Pokémon oficial: paras"
+    },
+    {
+      "nombre": "beautifly 💤",
+      "calidad": "común",
+      "precio": 150,
+      "efectos": [
+        "💤"
+      ],
+      "descripcion": "Pokémon oficial: beautifly"
+    },
+    {
+      "nombre": "Noobini Pizzanini 🫓",
+      "calidad": "común",
+      "precio": 105,
+      "efectos": [
+        "🫓"
+      ],
+      "descripcion": "El Brainrot mas mierda del juego, su valor es un chiste"
     },
     {
       "nombre": "Tim Cheese",
@@ -10170,135 +14468,570 @@
       "descripcion": "Personaje Infravalorado, su valor fue un fallo de fábrica lo que hace que sea fácil de conseguir."
     },
     {
-      "nombre": "Los_Kennedysitos",
-      "calidad": "Ultra-Legendario",
-      "precio": 7000
-    },
-    {
-      "nombre": "nidorina *Rainbow* *Lava*",
-      "calidad": "común",
-      "precio": 18000,
+      "nombre": "Novia De Lukas 💩",
+      "calidad": "OG",
+      "precio": 0,
       "efectos": [
-        "Rainbow",
-        "Lava"
+        "💩"
       ],
-      "descripcion": "Versión modificada de nidorina con efectos."
+      "descripcion": "💗"
     },
     {
-      "nombre": "La Grande Combinasion *Lava*",
-      "calidad": "Secret",
-      "precio": 3000000,
+      "nombre": "Tom Ass 👾 💩",
+      "calidad": "OG",
+      "precio": 0,
       "efectos": [
-        "Lava"
-      ],
-      "descripcion": "Versión modificada de La Grande Combinasion con efectos."
-    },
-    {
-      "nombre": "Cristo Rey *Lava* *Glitch* *Rainbow* *Tacos* *Araña*",
-      "calidad": "GOD",
-      "precio": 28800000000,
-      "efectos": [
-        "Lava",
-        "Glitch",
-        "Rainbow",
-        "Tacos",
-        "Araña"
-      ],
-      "descripcion": "Versión modificada de Cristo Rey con efectos."
-    },
-    {
-      "nombre": "infernape *Araña*",
-      "calidad": "común",
-      "precio": 900,
-      "efectos": [
-        "Araña"
-      ],
-      "descripcion": "Pokémon oficial: infernape"
-    },
-    {
-      "nombre": "Wendy Marvell *Araña*",
-      "calidad": "mítico",
-      "precio": 12600,
-      "efectos": [
-        "Araña"
+        "👾",
+        "💩"
       ]
     },
     {
-      "nombre": "cofagrigus *Tacos*",
-      "calidad": "común",
-      "precio": 1200,
+      "nombre": "Hermes 💩",
+      "calidad": "GOD",
+      "precio": 0,
       "efectos": [
-        "Tacos"
-      ],
-      "descripcion": "Pokémon oficial: cofagrigus"
+        "💩"
+      ]
     },
     {
-      "nombre": "frogadier *Tacos*",
-      "calidad": "común",
-      "precio": 1200,
+      "nombre": "Afrodita 💩",
+      "calidad": "GOD",
+      "precio": 0,
       "efectos": [
-        "Tacos"
-      ],
-      "descripcion": "Pokémon oficial: frogadier"
+        "💩"
+      ]
     },
     {
-      "nombre": "weavile *Araña*",
-      "calidad": "común",
-      "precio": 900,
+      "nombre": "Hera 💩",
+      "calidad": "GOD",
+      "precio": 0,
       "efectos": [
-        "Araña"
-      ],
-      "descripcion": "Pokémon oficial: weavile"
+        "💩"
+      ]
     },
     {
-      "nombre": "croconaw *Tacos*",
-      "calidad": "común",
-      "precio": 1200,
+      "nombre": "Poseidón 🌭 💩",
+      "calidad": "GOD",
+      "precio": 0,
       "efectos": [
-        "Tacos"
-      ],
-      "descripcion": "Pokémon oficial: croconaw"
+        "🌭",
+        "💩"
+      ]
     },
     {
-      "nombre": "La Grande Combinasion *Araña*",
+      "nombre": "Atenea 💩",
+      "calidad": "GOD",
+      "precio": 0,
+      "efectos": [
+        "💩"
+      ]
+    },
+    {
+      "nombre": "Tom Ass 💩",
+      "calidad": "OG",
+      "precio": 0,
+      "efectos": [
+        "💩"
+      ]
+    },
+    {
+      "nombre": "Atenea 💀 💩",
+      "calidad": "GOD",
+      "precio": 0,
+      "efectos": [
+        "💀",
+        "💩"
+      ]
+    },
+    {
+      "nombre": "La Grande Combinasion 💀 💩",
       "calidad": "Secret",
-      "precio": 1500000,
+      "precio": 0,
       "efectos": [
-        "Araña"
+        "💀",
+        "💩"
       ],
       "descripcion": "De los Brainrots más poderosos, su precio lo dice todo"
     },
     {
-      "nombre": "Los Ownersitos *Lava*",
+      "nombre": "The Spooky PandaBot",
       "calidad": "Secret",
-      "precio": 600000,
-      "efectos": [
-        "Lava"
-      ],
-      "descripcion": "Versión modificada de Los Ownersitos con efectos."
+      "precio": 100000000
     },
     {
-      "nombre": "Los Ownersitos *Lava*",
-      "calidad": "Secret",
-      "precio": 600000,
+      "nombre": "Tom Ass 🇨🇴",
+      "calidad": "OG",
+      "precio": 20000000,
       "efectos": [
-        "Lava"
-      ],
-      "descripcion": "Versión modificada de Los Ownersitos con efectos."
+        "🇨🇴"
+      ]
     },
     {
-      "nombre": "Los Ownersitos *Glitch*",
-      "calidad": "Secret",
-      "precio": 800000,
-      "efectos": [
-        "Glitch"
-      ],
-      "descripcion": "Versión modificada de Los Ownersitos con efectos."
-    },
-    {
-      "nombre": "John_Pork",
+      "nombre": "222 🌮 💤",
       "calidad": "Ultra-Legendario",
-      "precio": 9000
+      "precio": 11250,
+      "efectos": [
+        "🌮",
+        "💤"
+      ],
+      "descripcion": "La novia del creador.😍"
+    },
+    {
+      "nombre": "🏉",
+      "calidad": "OG",
+      "precio": 2500000
+    },
+    {
+      "nombre": "🏉 🌮",
+      "calidad": "OG",
+      "precio": 3750000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Spooky Zeus",
+      "calidad": "Secret",
+      "precio": 350000000
+    },
+    {
+      "nombre": "Spooky Lukas",
+      "calidad": "Secret",
+      "precio": 360000000
+    },
+    {
+      "nombre": "Spooky Nyan Cat",
+      "calidad": "Secret",
+      "precio": 370000000
+    },
+    {
+      "nombre": "Spooky El Anti-Cristo",
+      "calidad": "Secret",
+      "precio": 400000000
+    },
+    {
+      "nombre": "Spooky 67",
+      "calidad": "Secret",
+      "precio": 410000000
+    },
+    {
+      "nombre": "Spooky Everything",
+      "calidad": "GOD",
+      "precio": 999000000
+    },
+    {
+      "nombre": "GOOD BOY",
+      "calidad": "OG",
+      "precio": 400000000
+    },
+    {
+      "nombre": "Smurf Cat",
+      "calidad": "OG",
+      "precio": 100000000
+    },
+    {
+      "nombre": "La Salsa 🍬",
+      "calidad": "Secret",
+      "precio": 220000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Los PandaBotsitos 🍬",
+      "calidad": "GOD",
+      "precio": 5000000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Harry 🇧🇷",
+      "calidad": "OG",
+      "precio": 1000000,
+      "efectos": [
+        "🇧🇷"
+      ],
+      "descripcion": "Harry es Jae-Yong 🥀"
+    },
+    {
+      "nombre": "Tom ler 🌮",
+      "calidad": "Ultra-Legendario",
+      "precio": 15032400,
+      "efectos": [
+        "🌮"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Tom Ass y Hitler"
+    },
+    {
+      "nombre": "Garam and Madungdung 🍬",
+      "calidad": "Secret",
+      "precio": 400000,
+      "efectos": [
+        "🍬"
+      ],
+      "descripcion": "El Brainrot favorito del creador, procura no robarlo..."
+    },
+    {
+      "nombre": "Susy Dog 🍬",
+      "calidad": "Secret",
+      "precio": 500000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Tom ler 🇨🇱",
+      "calidad": "Ultra-Legendario",
+      "precio": 30064800,
+      "efectos": [
+        "🇨🇱"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Tom Ass y Hitler"
+    },
+    {
+      "nombre": "Tom ler 💀",
+      "calidad": "Ultra-Legendario",
+      "precio": 15032400,
+      "efectos": [
+        "💀"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Tom Ass y Hitler"
+    },
+    {
+      "nombre": "Tom ler 🫓",
+      "calidad": "Ultra-Legendario",
+      "precio": 15032400,
+      "efectos": [
+        "🫓"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Tom Ass y Hitler"
+    },
+    {
+      "nombre": "Tom ler 💧 🇨🇴",
+      "calidad": "Ultra-Legendario",
+      "precio": 22047520,
+      "efectos": [
+        "💧",
+        "🇨🇴"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Tom Ass y Hitler"
+    },
+    {
+      "nombre": "maushold-family-of-three ☯️",
+      "calidad": "común",
+      "precio": 750,
+      "efectos": [
+        "☯️"
+      ],
+      "descripcion": "Pokémon oficial: maushold-family-of-three"
+    },
+    {
+      "nombre": "222 j 💤",
+      "calidad": "Ultra-Legendario",
+      "precio": 7500,
+      "efectos": [
+        "💤"
+      ],
+      "descripcion": "Personaje fusionado de 222 y Milo j"
+    },
+    {
+      "nombre": "Once 💧",
+      "calidad": "Ultra-Legendario",
+      "precio": 13200,
+      "efectos": [
+        "💧"
+      ]
+    },
+    {
+      "nombre": "203 💤",
+      "calidad": "Ultra-Legendario",
+      "precio": 5000,
+      "efectos": [
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Sai 💫 🇨🇴",
+      "calidad": "Ultra-Legendario",
+      "precio": 20200000,
+      "efectos": [
+        "🇨🇴"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Sai 🎉 y Sai 💫"
+    },
+    {
+      "nombre": "Sai 💫 💤",
+      "calidad": "Ultra-Legendario",
+      "precio": 5050000,
+      "efectos": [
+        "💤"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Sai 🎉 y Sai 💫"
+    },
+    {
+      "nombre": "𝕃𝕦𝕜𝕒𝕤 🍬",
+      "calidad": "OG",
+      "precio": 19999998,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "Sai 💫 🫓",
+      "calidad": "Ultra-Legendario",
+      "precio": 15150000,
+      "efectos": [
+        "🫓"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Sai 🎉 y Sai 💫"
+    },
+    {
+      "nombre": "𝕃𝕦𝕜𝕒𝕤 💀",
+      "calidad": "OG",
+      "precio": 14999998,
+      "efectos": [
+        "💀"
+      ]
+    },
+    {
+      "nombre": "𝕃𝕦𝕜𝕒𝕤 🌮",
+      "calidad": "OG",
+      "precio": 14999998,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Sai 💫 ☯️",
+      "calidad": "Ultra-Legendario",
+      "precio": 25250000,
+      "efectos": [
+        "☯️"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Sai 🎉 y Sai 💫"
+    },
+    {
+      "nombre": "Sai 💫 💀",
+      "calidad": "Ultra-Legendario",
+      "precio": 15150000,
+      "efectos": [
+        "💀"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Sai 🎉 y Sai 💫"
+    },
+    {
+      "nombre": "Don Palsa 🌭",
+      "calidad": "Ultra-Legendario",
+      "precio": 1220000,
+      "efectos": [
+        "🌭"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Don Pollo y La Salsa"
+    },
+    {
+      "nombre": "Burrito De Lukas 🌮",
+      "calidad": "OG",
+      "precio": 2250000,
+      "efectos": [
+        "🌮"
+      ],
+      "descripcion": "El burrito que me comí ayer :3"
+    },
+    {
+      "nombre": "Yugoslavia 🍬 🌮",
+      "calidad": "GOD",
+      "precio": 6000000,
+      "efectos": [
+        "🍬",
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Yugoslavia 🌮",
+      "calidad": "GOD",
+      "precio": 3000000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "𝕃𝕦𝕜𝕒𝕤 🫓",
+      "calidad": "OG",
+      "precio": 14999998,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Sai 💫 🍬",
+      "calidad": "Ultra-Legendario",
+      "precio": 20200000,
+      "efectos": [
+        "🍬"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Sai 🎉 y Sai 💫"
+    },
+    {
+      "nombre": "Sai 💫 💧 💤",
+      "calidad": "Ultra-Legendario",
+      "precio": 5555000,
+      "efectos": [
+        "💧",
+        "💤"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Sai 🎉 y Sai 💫"
+    },
+    {
+      "nombre": "Sai 💫 💧",
+      "calidad": "Ultra-Legendario",
+      "precio": 11110000,
+      "efectos": [
+        "💧"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Sai 🎉 y Sai 💫"
+    },
+    {
+      "nombre": "Sai 💫 🌭",
+      "calidad": "Ultra-Legendario",
+      "precio": 20200000,
+      "efectos": [
+        "🌭"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Sai 🎉 y Sai 💫"
+    },
+    {
+      "nombre": "Tom Ass 🍬 💤",
+      "calidad": "OG",
+      "precio": 10000000,
+      "efectos": [
+        "🍬",
+        "💤"
+      ]
+    },
+    {
+      "nombre": "Tom ler 💧",
+      "calidad": "Ultra-Legendario",
+      "precio": 11023760,
+      "efectos": [
+        "💧"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Tom Ass y Hitler"
+    },
+    {
+      "nombre": "Tom ler 🍬",
+      "calidad": "Ultra-Legendario",
+      "precio": 20043200,
+      "efectos": [
+        "🍬"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Tom Ass y Hitler"
+    },
+    {
+      "nombre": "Tom ler 💤",
+      "calidad": "Ultra-Legendario",
+      "precio": 5010800,
+      "efectos": [
+        "💤"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Tom Ass y Hitler"
+    },
+    {
+      "nombre": "Tom ler 🍬 🌭",
+      "calidad": "Ultra-Legendario",
+      "precio": 40086400,
+      "efectos": [
+        "🍬",
+        "🌭"
+      ],
+      "descripcion": "Personaje fusionado por un VIP de Tom Ass y Hitler"
+    },
+    {
+      "nombre": "galletas 🌮",
+      "calidad": "Ultra-Legendario",
+      "precio": 18000,
+      "efectos": [
+        "🌮"
+      ]
+    },
+    {
+      "nombre": "Sai 🎉 💧 🌭",
+      "calidad": "OG",
+      "precio": 22000000,
+      "efectos": [
+        "💧",
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "Everything 🍬",
+      "calidad": "OG",
+      "precio": 1000000000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "The Spooky PandaBot 🕷",
+      "calidad": "Secret",
+      "precio": 130000000,
+      "efectos": [
+        "🕷"
+      ]
+    },
+    {
+      "nombre": "The Spooky PandaBot 🌭",
+      "calidad": "Secret",
+      "precio": 200000000,
+      "efectos": [
+        "🌭"
+      ]
+    },
+    {
+      "nombre": "pe 🎉",
+      "calidad": "Ultra-Legendario",
+      "precio": 10010000,
+      "descripcion": "Personaje fusionado por un VIP de pene y Sai 🎉"
+    },
+    {
+      "nombre": "pene e 🌭",
+      "calidad": "Ultra-Legendario",
+      "precio": 80000,
+      "descripcion": "Personaje fusionado por un VIP de pene 🇨🇴 y pene 🌭"
+    },
+    {
+      "nombre": "The Spooky PandaBot 🍬",
+      "calidad": "Secret",
+      "precio": 200000000,
+      "efectos": [
+        "🍬"
+      ]
+    },
+    {
+      "nombre": "222 j 🫓",
+      "calidad": "Ultra-Legendario",
+      "precio": 22500,
+      "efectos": [
+        "🫓"
+      ],
+      "descripcion": "Personaje fusionado de 222 y Milo j"
+    },
+    {
+      "nombre": "The Spooky PandaBot 🍬 🫓",
+      "calidad": "Secret",
+      "precio": 300000000,
+      "efectos": [
+        "🫓"
+      ]
+    },
+    {
+      "nombre": "Buda 👾 💀",
+      "calidad": "GOD",
+      "precio": 37500000,
+      "efectos": [
+        "👾",
+        "💀"
+      ]
     }
   ]
 }

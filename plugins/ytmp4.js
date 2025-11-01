@@ -1,7 +1,6 @@
-import fetch from 'node-fetch';
+import fs from 'fs';
 import axios from 'axios';
-
-export const command = 'ytmp4';
+import fetch from 'node-fetch';
 
 const MAX_FILE_SIZE = 280 * 1024 * 1024;
 const VIDEO_THRESHOLD = 70 * 1024 * 1024;
@@ -14,14 +13,14 @@ const requestTimestamps = [];
 let isCooldown = false;
 let isProcessingHeavy = false;
 
-function isValidYouTubeUrl(url) {
-  return /^(?:https?:\/\/)?(?:www\.|m\.|music\.)?youtu\.?be(?:\.com)?\/?.*(?:watch|embed)?(?:.*v=|v\/|\/)([\w\-_]+)\&?/.test(url);
-}
+const isValidYouTubeUrl = url =>
+  /^(?:https?:\/\/)?(?:www\.|m\.|music\.)?youtu\.?be(?:\.com)?\/?.*(?:watch|embed)?(?:.*v=|v\/|\/)([\w\-_]+)\&?/.test(url);
 
 function formatSize(bytes) {
   if (!bytes || isNaN(bytes)) return 'Desconocido';
-  const units = ['B', 'KB', 'MB', 'GB'];
+  const units = ['B', 'KB', 'MB', 'GB', 'TB'];
   let i = 0;
+  bytes = Number(bytes);
   while (bytes >= 1024 && i < units.length - 1) {
     bytes /= 1024;
     i++;
@@ -35,17 +34,39 @@ async function getSize(url) {
     const size = parseInt(res.headers['content-length'], 10);
     if (!size) throw new Error('Tamaño no disponible');
     return size;
-  } catch {
+  } catch (e) {
+    console.error('Error al obtener el tamaño:', e.message);
     throw new Error('No se pudo obtener el tamaño del archivo');
   }
 }
 
-async function ytdl(url) {
+async function apiAdonix(url) {
+  let apiUrl = `https://myapiadonix.vercel.app/api/ytmp4?url=${encodeURIComponent(url)}`;
+  const res = await fetch(apiUrl);
+  const data = await res.json();
+
+  if (!data.status || !data.result?.url) {
+    throw new Error('API Adonix no devolvió datos válidos');
+  }
+
+  return {
+    url: data.result.url,
+    title: data.result.title || 'Video sin título'
+  };
+}
+
+async function apiFallback(url) {
   const headers = {
     accept: '*/*',
     'accept-language': 'en-US,en;q=0.9',
+    'sec-ch-ua': '"Chromium";v="132", "Not A(Brand";v="8"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
     'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'cross-site',
     referer: 'https://id.ytmp3.mobi/',
+    'referrer-policy': 'strict-origin-when-cross-origin'
   };
 
   const videoId = url.match(/(?:youtu\.be\/|youtube\.com\/(?:.*v=|.*\/|.*embed\/))([^&?/]+)/)?.[1];
@@ -62,9 +83,17 @@ async function ytdl(url) {
     await new Promise(r => setTimeout(r, 1000));
   }
 
-  if (!info || !convert.downloadURL) throw new Error('No se pudo obtener la URL de descarga');
-
+  if (!info || !convert.downloadURL) throw new Error('API fallback no devolvió datos');
   return { url: convert.downloadURL, title: info.title || 'Video sin título' };
+}
+
+async function ytdl(url) {
+  try {
+    return await apiAdonix(url);
+  } catch (e1) {
+    console.log('⚠️ API Adonix falló, usando fallback...', e1.message);
+    return await apiFallback(url);
+  }
 }
 
 function checkRequestLimit() {
@@ -84,59 +113,84 @@ function checkRequestLimit() {
   return true;
 }
 
+export const command = 'ytmp4';
+
 export async function run(sock, msg, args) {
   const from = msg.key.remoteJid;
-  const url = args[0];
+  const url = args.join(' ');
+  const commandName = command;
 
-  if (!url || !isValidYouTubeUrl(url)) {
-    await sock.sendMessage(from, { text: '❌ Enlace de YouTube inválido o no proporcionado.' }, { quoted: msg });
-    return;
+  const react = emoji => sock.sendMessage(from, { react: { text: emoji, key: msg.key } });
+
+  if (!url) {
+    return sock.sendMessage(from, { text: `🧩 Uso: .${commandName} <enlace de YouTube>` });
+  }
+
+  if (!isValidYouTubeUrl(url)) {
+    await react('🔴');
+    return sock.sendMessage(from, { text: '🚫 Enlace de YouTube inválido' });
   }
 
   if (isCooldown || !checkRequestLimit()) {
-    await sock.sendMessage(from, { text: '⏳ Muchas solicitudes. Espera 2 minutos antes de intentar nuevamente.' }, { quoted: msg });
-    return;
+    await react('🔴');
+    return sock.sendMessage(from, { text: '⏳ **Mucha demanda**. Espera 2 minutos para el siguiente uso.' });
   }
 
   if (isProcessingHeavy) {
-    await sock.sendMessage(from, { text: '⚠️ Ya estoy procesando otro archivo pesado. Intenta más tarde.' }, { quoted: msg });
-    return;
+    await react('🔴');
+    return sock.sendMessage(from, { text: '⚠️ Ya estoy procesando un archivo pesado. Espera un momento.' });
   }
 
-  await sock.sendMessage(from, { text: '🔄 Procesando video, espera un momento...' }, { quoted: msg });
+  await react('⏳');
 
   try {
     const { url: downloadUrl, title } = await ytdl(url);
     const size = await getSize(downloadUrl);
 
     if (size > MAX_FILE_SIZE) {
-      throw new Error('📦 El archivo supera el límite de 280 MB');
+      await react('🔴');
+      throw new Error(`📦 El archivo supera el límite de ${formatSize(MAX_FILE_SIZE)}`);
     }
 
-    if (size > HEAVY_FILE_THRESHOLD) {
+    const isHeavy = size > HEAVY_FILE_THRESHOLD;
+    if (isHeavy) {
       isProcessingHeavy = true;
-      await sock.sendMessage(from, { text: '📥 Descargando archivo grande, por favor espera...' }, { quoted: msg });
+      await sock.sendMessage(from, { text: '💾 **Espera**, estoy descargando un archivo grande...' });
     }
 
     const caption = `
-🎬 *Descarga de Video - MP4*
-📌 *Título:* ${title}
-📦 *Tamaño:* ${formatSize(size)}
-🔗 *Enlace:* ${url}
-    `.trim();
+╭╌╌〔 *🐼 DESCARGAS PANDABOT - MP4* 〕╌╌╮
+┃ 🧿 *Título:* ${title}
+┃ 📦 *Tamaño:* ${formatSize(size)}
+┃ 🔗 *URL:* ${url}
+╰╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╯`.trim();
 
     const buffer = await fetch(downloadUrl).then(res => res.buffer());
 
-    await sock.sendMessage(from, {
-      video: buffer,
-      mimetype: 'video/mp4',
-      fileName: `${title}.mp4`,
-      caption,
-    }, { quoted: msg });
+    const messageOptions = {
+        video: buffer,
+        mimetype: 'video/mp4',
+        fileName: `${title}.mp4`,
+        caption: caption
+    };
 
+    if (size >= VIDEO_THRESHOLD) {
+        messageOptions.document = buffer;
+        delete messageOptions.video;
+    }
+    
+    await sock.sendMessage(from, messageOptions, { quoted: msg });
+
+    await react('✅');
     isProcessingHeavy = false;
   } catch (e) {
+    await react('❌');
     isProcessingHeavy = false;
-    await sock.sendMessage(from, { text: `❌ Ocurrió un error: ${e.message}` }, { quoted: msg });
+    const errorMessage = e.message.startsWith('API') || e.message.startsWith('No se pudo') || e.message.startsWith('El archivo supera') 
+        ? e.message 
+        : 'Error desconocido durante el procesamiento.';
+
+    return sock.sendMessage(from, { text: `🧨 *ERROR:* ${errorMessage}` });
   }
 }
+

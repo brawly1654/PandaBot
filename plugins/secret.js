@@ -1,6 +1,6 @@
 import { cargarDatabase, guardarDatabase } from '../data/database.js';
 
-export const command = 'secret';
+export const command = '......';
 
 export async function run(sock, msg, args) {
   const from = msg.key.remoteJid;

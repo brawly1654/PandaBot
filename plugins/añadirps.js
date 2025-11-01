@@ -1,8 +1,7 @@
 import fs from 'fs';
 import { cargarDatabase, guardarDatabase } from '../data/database.js';
 
-// Array de owners (formato JID de WhatsApp)
-const owners = ['56953508566@s.whatsapp.net', '573023181375@c.us']; // ← reemplaza con tus números
+const owners = ['56953508566@s.whatsapp.net', '573023181375@c.us', '166164298780822@lid'];
 
 const data = JSON.parse(fs.readFileSync('./data/personajes.json', 'utf8'));
 const personajes = data.characters;

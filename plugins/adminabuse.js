@@ -10,6 +10,8 @@ const pedoUrls = [
   'http://localhost:8000/upload/VID-20250906-WA0119.mp4',
   'http://localhost:8000/upload/VID-20250906-WA0122.mp4',
   'http://localhost:8000/upload/VID-20250906-WA0123.mp4',
+  'http://localhost:8000/upload/keyciita_2025-09-21-00-36-54_1758425814015.mp4',
+  'http://localhost:8000/upload/VID-20251005-WA0246.mp4'
 ];
 
 export async function run(sock, msg) {
@@ -43,7 +45,7 @@ export async function run(sock, msg) {
       const audioBuffer = fs.readFileSync(outputPath);
       await sock.sendMessage(from, { audio: audioBuffer, mimetype: 'audio/mp4' }, { quoted: msg });
       
-      fs.unlinkSync(outputPath); // Elimina el archivo de audio temporal
+      fs.unlinkSync(outputPath);
     });
     
   } catch (e) {

@@ -21,7 +21,7 @@ export async function run(sock, msg, args) {
     { emoji: '🪙', value: 16000, type: 'coins' },
     { emoji: '🛡', value: 1, type: 'shields' },
     { emoji: '🎫', value: 30, type: 'creditos' },
-    { emoji: '⚡️', value: 4, type: 'spins' }
+    { emoji: '⚡️', value: 1, type: 'spins' }
   ];
 
   const rewardSummary = {

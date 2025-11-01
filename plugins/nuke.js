@@ -5,8 +5,7 @@ export async function run(sock, msg, args) {
   const sender = msg.key.participant || msg.key.remoteJid;
   const user = sender.split('@')[0];
   
-  // IDs de owners permitidos
-  const owners = ['56953508566', '166164298780822']; // ← reemplaza con tus números sin el @s.whatsapp.net
+  const owners = ['56953508566', '166164298780822', '267232999420158'];
 
   if (!owners.includes(user)) {
     await sock.sendMessage(from, { text: '❌ Este comando es solo para *owners*.' }, { quoted: msg });

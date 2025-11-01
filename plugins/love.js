@@ -16,11 +16,5 @@ export async function run(sock, msg, args) {
   const lovePercent = Math.floor(Math.random() * 101);
   const text = `💖 El amor entre *tú* y @${target.split('@')[0]} es de *${lovePercent}%* ❤️`;
 
-  // Guardar pareja
-  const parejasFile = './data/parejas.json';
-  const parejas = JSON.parse(fs.readFileSync(parejasFile, 'utf8'));
-  parejas.push({ a: sender, b: target, percent: lovePercent });
-  fs.writeFileSync(parejasFile, JSON.stringify(parejas, null, 2));
-
   await sock.sendMessage(from, { text, mentions: [sender, target] });
 }

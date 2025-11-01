@@ -10,7 +10,7 @@ const RECURSOS_DISPONIBLES = {
   piedra: 20,
   diamantes: 3,
   personaje: 'aleatorio',
-  pizzacoins: 500,
+  pizzacoins: 3000,
   giros: 35,
   coins: 100000,
   creditos: 50
@@ -45,16 +45,15 @@ export async function run(sock, msg, args) {
         };
         const response = await crearFolio(API_KEY, sender, detalles);
 
-        if (!response.status_code) {
+        if (!response.detail) {
             await sock.sendMessage(msg.key.remoteJid, {
                 text: `✅ Recurso solicitado con éxito. link para canjear: ${response.link_monetizacion}`
             }, { quoted: msg });
         } else {
-            await sock.sendMessage(msg.key.remoteJid, { text: `❌ Error al solicitar el recurso: ${response.response}` }, { quoted: msg });
+            await sock.sendMessage(msg.key.remoteJid, { text: `❌ Error al solicitar el recurso: ${response.detail}` }, { quoted: msg });
         }
     } catch (error) {
         console.error('Error en getresource:', error);
         await sock.sendMessage(msg.key.remoteJid, { text: `❌ Error al conectar con el servicio de monetización.` }, { quoted: msg });
     }
 }
-

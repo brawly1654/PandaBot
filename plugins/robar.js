@@ -1,55 +1,72 @@
-export const command = 'robar';
+import { cargarDatabase, guardarDatabase } from '../data/database.js';
+import { isVip } from '../utils/vip.js';
 
-const cooldown = 15 * 60 * 1000;
-let robCooldown = {};
+const cooldowns = {};
+
+export const command = 'robar';
 
 export async function run(sock, msg, args) {
   const from = msg.key.remoteJid;
-  const senderJid = msg.key.participant || msg.key.remoteJid;
-  const user = senderJid.split('@')[0];
-
-  if (!global.cmDB[user]) {
-    global.cmDB[user] = { spins: 5, coins: 0, shields: 0, villageLevel: 1 };
-  }
-
-  const data = global.cmDB[user];
+  const sender = msg.key.participant || msg.key.remoteJid;
   const now = Date.now();
+  const COOLDOWN_MS = 20 * 60 * 1000;
 
-  if (robCooldown[user] && now - robCooldown[user] < cooldown) {
-    const timeLeft = Math.ceil((cooldown - (now - robCooldown[user])) / 60000);
-    return sock.sendMessage(from, {
-      text: `🕒 *@${user}*, debes esperar ${timeLeft} minuto(s) para volver a usar *robar*.`
-    }, { quoted: msg, mentions: [senderJid] });
+  if (cooldowns[sender] && now - cooldowns[sender] < COOLDOWN_MS) {
+    const restante = COOLDOWN_MS - (now - cooldowns[sender]);
+    const minutos = Math.floor(restante / 60000);
+    const segundos = Math.floor((restante % 60000) / 1000);
+    await sock.sendMessage(from, {
+      text: `⏳ Debes esperar *${minutos}m ${segundos}s* antes de volver a robar.`,
+    }, { quoted: msg });
+    return;
   }
 
-  const targetMention = args[0];
-  if (!targetMention || !targetMention.startsWith('@')) {
-    return sock.sendMessage(from, { text: `⚠️ Usa el comando así: *.robar @usuario*` }, { quoted: msg });
-  }
-  
-  const targetNumber = targetMention.replace('@', '');
-  const targetJid = `${targetNumber}@s.whatsapp.net`;
-  
-  if (targetJid === senderJid) {
-    return sock.sendMessage(from, { text: `❌ No puedes robarte a ti mismo, eso es un robo con intimidacion.` }, { quoted: msg });
-  }
-  
-  if (!global.cmDB[targetNumber]) {
-    return sock.sendMessage(from, { text: `❌ El usuario mencionado no tiene cuenta en Coin Master.` }, { quoted: msg });
+  const contextInfo = msg.message?.extendedTextMessage?.contextInfo;
+  const mencionado = msg.mentionedJid?.[0] || contextInfo?.mentionedJid?.[0];
+
+  if (!mencionado || mencionado === sender) {
+    await sock.sendMessage(from, {
+      text: `❌ Especifica a quién le quieres robar usando una mención.`,
+    }, { quoted: msg });
+    return;
   }
 
-  const targetData = global.cmDB[targetNumber];
+  const db = cargarDatabase();
+  db.users = db.users || {};
+  db.users[sender] = db.users[sender] || { pandacoins: 0 };
+  db.users[mencionado] = db.users[mencionado] || { pandacoins: 0 };
 
-  const stolenCoins = Math.floor(Math.random() * 300000) + 100000;
-  const coinsTaken = Math.min(stolenCoins, targetData.coins);
-  targetData.coins -= coinsTaken;
-  data.coins += coinsTaken;
-  robCooldown[user] = now;
-  global.guardarCM();
+  const atacante = db.users[sender];
+  const victima = db.users[mencionado];
+
+  const vip = isVip(sender);
+  const probabilidadExito = vip ? 0.7 : 0.5;
+  const resultado = Math.random() < probabilidadExito;
+
+  const cantidad = Math.floor(Math.random() * 500000) + 1;
+
+  let texto = '';
+  if (resultado) {
+    const robado = Math.min(cantidad, victima.pandacoins);
+    atacante.pandacoins += robado;
+    victima.pandacoins -= robado;
+
+    texto = `🕵️‍♂️ *Robo exitoso*\n\n@${sender.split('@')[0]} robó *${robado} pandacoins* a @${mencionado.split('@')[0]}.\n`;
+    texto += vip ? '👑 El ladrón era VIP, tenía ventaja.\n' : '🎲 Fue suerte pura.';
+  } else {
+    const perdido = Math.min(cantidad, atacante.pandacoins);
+    atacante.pandacoins -= perdido;
+
+    texto = `🚨 *Fallaste el robo*\n\nLa policía atrapó a @${sender.split('@')[0]} intentando robar a @${mencionado.split('@')[0]}.\n`;
+    texto += `💸 Multa: *${perdido} pandacoins*\n`;
+    texto += vip ? '👑 A pesar de ser VIP, no se salvó.\n' : '👮 Mala suerte, no eres VIP.';
+  }
+
+  guardarDatabase(db);
+  cooldowns[sender] = now;
 
   await sock.sendMessage(from, {
-    text: `🦹 Robaste a *@${targetNumber}* y obtuviste *${coinsTaken.toLocaleString()} monedas*.`,
-    mentions: [targetJid]
+    text: texto.trim(),
+    mentions: [sender, mencionado],
   }, { quoted: msg });
 }
-

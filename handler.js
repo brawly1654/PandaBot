@@ -63,7 +63,7 @@ import * as delps from './plugins/delps.js';
 import * as play from './plugins/play.js';
 import * as banuser from './plugins/banuser.js';
 import * as unbanuser from './plugins/unbanuser.js';
-import * as ban from './plugins/cum.js';
+import * as kick from './plugins/kick.js';
 import * as tts from './plugins/tts.js';
 import * as tiktok from './plugins/tiktok.js';
 import * as instagram from './plugins/instagram.js'; 
@@ -77,7 +77,7 @@ import * as dailycm from './plugins/dailycm.js';
 import * as musica from './plugins/musica.js';
 import * as walletcm from './plugins/walletcm2.js';
 import * as atacar from './plugins/atacar.js';
-import * as robar from './plugins/robar.js';
+import * as robarcm from './plugins/robarcm.js';
 import * as mejorar from './plugins/mejorar.js';
 import * as nuke from './plugins/nuke.js';
 import * as ytmp4 from './plugins/ytmp4.js';
@@ -120,7 +120,6 @@ import * as whereps from './plugins/whereps.js';
 import * as tiktoksearch from './plugins/tiktoksearch.js';
 import * as definir from './plugins/definir.js';
 import * as coronar from './plugins/coronar.js';
-import * as afk from './plugins/afk.js';
 import * as manuela from './plugins/manuela.js';
 import * as secret from './plugins/secret.js';
 import * as enigma from './plugins/enigma.js';
@@ -268,6 +267,68 @@ import * as addefecto from './plugins/addefecto.js';
 import * as setbirthday from './plugins/setbirthday.js';
 import * as mybirthday from './plugins/mybirthday.js';
 import * as listbirthdays from './plugins/listbirthdays.js';
+import * as toplindos from './plugins/toplindos.js';
+import * as dalle from './plugins/dalle.js';
+import * as uptime from './plugins/uptime.js';
+import * as pandabotlogs from './plugins/pandabotlogs.js';
+import * as menujuegos from './plugins/menujuegos.js';
+import * as menulove from './plugins/menulove.js';
+import * as menurpg from './plugins/menurpg.js';
+import * as logs from './plugins/logs.js';
+import * as dar from './plugins/dar.js';
+import * as cagar from './plugins/cagar.js';
+import * as pp from './plugins/pp.js';
+import * as tiktokstalk from './plugins/tiktokstalk.js';
+import * as mixemoji from './plugins/mixemoji.js';
+import * as spotify from './plugins/spotify.js';
+import * as menucm from './plugins/menucm.js';
+import * as menubrainrots from './plugins/menubrainrots.js';
+import * as menugrupos from './plugins/menugrupos.js';
+import * as myid from './plugins/myid.js';
+import * as whatmusic from './plugins/whatmusic.js';
+import * as chuparpata from './plugins/chuparpata.js';
+import * as pandabot from './plugins/pandabot.js';
+import * as demoteall from './plugins/demoteall.js';
+import * as myindex from './plugins/myindex.js';
+import * as sorteo from './plugins/sorteo.js';
+import * as fixefectos from './plugins/fixefectos.js';
+import * as quemierdaquieren from './plugins/quemierdaquieren.js';
+import * as tuntunvergon from './plugins/tuntunvergon.js';
+import * as dildear from './plugins/dildear.js';
+import * as hermano from './plugins/hermano.js';
+import * as aceptarhermano from './plugins/aceptarhermano.js';
+import * as toimg from './plugins/toimg.js';
+import * as piropo from './plugins/piropo.js';
+import * as formartrio from './plugins/trio.js';
+import * as carioca from './plugins/carioca.js';
+import * as jugada from './plugins/jugada.js';
+import * as cartasactuales from './plugins/cartasactuales.js';
+import * as reglascarioca from './plugins/reglascarioca.js';
+import * as blowjob from './plugins/blowjob.js';
+import * as autoreclamarpzz from './plugins/autoreclamarpzz.js';
+import * as catbox from './plugins/catbox.js';
+import * as apk from './plugins/apk.js';
+import * as globalrank from './plugins/globalrank.js';
+import * as stop from './plugins/stop.js';
+import * as gato from './plugins/gato.js';
+import * as impostor from './plugins/impostor.js';
+import * as getname from './plugins/getname.js';
+import * as loli from './plugins/loli.js';
+import * as efectosps from './plugins/efectosps.js';
+import * as transferir from './plugins/transferir.js';
+import * as randomuser from './plugins/randomuser.js';
+import * as robar from './plugins/robar.js';
+import * as activate from './plugins/activate.js';
+import * as sellall from './plugins/sellall.js';
+import * as basta from './plugins/basta.js';
+import * as addstock from './plugins/addstock.js';
+import * as viewstock from './plugins/viewstock.js';
+import * as defecar from './plugins/defecar.js';
+import * as violar from './plugins/violar.js';
+import * as listavip from './plugins/listavip.js';
+import * as totalgrupos from './plugins/totalgrupos.js';
+import * as open from './plugins/open.js';
+import * as deepfry from './plugins/deepfry.js';
 //import * as claimcode from './plugins/claimcode.js';
 //import * as claimcode from './plugins/claimcode.js';
 //import * as claimcode from './plugins/claimcode.js';
@@ -279,9 +340,8 @@ import * as listbirthdays from './plugins/listbirthdays.js';
 //import * as claimcode from './plugins/claimcode.js';
 //import * as claimcode from './plugins/claimcode.js';
 //import * as claimcode from './plugins/claimcode.js';
-//import * as claimcode from './plugins/claimcode.js';
-
-const plugins = [ping, registrar, inforegistrar, pareja, enable, disable, menu, configmenu, hidetag, invocar, calcularamor, love, topactivos, gay, simprate, pajero, ship, beso, abrazo, dado, moneda, facherometro, inteligencia, otaku, probaile, luck, adivinabandera, topbanderas, send, warn, unwarn, advertencias, trabajar, aventura, perfil, cazar, promote, demote, groupinfo, viewps, buy, misps, daily, hourly, weekly, monthly, ps, sell, robarps, regalarps, addps, delps, play, musica, banuser, unbanuser, ban, tts, tiktok, instagram, chatgpt, kiss, pfp, styletext, minar, tirar, dailycm, walletcm, atacar, robar, mejorar, ytmp4, nuke, eventocm, regalartiros, megatirar, pokedex, githubsearch, miloj, squidgame, usuarios, doxx, addps2, pay, recolectar, tirar10, tirar20, twitter, topcoins, creditos, cofre, paja, sexo, grupo, mute, unmute, youtube, cat, dog, qr, acortar, tiempo, escanearqr, estado, whereps, tiktoksearch, definir, coronar, mediafire, afk, manuela, secret, enigma, lol, cr7, furry, reiniciar, addps3, npmjs, pornhubdl, ordenarps, añadirps, toppersonajes, checkps, drop, verps, descps, toaudio, tungtungtungsahur, garammaram, tralalerotralala, lavacca, lostralaleritos, lastralaleritas, agarrinilapalini, bonecaambalabu, girafaceleste, grancombinasion, lirililarila, chicleteira, brrbrrpatapim, frulifrula, s, fast, slow, qc, marry, divorcio, aceptar, waifu, hola, ruletarusa, addps4, checkowner, basbas, addowner, delowner, add, penalizar, addpokemonall, mejorarps, apostar, fusionarps, clan, removebg, bloquearpalabra, noafk, xdl, comandos, buscar, bolaocho, ahorcado, topahorcados, regpizzeria, mipizzeria, pzzname, reclamarpzz, viewsv, contratarsv, descontratarsv, missv, pandalogs, reverse, bass, earrape, tupai, nightcore, deep, robot, fat, solicitarespejo, revisarpeticiones, aceptarpeticion, lvlpizzeria, comprarasiento, lvlup, imagenpizzeria, mylid, toppizzerias, lyrics, menupizzeria, menuaudios, getcommand, getjid, pin, talar, cocinar, comer, pescar, get, claimcode, anunciostotales, fixps, mateoo, topaportes, addvip, checkvip, dropvip, superminar, magicbox, rename, fusionarvip, runpzz, addbot, menuvip, reporte, sugerencia, pregunta, reply, bot, makechiste, chisterandom, morse, buyvip, getcommand2, aniemoji, setlinkpreview, mercado, steal, comprarasientos, aviso, adminabuse, newpet, petname, invitar, petimg, jugarpet, alimentarpet, menupets, mypet, aceptarinvitacion, contacto, imdb, wikipedia, addefecto, setbirthday, mybirthday, listbirthdays];
+const plugins = [ping, registrar, pareja, enable, disable, menu, configmenu, hidetag, invocar, calcularamor, love, gay, simprate, pajero, ship, beso, abrazo, dado, moneda, facherometro, inteligencia, otaku, probaile, luck, adivinabandera, topbanderas, warn, unwarn, advertencias, trabajar, aventura, perfil, cazar, promote, demote, groupinfo, viewps, buy, misps, daily, hourly, weekly, monthly, ps, sell, robarps, regalarps, addps, delps, play, banuser, unbanuser, kick, tts, tiktok, instagram, chatgpt, kiss, pfp, styletext, minar, tirar, dailycm, walletcm, atacar, robarcm, mejorar, ytmp4, nuke, eventocm, regalartiros, megatirar, pokedex, githubsearch, miloj, squidgame, usuarios, doxx, pay, recolectar, tirar10, tirar20, creditos, cofre, paja, sexo, grupo, mute, unmute, youtube, cat, dog, qr, acortar, tiempo, escanearqr, estado, whereps, tiktoksearch, definir, coronar, mediafire, manuela, secret, enigma, lol, cr7, furry, reiniciar, addps3, npmjs, pornhubdl, ordenarps, añadirps, toppersonajes, checkps, drop, verps, descps, toaudio, tungtungtungsahur, garammaram, tralalerotralala, lavacca, lostralaleritos, lastralaleritas, agarrinilapalini, bonecaambalabu, girafaceleste, grancombinasion, lirililarila, chicleteira, brrbrrpatapim, frulifrula, s, fast, slow, qc, marry, divorcio, aceptar, waifu, hola, ruletarusa, addps4, checkowner, basbas, addowner, delowner, add, penalizar, addpokemonall, mejorarps, apostar, fusionarps, clan, removebg, bloquearpalabra, noafk, xdl, comandos, buscar, bolaocho, ahorcado, topahorcados, regpizzeria, mipizzeria, pzzname, reclamarpzz, viewsv, contratarsv, descontratarsv, missv, pandalogs, reverse, bass, earrape, tupai, nightcore, deep, robot, fat, solicitarespejo, revisarpeticiones, aceptarpeticion, lvlpizzeria, comprarasiento, lvlup, imagenpizzeria, mylid, toppizzerias, lyrics, menupizzeria, menuaudios, getcommand, getjid, pin, talar, cocinar, comer, pescar, get, claimcode, anunciostotales, fixps, mateoo, topaportes, addvip, checkvip, dropvip, superminar, magicbox, rename, fusionarvip, runpzz, addbot, menuvip, reporte, sugerencia, pregunta, reply, bot, makechiste, chisterandom, morse, buyvip, getcommand2, aniemoji, setlinkpreview, mercado, steal, comprarasientos, aviso, adminabuse, newpet, petname, invitar, petimg, jugarpet, alimentarpet, menupets, mypet, aceptarinvitacion, contacto, imdb, wikipedia, addefecto, setbirthday, mybirthday, listbirthdays, toplindos, dalle, uptime, pandabotlogs, menujuegos, menurpg, menulove, logs, dar, cagar, pp, tiktokstalk, mixemoji, spotify, menucm, menubrainrots, menugrupos, myid, whatmusic, chuparpata, pandabot, demoteall, myindex, sorteo, fixefectos, quemierdaquieren, tuntunvergon, dildear, hermano, aceptarhermano, toimg, piropo, formartrio, carioca, jugada, cartasactuales, reglascarioca, blowjob, autoreclamarpzz, catbox, apk, globalrank, stop, gato, impostor, getname, loli, efectosps, transferir, randomuser, robar, activate, sellall, basta, addstock, viewstock, defecar, violar, listavip, totalgrupos, open, deepfry];
+let pluginsMap = new Map();
 
 const blockedWordsPath = path.resolve('./data/blockedWords.json');
 
@@ -361,23 +421,24 @@ if (isGroup && muteados[from]?.includes(senderRaw)) {
   if (user?.birthday) {
     const [day, month] = user.birthday.split('/').map(Number);
     const today = DateTime.now().setZone('America/Santiago');
-
-    if (today.day === day && today.month === month) {
+    
+    if (today.day === day && today.month === month && user.birthdayMessageSent !== today.year) {
       await sock.sendMessage(msg.key.remoteJid, {
         react: {
           text: '🎉',
           key: msg.key
         }
       });
+
+      await sock.sendMessage(msg.key.remoteJid, {
+        text: `🎂 ¡Feliz cumpleaños, @${sender.split('@')[0]}! Gracias por formar parte de esta familia.`,
+        mentions: [sender]
+      });
+      
+      user.birthdayMessageSent = today.year;
+      guardarDatabase(db);
     }
   }
-
-  const messagesFile = './data/messages.json';
-let messagesCount = JSON.parse(fs.readFileSync(messagesFile, 'utf8'));
-
-messagesCount[senderRaw] = (messagesCount[senderRaw] || 0) + 1;
-
-fs.writeFileSync(messagesFile, JSON.stringify(messagesCount, null, 2));
 
   let groupName = isGroup ? (await sock.groupMetadata(from)).subject : 'Chat Privado';
   let senderName = msg.pushName || senderNumber;
@@ -433,8 +494,14 @@ fs.writeFileSync(messagesFile, JSON.stringify(messagesCount, null, 2));
 if (!body.startsWith(prefix)) return;
 const args = body.slice(prefix.length).trim().split(/\s+/);
 const cmdName = args.shift().toLowerCase();
-
-const plugin = plugins.find(p => p.command === cmdName);
+let plugin = pluginsMap.get(cmdName);
+if (!plugin) {
+  plugin = plugins.find(p => p.command === cmdName);
+  if (plugin) {
+    pluginsMap.set(cmdName, plugin);
+    console.log(`➕ Comando "${cmdName}" añadido a cache`);
+  }
+}
 if (plugin) {
 try {
 await plugin.run(sock, msg, args);

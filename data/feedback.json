@@ -112,5 +112,789 @@
     "status": "replied",
     "reply": "Okey",
     "replyTimestamp": 1756864344026
+  },
+  {
+    "id": 13,
+    "type": "pregunta",
+    "senderJid": "5493885129168@s.whatsapp.net",
+    "content": "como era el comando de los cumpleaños?",
+    "timestamp": 1757769172991,
+    "status": "replied",
+    "reply": "para ver los cumpleaños *.listbirthdays*, para establecer uno *.setbirthday*, y para ver tú cumpleaños, *.mybirthday*",
+    "replyTimestamp": 1757769525920
+  },
+  {
+    "id": 14,
+    "type": "sugerencia",
+    "senderJid": "5493885129168@s.whatsapp.net",
+    "content": "pasar una imagen random de un personaje y que adivinen",
+    "timestamp": 1757951437577,
+    "status": "replied",
+    "reply": "tendríamos que poner muchísimas imágenes para que deje de ser repetitivo, no banco",
+    "replyTimestamp": 1757952119171
+  },
+  {
+    "id": 15,
+    "type": "sugerencia",
+    "senderJid": "5493885129168@s.whatsapp.net",
+    "content": "que hayan preguntas random y que deba responder si es verdadero o falso",
+    "timestamp": 1757951534008,
+    "status": "replied",
+    "reply": "lo mismo que lo de los personajes, hay que poner muchas preguntas y configurar las respuestas",
+    "replyTimestamp": 1757952144872
+  },
+  {
+    "id": 16,
+    "type": "pregunta",
+    "senderJid": "60645256990926@lid",
+    "content": "como se mete bidcoins a un club creado?",
+    "timestamp": 1757968296065,
+    "status": "replied",
+    "reply": "especifíca mejor tu pregunta porque no te entendí nada, a la otra te vas baneado.",
+    "replyTimestamp": 1757968504083
+  },
+  {
+    "id": 17,
+    "type": "sugerencia",
+    "senderJid": "236536851361948@lid",
+    "content": "añadir el comando \".uh\"",
+    "timestamp": 1757988491381,
+    "status": "replied",
+    "reply": "uh",
+    "replyTimestamp": 1757989195645
+  },
+  {
+    "id": 18,
+    "type": "pregunta",
+    "senderJid": "237258288435416@lid",
+    "content": "que comandos tienes",
+    "timestamp": 1758108732834,
+    "status": "replied",
+    "reply": "usa .menu para ver los comandos.",
+    "replyTimestamp": 1758114742564
+  },
+  {
+    "id": 19,
+    "type": "pregunta",
+    "senderJid": "237258288435416@lid",
+    "content": "como desactivo un comando",
+    "timestamp": 1758109047252,
+    "status": "replied",
+    "reply": "no se puede, capaz más adelante lo añado",
+    "replyTimestamp": 1758114758749
+  },
+  {
+    "id": 20,
+    "type": "sugerencia",
+    "senderJid": "116694446018815@lid",
+    "content": "<devuelve los admins>",
+    "timestamp": 1758232374023,
+    "status": "replied",
+    "reply": "cómeme las dos bolas",
+    "replyTimestamp": 1758237538339
+  },
+  {
+    "id": 21,
+    "type": "pregunta",
+    "senderJid": "56926173365@s.whatsapp.net",
+    "content": "¿Que comandos existen en el menu vip?",
+    "timestamp": 1758419762949,
+    "status": "pending"
+  },
+  {
+    "id": 22,
+    "type": "pregunta",
+    "senderJid": "56926173365@s.whatsapp.net",
+    "content": "¿Cómo activo el modoadmin?",
+    "timestamp": 1758421504093,
+    "status": "replied",
+    "reply": "de momento está fallando, pero puedes probar, usando .enable modoadmin",
+    "replyTimestamp": 1758421546769
+  },
+  {
+    "id": 23,
+    "type": "reporte",
+    "senderJid": "56926173365@s.whatsapp.net",
+    "content": "el comando furry por suerte no funciona al descargar el archivo",
+    "timestamp": 1758426919850,
+    "status": "replied",
+    "reply": "a veces si funciona, en grupos tambien o si intentas hacerle sticker a la imagen",
+    "replyTimestamp": 1758427001170
+  },
+  {
+    "id": 24,
+    "type": "reporte",
+    "senderJid": "56926173365@s.whatsapp.net",
+    "content": "hay errores de descarga en las imágenes del comando \".furry\"",
+    "timestamp": 1758427352811,
+    "status": "replied",
+    "reply": "chupala",
+    "replyTimestamp": 1758427404769
+  },
+  {
+    "id": 25,
+    "type": "reporte",
+    "senderJid": "56926173365@s.whatsapp.net",
+    "content": "che añade al orcalero orcala",
+    "timestamp": 1758427424268,
+    "status": "replied",
+    "reply": "q te haces el argentino bro si ya sé que eres +56",
+    "replyTimestamp": 1758427630075
+  },
+  {
+    "id": 26,
+    "type": "reporte",
+    "senderJid": "56926173365@s.whatsapp.net",
+    "content": "soy el momo",
+    "timestamp": 1758427658272,
+    "status": "replied",
+    "reply": "reportes serios o te baneo cagando",
+    "replyTimestamp": 1758427691558
+  },
+  {
+    "id": 27,
+    "type": "reporte",
+    "senderJid": "56926173365@s.whatsapp.net",
+    "content": "okey peldom patrón",
+    "timestamp": 1758427716801,
+    "status": "pending"
+  },
+  {
+    "id": 28,
+    "type": "pregunta",
+    "senderJid": "70115391496198@lid",
+    "content": "xq se me para en las noches",
+    "timestamp": 1758462236268,
+    "status": "replied",
+    "reply": "baneado por mongolico",
+    "replyTimestamp": 1758462275071
+  },
+  {
+    "id": 29,
+    "type": "pregunta",
+    "senderJid": "92419307647107@lid",
+    "content": "cómo me registro",
+    "timestamp": 1758756060417,
+    "status": "replied",
+    "reply": "usa \".aventura\" y revisa si te deja despues de eso",
+    "replyTimestamp": 1758756230224
+  },
+  {
+    "id": 30,
+    "type": "pregunta",
+    "senderJid": "5493812455472@s.whatsapp.net",
+    "content": "<El bot falla algunas veces>",
+    "timestamp": 1758974736042,
+    "status": "replied",
+    "reply": "si no les funciona pueden ser 2 razones, uno, lo intentan usar fuera de los horarios en los que está activo, dos, si no les anda algún comando, vuelvanlo a intentar, el bot queda en estado de reposo cuando no es usado por mucho tiempo. También recuerda que para ese tipo de \"preguntas\" debes usar *.reporte* ya que es un error.",
+    "replyTimestamp": 1758974878612
+  },
+  {
+    "id": 31,
+    "type": "reporte",
+    "senderJid": "190460475756615@lid",
+    "content": "soy owner y el bot no me toma por owner",
+    "timestamp": 1759009430720,
+    "status": "replied",
+    "reply": "baneada por subnormal🤭🤭🤭",
+    "replyTimestamp": 1759009467301
+  },
+  {
+    "id": 32,
+    "type": "sugerencia",
+    "senderJid": "99561821479092@lid",
+    "content": "robale a sodica el comando de mejorar calidad de imagen🗣️🔥",
+    "timestamp": 1759010533545,
+    "status": "replied",
+    "reply": "no uwu",
+    "replyTimestamp": 1759010603473
+  },
+  {
+    "id": 33,
+    "type": "pregunta",
+    "senderJid": "154962638180464@lid",
+    "content": "ay forma de tirar nuke sin un owner?",
+    "timestamp": 1759010758547,
+    "status": "replied",
+    "reply": "nopi",
+    "replyTimestamp": 1759010799407
+  },
+  {
+    "id": 34,
+    "type": "pregunta",
+    "senderJid": "154962638180464@lid",
+    "content": "cómo puedo ser owner del bot? (Solo por saber)",
+    "timestamp": 1759010933163,
+    "status": "replied",
+    "reply": "tienes varios caminos, siendo un amigo mío, estando en la comunidad y llevarte bien con los owners, sabiendo programar, ayudando a añadir contenido, estando desde los inicios del bot, ayudando en el canal de difusión y no ser peruano. Para ser owner no debes salir solamente en .checkowner, cada propietario del bot tiene acceso a distintos comandos para usar según su especialidad.",
+    "replyTimestamp": 1759011111151
+  },
+  {
+    "id": 35,
+    "type": "pregunta",
+    "senderJid": "231949943713943@lid",
+    "content": "en qué casos se banea gente del bot? Y existen admins en los rangos o solamente owners",
+    "timestamp": 1759011248038,
+    "status": "replied",
+    "reply": "si no se siguen las reglas del comando *.pandabot*, eres propenso a ser baneado",
+    "replyTimestamp": 1759011298541
+  },
+  {
+    "id": 36,
+    "type": "pregunta",
+    "senderJid": "242867884830833@lid",
+    "content": "pregunto una pregunta (porfa no me banees) el q creo el bot es mujer o hombre?",
+    "timestamp": 1759011293969,
+    "status": "replied",
+    "reply": "yo soy el creador, y sí, soy hombre",
+    "replyTimestamp": 1759011323738
+  },
+  {
+    "id": 37,
+    "type": "pregunta",
+    "senderJid": "154962638180464@lid",
+    "content": "solo por saber que hace el comando nuke?",
+    "timestamp": 1759011391185,
+    "status": "replied",
+    "reply": "elimina a todos los miembros del grupo en el que es usado, exceptuando al creador del grupo y al que lo usó",
+    "replyTimestamp": 1759011587194
+  },
+  {
+    "id": 38,
+    "type": "pregunta",
+    "senderJid": "154962638180464@lid",
+    "content": "de dónde sacas las fotos furry solo por saber",
+    "timestamp": 1759012296188,
+    "status": "replied",
+    "reply": "el bot las saca de una api, yo no colecciono hentai JAKSJAJSJ",
+    "replyTimestamp": 1759012344319
+  },
+  {
+    "id": 39,
+    "type": "pregunta",
+    "senderJid": "154962638180464@lid",
+    "content": "podés decirle a Nahuel que se calle esq jode muxho",
+    "timestamp": 1759012545388,
+    "status": "replied",
+    "reply": "qué dijimos de las preguntas estúpidas?",
+    "replyTimestamp": 1759012670028
+  },
+  {
+    "id": 40,
+    "type": "pregunta",
+    "senderJid": "242867884830833@lid",
+    "content": "como se puede ser desbaneado osea la forma más fácil pregunta seria no joda",
+    "timestamp": 1759013088486,
+    "status": "replied",
+    "reply": "pete al creador o nada",
+    "replyTimestamp": 1759013104175
+  },
+  {
+    "id": 41,
+    "type": "sugerencia",
+    "senderJid": "231949943713943@lid",
+    "content": "podes hacer un comando para hacer petes, (no ban porfavol)",
+    "timestamp": 1759013221139,
+    "status": "pending"
+  },
+  {
+    "id": 42,
+    "type": "reporte",
+    "senderJid": "180444930768966@lid",
+    "content": "Te pica el hoyo",
+    "timestamp": 1759013516662,
+    "status": "pending"
+  },
+  {
+    "id": 43,
+    "type": "pregunta",
+    "senderJid": "231949943713943@lid",
+    "content": "(no me banees, me obligaron) mí amiga la BANEADA me pregunta cuántos años tenes xq te quiere hacer el pete",
+    "timestamp": 1759013702418,
+    "status": "replied",
+    "reply": "era broma, mi novia dice que no y yo tampoco quiero",
+    "replyTimestamp": 1759013993343
+  },
+  {
+    "id": 44,
+    "type": "pregunta",
+    "senderJid": "270995709497346@lid",
+    "content": "un usuario puede ser desbaneado?",
+    "timestamp": 1759070344274,
+    "status": "replied",
+    "reply": "si",
+    "replyTimestamp": 1759070401790
+  },
+  {
+    "id": 45,
+    "type": "pregunta",
+    "senderJid": "270995709497346@lid",
+    "content": "cómo puede ser un usuario desbaneado del bot?",
+    "timestamp": 1759070661879,
+    "status": "replied",
+    "reply": ".unbanuser @usuario",
+    "replyTimestamp": 1759070775055
+  },
+  {
+    "id": 46,
+    "type": "pregunta",
+    "senderJid": "231949943713943@lid",
+    "content": "que diferencia tiene ser vip con no serlo?",
+    "timestamp": 1759104225057,
+    "status": "replied",
+    "reply": "obtienes más recursos más seguido, puedes renombrar personajes, hablar con el creador, y en un futuro haremos una insignia exclusiva para usuarios vip",
+    "replyTimestamp": 1759104281110
+  },
+  {
+    "id": 47,
+    "type": "pregunta",
+    "senderJid": "258166407360658@lid",
+    "content": "que significa ser admin?",
+    "timestamp": 1759104401950,
+    "status": "replied",
+    "reply": "te refieres a owner? eso es ser propietario del bot, es decir, el bot es tuyo",
+    "replyTimestamp": 1759104437947
+  },
+  {
+    "id": 48,
+    "type": "pregunta",
+    "senderJid": "231949943713943@lid",
+    "content": "si mí amiga se sale del grupo y vuelve a entrar se desbanea del bot o sigue baneada",
+    "timestamp": 1759201565265,
+    "status": "pending"
+  },
+  {
+    "id": 49,
+    "type": "reporte",
+    "senderJid": "56930617575@s.whatsapp.net",
+    "content": "Añade gifs de hentais buenos no cualquier mierda 3D y animados no tiene gracia el comando a lo que debe",
+    "timestamp": 1759450151493,
+    "status": "replied",
+    "reply": "y si me comes bien las bolas mejor",
+    "replyTimestamp": 1759450177424
+  },
+  {
+    "id": 50,
+    "type": "reporte",
+    "senderJid": "256809298309195@lid",
+    "content": "bug",
+    "timestamp": 1759533529769,
+    "status": "pending"
+  },
+  {
+    "id": 51,
+    "type": "reporte",
+    "senderJid": "256809298309195@lid",
+    "content": "bug en comando .play",
+    "timestamp": 1759533595622,
+    "status": "pending"
+  },
+  {
+    "id": 52,
+    "type": "pregunta",
+    "senderJid": "5492944819203@s.whatsapp.net",
+    "content": "<que comando uso para mencionar a todos>",
+    "timestamp": 1759552481068,
+    "status": "replied",
+    "reply": ".hidetag o .invocar",
+    "replyTimestamp": 1759582206884
+  },
+  {
+    "id": 53,
+    "type": "reporte",
+    "senderJid": "34611527140@s.whatsapp.net",
+    "content": "el bot no me reconoce como vip",
+    "timestamp": 1759756476625,
+    "status": "replied",
+    "reply": "bro te añadí el vip en un grupo, solo puedes tener vips en grupos de pandabot, no en el chat privado.",
+    "replyTimestamp": 1759762152071
+  },
+  {
+    "id": 54,
+    "type": "pregunta",
+    "senderJid": "51916596367@s.whatsapp.net",
+    "content": "porque cuando pongo el comando .play (canción) no me manda el audio",
+    "timestamp": 1760209643330,
+    "status": "replied",
+    "reply": "porque en el puto menú de mierda te avisa que el comando no anda, en el canal también avisé hace un tiempo atrás y siguen sin entender algunos, perdiste 50 créditos por idiota",
+    "replyTimestamp": 1760213602148
+  },
+  {
+    "id": 55,
+    "type": "reporte",
+    "senderJid": "38684938207334@lid",
+    "content": "@35610177859722",
+    "timestamp": 1760223588638,
+    "status": "replied",
+    "reply": "???",
+    "replyTimestamp": 1760226036666
+  },
+  {
+    "id": 56,
+    "type": "pregunta",
+    "senderJid": "219078279077976@lid",
+    "content": "para que son los jackpots?",
+    "timestamp": 1760474953586,
+    "status": "pending"
+  },
+  {
+    "id": 57,
+    "type": "pregunta",
+    "senderJid": "219078279077976@lid",
+    "content": "para que son los jackpots?",
+    "timestamp": 1760474955735,
+    "status": "replied",
+    "reply": "Los Jackpots te dan un Booster de monedas, buena pregunta bro",
+    "replyTimestamp": 1760475744502
+  },
+  {
+    "id": 58,
+    "type": "sugerencia",
+    "senderJid": "219078279077976@lid",
+    "content": "añade a los orcaleritos 🐬⚫",
+    "timestamp": 1760528618503,
+    "status": "replied",
+    "reply": "ahí los añadí bro, gracias por tu sugerencia. Aparecen como \"Los Orcalitos\"",
+    "replyTimestamp": 1760560957963
+  },
+  {
+    "id": 59,
+    "type": "pregunta",
+    "senderJid": "219078279077976@lid",
+    "content": "las aldeas tienen una función o ayudan en algo??",
+    "timestamp": 1760528678936,
+    "status": "replied",
+    "reply": "las aldeas no tienen función, solo es parte de entretenimiento del bot.",
+    "replyTimestamp": 1760560527527
+  },
+  {
+    "id": 60,
+    "type": "pregunta",
+    "senderJid": "28561750663379@lid",
+    "content": "<Como me quitó el null? >",
+    "timestamp": 1760580299841,
+    "status": "replied",
+    "reply": "escríbeme al privado, yo te ayudo personalmente a resolver tu problema. +56 9 5350 8566",
+    "replyTimestamp": 1760608736056
+  },
+  {
+    "id": 61,
+    "type": "pregunta",
+    "senderJid": "28561750663379@lid",
+    "content": "<El bot desde cuendo esta creado?>",
+    "timestamp": 1760580340350,
+    "status": "replied",
+    "reply": "desde hace 4 meses",
+    "replyTimestamp": 1760608764475
+  },
+  {
+    "id": 62,
+    "type": "reporte",
+    "senderJid": "219078279077976@lid",
+    "content": "al usar .sell sylveon *🌮 💤* no funciona el bot no lo reconoce",
+    "timestamp": 1760655525795,
+    "status": "replied",
+    "reply": "recuerda colocar bien los espacios, intenta con .sell sylveon 🌮 💤",
+    "replyTimestamp": 1760655626560
+  },
+  {
+    "id": 63,
+    "type": "reporte",
+    "senderJid": "219078279077976@lid",
+    "content": "soy el del #*62 t lo juro xd no funciona el sell para silveon funciona normal con otros como oddish",
+    "timestamp": 1760656016108,
+    "status": "pending"
+  },
+  {
+    "id": 64,
+    "type": "reporte",
+    "senderJid": "219078279077976@lid",
+    "content": "soy el del #*62 t lo juro xd no funciona el sell para silveon funciona normal con otros como oddish",
+    "timestamp": 1760656017666,
+    "status": "replied",
+    "reply": "ya veo bro, mandame otro reporte indicando tu número de teléfono, así te puedo contactar personalmente, ya estoy programando la solución.",
+    "replyTimestamp": 1760656156800
+  },
+  {
+    "id": 65,
+    "type": "sugerencia",
+    "senderJid": "120363402403091432@g.us",
+    "content": "reinicien el bot",
+    "timestamp": 1760661112224,
+    "status": "pending"
+  },
+  {
+    "id": 66,
+    "type": "sugerencia",
+    "senderJid": "166164298780822@lid",
+    "content": "reinicien el bot",
+    "timestamp": 1760661112633,
+    "status": "replied",
+    "reply": "no",
+    "replyTimestamp": 1760661135859
+  },
+  {
+    "id": 67,
+    "type": "pregunta",
+    "senderJid": "68999270371333@lid",
+    "content": "¿como consigo creditos?",
+    "timestamp": 1760896324260,
+    "status": "replied",
+    "reply": "SIX SEVEEEN (consigue créditos usando .tirar)",
+    "replyTimestamp": 1760896419676
+  },
+  {
+    "id": 68,
+    "type": "sugerencia",
+    "senderJid": "120363420921842157@g.us",
+    "content": "añadan el comando .uh",
+    "timestamp": 1760898966204,
+    "status": "pending"
+  },
+  {
+    "id": 69,
+    "type": "sugerencia",
+    "senderJid": "236536851361948@lid",
+    "content": "añadan el comando .uh",
+    "timestamp": 1760898967847,
+    "status": "pending"
+  },
+  {
+    "id": 70,
+    "type": "pregunta",
+    "senderJid": "68999270371333@lid",
+    "content": "¿Como consigo vip?",
+    "timestamp": 1760901048604,
+    "status": "pending"
+  },
+  {
+    "id": 71,
+    "type": "reporte",
+    "senderJid": "56930617575@s.whatsapp.net",
+    "content": "Miguel tienes mucha sida atentamente tom",
+    "timestamp": 1761010755753,
+    "status": "pending"
+  },
+  {
+    "id": 72,
+    "type": "reporte",
+    "senderJid": "56930617575@s.whatsapp.net",
+    "content": "Miguel Tienes que terminar esa llamada.. Ven a besar mis labios calientes.. Me siento romántico 😩😛😛🤤🤤😋😋🥰🥵",
+    "timestamp": 1761010859619,
+    "status": "pending"
+  },
+  {
+    "id": 73,
+    "type": "reporte",
+    "senderJid": "56930617575@s.whatsapp.net",
+    "content": ".perfil",
+    "timestamp": 1761010940798,
+    "status": "pending"
+  },
+  {
+    "id": 74,
+    "type": "reporte",
+    "senderJid": "56930617575@s.whatsapp.net",
+    "content": ".viewps",
+    "timestamp": 1761010978231,
+    "status": "pending"
+  },
+  {
+    "id": 75,
+    "type": "reporte",
+    "senderJid": "56930617575@s.whatsapp.net",
+    "content": "para entender la historia de Five Nights at Freddy's hay que olvidarse que estos son juegos y quiero que tomen realmente a esta saga como lo que es. ¿Terror? Sí, pero sobre todo, ciencia ficción. Antes de comenzar, quiero decir que esta cronologia la realizamos entre 3 youtubers conocidos de Five Nights at Freddy's y yo. Por lo tanto, agradecería que si les gusta elcontenido de este juego vayan a visitar sus canales. Ahora si, empecemos. ¿Qué pasaría si dos amigos se abren una pizzeria? Esa es la primera pregunta que hay que planteamos. Lo normal sería que todo todo vaya medianamente bien con algún tipo de problemas, pero nada saldría más allá de eso. La pregunta cambia completamente si nos preguntamos: ¿Qué pasaría si Henry y William abren una pizzería? ¿Quiénes son En un principio, grandes amigos, Henry, por un lado, era un ferviente y talentoso mecánico que cuídaba a su única hija, Charlie. No sabemos nada de su esposa, ni siquierasi tiene a alguien más en su familia. Y por el otro lado, William Afton. La familia de Afton estaba compuesta por 5 miembros. William, una persona con mucho dinero y con buena capacidad para la mecánica. Su hija menor, Elizabeth. Este que no sabemos el nombre, pero llora todo el tiempo, así que vamos a ponerle Crying Child. Michael Afton, su hijo mayor y su esposa, de quien no se sabe nada.Estos dos personajes unieron sus capacidades de mecánicos y con el bue capital que tenía William ahorrado, entre los dos abrieron un restaurante, así fue como entre los 1980 a 1982 supuestamenteFredbear's Family Diner abrió sus puertas. La principal atracción de este lugar eran los animatrónicos. ¿Qué son? Bueno básicamente eran robots que podrían ser controlados tanto por ellos mismos como por personas o por almas, estos animatrónicos habían sido desarrollados por los dueños del restaurante, pero Henry destacó un poco más debido a que es un complejo sistema de resortes que permitía a la persona usar estos trajes, solamente que tenía que ser extremadamente cuidadosa, ya que de lo contrario el mecanismo del mismo se a y la persona que esté dentro seguramente quedaria lastimada.",
+    "timestamp": 1761011217950,
+    "status": "pending"
+  },
+  {
+    "id": 76,
+    "type": "reporte",
+    "senderJid": "56930617575@s.whatsapp.net",
+    "content": "Para entender la historia de Five Nights at Freddy's hay que olvidarse que estos son juegos y quiero que tomen realmente a esta saga como lo que es. ¿Terror? Sí, pero sobre todo, ciencia ficción. Antes de comenzar, quiero decir que esta cronología la realizamos entre 3 youtubers conocidos de Five Nights at Freddy's y yo. Por lo tanto, agradecería que si les gusta el contenido de este juego vayan a visitar sus canales. Ahora sí, empecemos. ¿Qué pasaría si dos amigos se abren una pizzería? Esa es la primera pregunta que hay que plantearnos. Lo normal sería que todo vaya medianamente bien con algún tipo de problemas, pero nada saldría más allá de eso. La pregunta cambia completamente si nos preguntamos ¿Qué pasaría si Henry y William abren una pizzería? ¿Quiénes son estos personajes? En un principio, grandes amigos. Henry, por un lado, era un ferviente y talentoso mecánico que cuidaba a su única hija, Charlie. No sabemos nada de su esposa, ni siquiera si tiene a alguien más en su familia. Y por el otro lado, William Afton. La familia de Afton estaba compuesta por 5 miembros. William, una persona con mucho dinero y con buena capacidad para la mecánica. Su hija menor, Elizabeth. Este pendejo que no sabemos el nombre, pero llora todo el tiempo, así que vamos a ponerle Crying Child. Michael Afton, su hijo mayor y su esposa, de quien no se sabe nada. Estos dos personajes unieron sus capacidades de mecánicos y con el buen capital que tenía William ahorrado, entre los dos abrieron un restaurante. Así fue como entre los años 1980 a 1982, supuestamente, Fredbear Family Dinner abrió sus puertas. La principal atracción de este lugar eran los animatrónicos. ¿Qué son? Bueno, básicamente eran robots que podrían ser controlados tanto por ellos mismos como por personas o por almas. Estos animatrónicos habían sido desarrollados por los dueños del restaurante, pero Henry destacó un poco más debido a que hizo un complejo sistema de resortes que permitía a la persona usar estos trajes. Solamente que tenía que ser extremadamente cuidadosa, ya que de lo contrario el mecanismo del mismo se activaría y la persona que esté dentro seguramente quedaría lastimada. Estos trajes híbridos darían a luz en un principio a su principal éxito, Fredbear y Spring Bonnie. Dos animatrónicos que durante esos años 80s habían hecho furor y tan bien les estaba yendo a estos dos amigos que la competencia empezó a llegar. Y es por eso que a unos pocos meses de la salida de Fredbear Family Dinner llegaría su competencia, Fazbear Entertainment, pero que esta no sería relevante hasta en un futuro. En paralelo a estos hechos, empezaban a haber roces entre la dupla principal, ya que William no solamente había abierto el restaurante para comer, sino que detrás de sus intenciones había algo mucho más oscuro, matar gente. Es por eso que en una fecha que desconocemos, William creó un nuevo local, Circus Baby Pizza World, y es en este donde presentaría sus nuevos animatrónicos, los Funtime. Estos animatrónicos estarían hechos bajo la empresa Afton Robotics, que como podrán imaginar, esta empresa era de William. Aunque los Funtime no eran animatrónicos normales, si bien tenían características muy innovadoras con respecto a los primeros trajes híbridos, estos Funtime estarían creados específicamente para matar. Una inteligencia artificial muy avanzada, poder abrir diferentes partes de su cuerpo y la posibilidad de hablar. Claramente no tenían una buena intención, pero a William se le volvería todo en contra cuando el mismo día de la inauguración de su local, a pesar de sus advertencias a Elizabeth, esta entró igual al cuarto donde estaban los animatrónicos para ver si estaba su robot favorito, Baby. Y luego de que este animatrónico le ofreciera un helado para hacer que se acercara a ella, la mata. O bueno, no tanto. Mientras a todo esto, recordemos que William pensaba que ya todos los niños estaban capturados dentro de los animatrónicos, debido a que la apertura de su local había sido completamente exitosa. Entonces alerta a toda la gente de una fuga de gas para que así tengan que evacuar el local y él poder ir a ver su recompensa. Cuando William va a ver si sus animatrónicos habían capturado niños, sí, así es, habían capturado niños. Que eso lo sabemos debido a que en los planos de los animatrónicos aparecen cuerpo dentro de estos robots. Pero también William se daría cuenta de que su animatrónico principal había matado a Elizabeth. O en realidad, su hija estaba tomando el control de Baby debido a que los ojos del animatrónico pasarían de ser azules a como los tenía su hijita, verdes. Por supuesto que William al enterarse de todo esto no sabe qué hacer y es por eso que decide encerrarla en Circus Baby Entertainment, un lugar ubicado debajo de Circus Baby. Tras el cierre de Circus Baby y la incertidumbre de lo ocurrido con su hija menor, estas cosas empezarían a afectar a William Afton, dando comienzo a su declive. Por eso, luego del fracaso de Circus Baby, éste vuelve a pedirle ayuda y trabajo a Henry, que a pesar de todos los",
+    "timestamp": 1761011426667,
+    "status": "pending"
+  },
+  {
+    "id": 77,
+    "type": "reporte",
+    "senderJid": "56930617575@s.whatsapp.net",
+    "content": "Miguel estoy muy arrepentido de mis actos necesito liberar mi dopamina y liberar toxinas y para aquello tengo la necesidad de que me desbanees del bot",
+    "timestamp": 1761011786319,
+    "status": "pending"
+  },
+  {
+    "id": 78,
+    "type": "reporte",
+    "senderJid": "56930617575@s.whatsapp.net",
+    "content": "si no me desbanean les mando los payasos de la deep web de Fede vigevani",
+    "timestamp": 1761012298356,
+    "status": "pending"
+  },
+  {
+    "id": 79,
+    "type": "reporte",
+    "senderJid": "56989595391@s.whatsapp.net",
+    "content": "Soy el owner del grupo y cuando trato de usar comandos de owner como .nuke .mute, no me deja y me dice que solo owners pueden usarlo",
+    "timestamp": 1761097120824,
+    "status": "pending"
+  },
+  {
+    "id": 80,
+    "type": "reporte",
+    "senderJid": "56989595391@s.whatsapp.net",
+    "content": "Soy el owner del grupo y cuando trato de usar comandos de owner como .nuke .mute, no me deja y me dice que solo owners pueden usarlo",
+    "timestamp": 1761097139377,
+    "status": "pending"
+  },
+  {
+    "id": 81,
+    "type": "reporte",
+    "senderJid": "8135288840306@lid",
+    "content": "Play",
+    "timestamp": 1761176504194,
+    "status": "replied",
+    "reply": "?",
+    "replyTimestamp": 1761176855759
+  },
+  {
+    "id": 82,
+    "type": "sugerencia",
+    "senderJid": "123025596936285@lid",
+    "content": "lukas pone un menu +18 para el grupo de pandabot +18",
+    "timestamp": 1761352326571,
+    "status": "replied",
+    "reply": ".",
+    "replyTimestamp": 1761352390211
+  },
+  {
+    "id": 83,
+    "type": "pregunta",
+    "senderJid": "190460475756615@lid",
+    "content": "<A va a cambiar?>",
+    "timestamp": 1761410389145,
+    "status": "pending"
+  },
+  {
+    "id": 84,
+    "type": "pregunta",
+    "senderJid": "190460475756615@lid",
+    "content": "<perdón escribí mal>",
+    "timestamp": 1761410417342,
+    "status": "pending"
+  },
+  {
+    "id": 85,
+    "type": "pregunta",
+    "senderJid": "18580330512572@lid",
+    "content": "<cuánto mide el sol?>",
+    "timestamp": 1761410460968,
+    "status": "replied",
+    "reply": "no sé pero creo que mi pene es mas grande",
+    "replyTimestamp": 1761411055071
+  },
+  {
+    "id": 86,
+    "type": "sugerencia",
+    "senderJid": "258166407360658@lid",
+    "content": "agregen más cooldown a comprar y vender",
+    "timestamp": 1761451216174,
+    "status": "pending"
+  },
+  {
+    "id": 87,
+    "type": "pregunta",
+    "senderJid": "231949943713943@lid",
+    "content": "hola una pregunta, yo recuerdo que había un comando para guardar pandacoins que era como un banco, desaparecio o que paso porque no me aparece",
+    "timestamp": 1761523220636,
+    "status": "replied",
+    "reply": "bro esto no es de esos bots hentais de por ahí, acá cuidas tus pandamierdas o te violan con el .robar, tu decides",
+    "replyTimestamp": 1761523353042
+  },
+  {
+    "id": 88,
+    "type": "pregunta",
+    "senderJid": "59709222580457@lid",
+    "content": "una consultita, no se regala a la novia de Lukas?",
+    "timestamp": 1761527144469,
+    "status": "pending"
+  },
+  {
+    "id": 89,
+    "type": "reporte",
+    "senderJid": "56930617575@s.whatsapp.net",
+    "content": "Pene pene pene mica bezona quiere pene de balón de 🏉🏉🏉🏉🏉 rugby yo lo sé estoy 100% seguro",
+    "timestamp": 1761527247930,
+    "status": "pending"
+  },
+  {
+    "id": 90,
+    "type": "pregunta",
+    "senderJid": "18580330512572@lid",
+    "content": "2+2",
+    "timestamp": 1761532253126,
+    "status": "pending"
+  },
+  {
+    "id": 91,
+    "type": "reporte",
+    "senderJid": "38684938207334@lid",
+    "content": "oe no funcionae el .play hace tiempo No me manda el audio",
+    "timestamp": 1761700068152,
+    "status": "pending"
+  },
+  {
+    "id": 92,
+    "type": "pregunta",
+    "senderJid": "190460475756615@lid",
+    "content": "<si un compañero le pide matrimonio al pandabot acepta o no?>",
+    "timestamp": 1761704615301,
+    "status": "pending"
+  },
+  {
+    "id": 93,
+    "type": "reporte",
+    "senderJid": "219078279077976@lid",
+    "content": "el .play no funciona :v",
+    "timestamp": 1761879726347,
+    "status": "pending"
+  },
+  {
+    "id": 94,
+    "type": "pregunta",
+    "senderJid": "219078279077976@lid",
+    "content": "como consigo al bot",
+    "timestamp": 1761881015213,
+    "status": "pending"
+  },
+  {
+    "id": 95,
+    "type": "pregunta",
+    "senderJid": "208671472652537@lid",
+    "content": "de dónde saco créditos?",
+    "timestamp": 1761910420095,
+    "status": "replied",
+    "reply": "comando .tirar",
+    "replyTimestamp": 1761910503413
+  },
+  {
+    "id": 96,
+    "type": "sugerencia",
+    "senderJid": "68999270371333@lid",
+    "content": "que me regalen el vip",
+    "timestamp": 1761910917675,
+    "status": "replied",
+    "reply": "te vamos a regalar un baneo si sigues haciendo este tipo de sugerencias",
+    "replyTimestamp": 1761910943877
+  },
+  {
+    "id": 97,
+    "type": "reporte",
+    "senderJid": "219078279077976@lid",
+    "content": ".play no funciona ps",
+    "timestamp": 1762002617727,
+    "status": "replied",
+    "reply": "hemos dicho varias veces en el canal que .play no funciona",
+    "replyTimestamp": 1762002641211
   }
 ]

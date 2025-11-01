@@ -2,9 +2,10 @@ import fs from 'fs';
 import { cargarDatabase, guardarDatabase } from '../data/database.js';
 
 const ownersPermitidos = [
-  '56953508566', // Tu número
+  '56953508566',
   '5219513164242',
-  '50589329325'
+  '50589329325',
+  '166164298780822'
 ];
 
 const recursosValidos = ['coins', 'pandacoins', 'exp', 'piedra', 'diamantes', 'creditos', 'giros'];

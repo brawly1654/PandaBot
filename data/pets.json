@@ -20,5 +20,16 @@
     "propietario1": "56953508566@s.whatsapp.net",
     "propietario2": "5215538830665@s.whatsapp.net",
     "fechaNacimiento": 1757226317860
+  },
+  "267232999420158@lid": {
+    "id": "pet-1759622638655",
+    "nombre": null,
+    "especie": "Zorro",
+    "vida": 100,
+    "hambre": 0,
+    "felicidad": 50,
+    "propietario1": "267232999420158@lid",
+    "propietario2": null,
+    "fechaNacimiento": 1759622638655
   }
 }

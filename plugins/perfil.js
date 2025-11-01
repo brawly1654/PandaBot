@@ -3,11 +3,17 @@ import { cargarDatabase, guardarDatabase } from '../data/database.js';
 import { obtenerPizzeria } from '../PandaLove/pizzeria.js';
 import { isVip } from '../utils/vip.js';
 
-const file = './data/parejas.json';
+const parejasFile = './data/parejas.json';
+const hermandadFile = './data/hermandad.json';
 
 function cargarParejas() {
-  if (!fs.existsSync(file)) fs.writeFileSync(file, '{}');
-  return JSON.parse(fs.readFileSync(file));
+  if (!fs.existsSync(parejasFile)) fs.writeFileSync(parejasFile, '{}');
+  return JSON.parse(fs.readFileSync(parejasFile));
+}
+
+function cargarHermandad() {
+  if (!fs.existsSync(hermandadFile)) fs.writeFileSync(hermandadFile, '{}');
+  return JSON.parse(fs.readFileSync(hermandadFile));
 }
 
 export const command = 'perfil';
@@ -22,9 +28,9 @@ export async function run(sock, msg, args) {
 
   const db = cargarDatabase();
   db.users = db.users || {};
-  const user = db.users[targetUserJid] || { 
-    pandacoins: 0, exp: 0, personajes: [], 
-    salud: 100, last_activity: 0, adCount: 0 
+  const user = db.users[targetUserJid] || {
+    pandacoins: 0, exp: 0, personajes: [],
+    salud: 100, last_activity: 0, adCount: 0
   };
 
   if (!db.users[targetUserJid]) {
@@ -33,7 +39,9 @@ export async function run(sock, msg, args) {
   }
 
   const parejas = cargarParejas();
+  const hermandad = cargarHermandad();
   const pareja = parejas[targetUserJid];
+  const hermanos = hermandad[targetUserJid] || [];
 
   global.cmDB = global.cmDB || {};
   global.cmDB[targetUserId] = global.cmDB[targetUserId] || { spins: 0, coins: 0, creditos: 0 };
@@ -69,25 +77,37 @@ export async function run(sock, msg, args) {
     pizzeriaError = 'Error de conexión con la API.';
   }
 
-  let estado = '💔 *Soltero/a*';
+  let estadoPareja = '💔 *Soltero/a*';
   let mentions = [targetUserJid];
 
   if (pareja) {
-    estado = `💖 *Casado/a con:* @${pareja.split('@')[0]}`;
+    estadoPareja = `💖 *Casado/a con:* @${pareja.split('@')[0]}`;
     mentions.push(pareja);
   }
+
+  let estadoHermandad = '👤 *Hermanos:* Ninguno';
+  
+  if (hermanos.length > 0) {
+    const hermanosMentions = hermanos.map(jid => `@${jid.split('@')[0]}`).join(', ');
+    estadoHermandad = `🫂 *Hermanos (${hermanos.length}):* ${hermanosMentions}`;
+    
+    mentions.push(...hermanos);
+  }
+  mentions = [...new Set(mentions)];
+
 
   const isSenderVip = isVip(sender);
   const isTargetVip = isVip(targetUserJid);
   const isSpecialProfile = isSenderVip || isTargetVip;
-  
+
   let header = `╭───${isSpecialProfile ? '👑 Perfil VIP' : '👤 Tu Perfil'} ───`;
   let footer = '╰───────────────────';
-  
+
   let mensaje = `${header}
 │✨ *Usuario:* @${targetUserId}
+│🆔 *ID de Usuario:* ${user.id || 'N/A'}
 │🗓️ *Antigüedad:* Usuario #${userRank} de ${totalUsers}
-│💍 *Estado:* ${estado}
+│💍 *Estado Civil:* ${estadoPareja}
 │
 │👑 *VIP:* ${vipStatus}
 ${footer}

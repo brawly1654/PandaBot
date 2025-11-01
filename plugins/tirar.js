@@ -31,7 +31,7 @@ export async function run(sock, msg, args) {
 
   if (data.spins <= 0) {
     await sock.sendMessage(from, {
-      text: `⚠️ *@${user}*, no tienes más giros. Usa *.daily* para reclamar más.`,
+      text: `⚠️ *@${user}*, no tienes más giros. Usa *.dailycm* para reclamar más.`,
       mentions: [sender]
     }, { quoted: msg });
     return;

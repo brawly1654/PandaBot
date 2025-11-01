@@ -57,7 +57,7 @@ export async function run(sock, msg, args) {
       request.status = 'rejected';
       saveRequests(requests);
       await sock.sendMessage(from, { text: `❌ Solicitud #${requestId} rechazada.` });
-      await sock.sendMessage(request.senderJid, { text: `💔 Tu solicitud para que PandaBot se una a tu grupo ha sido rechazada.` });
+      await sock.sendMessage(request.senderJid, { text: `💔 Tu solicitud para que PandaBot se una a tu grupo ha sido rechazada, tu grupo no cunple los requisitos para que PandaBot se una.` });
     }
     return;
   }
