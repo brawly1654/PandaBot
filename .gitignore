@@ -1,0 +1,30 @@
+# Audios y videos
+*.mp3
+*.m4a
+*.wav
+*.mp4
+*.mov
+
+# Carpeta temporal
+temp/
+*.tmp
+
+# Logs
+*.log
+npm-debug.log*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+.env
+
+# Archivos de compilación
+dist/
+build/
+
+# Respaldos
+*.bak
+*.old
